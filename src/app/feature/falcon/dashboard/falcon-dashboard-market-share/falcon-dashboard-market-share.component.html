@@ -1,0 +1,58 @@
+<div class="stats shadow">
+
+  <div class="stat">
+    <div class="stat-figure text-secondary">
+        <div style="display: block;">
+          <canvas baseChart class="py-1 pl-20 w-3/5 h-3/5"
+          [datasets]="doughnutChartDatasets"
+          [options]="doughnutChartOptions"
+          [legend]="true"
+          [type]="'doughnut'">
+        </canvas>
+        </div>
+      </div>
+    <div class="stat-title">Market share</div>
+    <div class="grid">
+      <div class=" flex h-10 w-48 flex-row ">
+        <div class="bg-sky-600 h-2 w-2 my-2 rounded-lg "></div>
+        <div class="pl-2">Samsung</div>
+        <span class="grow"></span>
+        <div>58 %</div>
+      </div>
+
+      <div class=" flex h-10 w-48 flex-row ">
+        <div class="bg-cyan-400 h-2 w-2 my-2 rounded-lg "></div>
+        <div class="pl-2">Huawei</div>
+        <span class="grow"></span>
+        <div>21 %</div>
+      </div>
+
+      <div class=" flex h-10 w-48 flex-row ">
+        <div class="bg-gray-400 h-2 w-2 my-2 rounded-lg "></div>
+        <div class="pl-2">Apple</div>
+        <span class="grow"></span>
+        <div>22 %</div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

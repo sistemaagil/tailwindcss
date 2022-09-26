@@ -1,0 +1,66 @@
+<div class=" flex flex-row border border-gray-600  w-96">
+  <div class="dropdown dropdown-end">
+
+    <div class="  flex flex-row w-96 h-5">
+      <span class="label-text p-2">Session By Browser</span>
+      <span class="grow"></span>
+      <label tabindex="0" class="btn m-1 btn-xs bg-white-100">...</label>
+      <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-white-100 rounded-box  w-22 text-black  border border-black">
+        <li><a>View</a></li>
+        <li><a>Review</a></li>
+        <li><a class="text-red">Remove</a></li>
+      </ul></div>
+
+
+      <div class="w-auto">
+        <div class="w-0.07 h-0.07">
+          <canvas baseChart
+          [datasets]="doughnutChartDatasets"
+          [options]="doughnutChartOptions"
+          [legend]="true"
+          [type]="'doughnut'">
+          </canvas>
+        </div>
+
+      </div>
+      <div class="divider"> </div>
+      <div>
+        <table class="table-compact border-collapse pt-7">
+          <thead>
+          </thead>
+          <tbody>
+            <tr class="">
+              <td> <div class="flex"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Google_Chrome_icon_%28February_2022%29.svg/768px-Google_Chrome_icon_%28February_2022%29.svg.png" alt="chrome" class="w-5 h-5"><span class="pl-3">Chorme</span></div></td>
+              <td class="pl-11"> <div class="flex"><span class="text-blue-800">●</span><span class="pl-3">50.3%</span></div></td>
+              <td class="pl-20"> <div class="flex"><span class="text-red-600 pl-3">▼</span><span>2.9%</span></div></td>
+            </tr>
+            <tr class="">
+              <td><div class="flex"><img src="https://cdn-icons-png.flaticon.com/512/564/564442.png" alt="Safari" class="w-5 h-5"><span class="pl-3">Safari</span></div></td>
+              <td class="pl-11"><div class="flex"><span class="text-green-600">●</span><span class="pl-3">30.1% </span></div></td>
+              <td class="pl-20"><div class="flex"><span class="text-green-600 pl-3">▲</span><span>29.4%</span></div></td>
+            </tr>
+            <tr class="">
+              <td><div class="flex"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Mozilla_Firefox_logo_2013.svg/800px-Mozilla_Firefox_logo_2013.svg.png" alt="Mozilla" class="w-5 h-5"><span class="pl-3">Mozilla</span></div></td>
+              <td class="pl-11"><div class="flex"><span class="text-teal-300">●</span><span class="pl-3">20.6%</span></div></td>
+              <td  class="pl-20"><div class="flex"><span class="text-teal-300 pl-3">▲</span><span>220.7%</span></div></td>
+            </tr>
+
+          </tbody>
+
+        </table>
+      </div>
+
+
+     <div class=" flex flex-row w-96 h-5">
+      <select class="select select-bordered btn-sm">
+        <option disabled selected>last year</option>
+        <option>last 7 days</option>
+        <option>last month</option>
+      </select>
+      <span class="grow"></span>
+      <a type=button href="" class="font-semibold text-blue-900 flex items-center"> Browser overview</a>
+     </div>
+
+
+</div>
+

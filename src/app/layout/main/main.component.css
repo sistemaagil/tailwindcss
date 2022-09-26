@@ -1,0 +1,7 @@
+#htmlinput:checked  + .tab{
+    display: block;
+}
+
+#previewinput:checked  + .tab{
+    display: block;
+}

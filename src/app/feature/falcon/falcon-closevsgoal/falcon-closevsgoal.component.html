@@ -1,0 +1,31 @@
+<div class="flex relative card max-w-mdxl bg-base-100  border border-slate-200 ">
+  <div class="navbar ">
+    <div class="flex-1">
+      <a class="  normal-case text-xl">Deal Closed vs Goal</a>
+    </div>
+    <div class="dropdown dropdown-end hover:shadow-md rounded-md ">
+      <label tabindex="0" class="btn btn-square btn-ghost btn-sm hover:shadow-md hover:bg-gray-100"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-5 h-5 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></label>
+      <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52 mr-9">
+        <li><a class="font-medium text-gray-900 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-0">View</a></li>
+        <li><a class="text-gray-500 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-1">Export</a></li>
+          <hr>
+        <li><a class="text-red-500 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-2">Remove</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class=" mt-24 -rotate-90 relative -left-96 bottom-72">
+    <h2 class="ml-12">Closes Amount</h2>
+  </div>
+  <div>
+   <canvas baseChart class="h-56 ml-52 -mt-20 relative -left-28"
+    [type]="'line'"
+    [data]="lineChartData"
+    [options]="lineChartOptions"
+    [legend]= "lineChartLegend">
+   </canvas>
+  </div>
+  <div onMouseover="this.style.color='black'"  class=" relative  mt-4">
+    <span onMouseover="this.style.color='blue'" class=" font-serif ml-96 ">Close Data</span>
+  </div>
+</div>

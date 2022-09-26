@@ -1,0 +1,107 @@
+<div class="border border-gray h-auto w-fit rounded-md">
+    <div class="flex items-center bg-slate-200">
+        <span class="grow">Ad campaigns perfomance</span>
+        <div class="dropdown dropdown-end">
+            <label tabindex="0" class="btn btn-ghost rounded-btn">...</label>
+            <ul tabindex="0" class="menu dropdown-content p-2 shadow bg-base-100 rounded-box w-52 mt-4">
+                <li><a>View</a></li>
+                <li><a>Export</a></li>
+                <li>___________________________</li>
+                <li class="text-red-500"><a>Remove</a></li>
+            </ul>
+        </div>
+    </div>
+    <div>
+        <table class="table">
+            <tbody>
+                <tr>
+                    <div>
+                        <td class="text-gray-500"> Revenue <span class="text-3xl"><br>$10.87k</span>
+                            <div style="display: block;">
+                                <canvas baseChart class="w-52 h-2/6" [type]="'line'" [data]="lineChartData"
+                                    [options]="lineChartOptions" [legend]="lineChartLegend">
+                                </canvas>
+                            </div>
+                        </td>
+                    </div>
+                    <td class="text-gray-500">Clicks <span class="text-3xl"><br>3.8K </span>
+                        <div style="display: block;">
+                            <canvas baseChart class="w-52 h-2/6" [type]="'line'" [data]="lineChartData"
+                                [options]="lineChartOptions" [legend]="lineChartLegend">
+                            </canvas>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div>
+        <table class="table">
+            <thead class="">
+                <tr>
+                    <th class="bg-slate-200">Top Campings</th>
+                    <th class="bg-slate-200">Cost</th>
+                    <th class="bg-slate-200">Revenue from Ads</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Black Friday Sale</td>
+                    <td>$1304.28</td>
+                    <td>$543217.65</td>
+                </tr>
+                <tr>
+                    <td>Christmas Bundle</td>
+                    <td>$9876.56</td>
+                    <td>$3904</td>
+                </tr>
+                <tr>
+                    <td>Halloween Party Started 🎃 👻</td>
+                    <td>$3267.84</td>
+                    <td>$7654.8</td>
+                </tr>
+                <tr>
+                    <td>Grab your reward</td>
+                    <td>$87545.28</td>
+                    <td>$68654.35</td>
+                </tr>
+                <tr>
+                    <td>Black Friday Sale</td>
+                    <td>$1304.28</td>
+                    <td>$3904</td>
+                </tr>
+                <tr>
+                    <td>Boxing Day offer</td>
+                    <td>$1200.5</td>
+                    <td>$5004.87</td>
+                </tr>
+            </tbody>
+            <thead>
+                <tr>
+                    <th class="bg-slate-200"> <select class="select select-primary max-w-sm select-sm ">
+                            <option disabled selected>Last 7 days</option>
+                            <option>Last Month</option>
+                            <option>Last Year</option>
+                        </select></th>
+                    <th class="bg-slate-200">
+
+                    </th>
+                    <th class="bg-slate-200">
+                        <div class="text-sm breadcrumbs">
+
+                            <ul>
+                                <li><a class="text-blue-700 bg-s">Browser Overview ></a></li>
+                            </ul>
+                        </div>
+                    </th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+
+
+</div>
+
+
+  
