@@ -74,6 +74,7 @@ import { FalconDashboardDefaultTOPPRODUCTSComponent } from './falcon/dashboard/f
 import { ECommerceSalesByPosLocationComponent } from './falcon/dasboard/e-commerce-sales-by-pos-location/e-commerce-sales-by-pos-location.component';
 import { ECommerceTotalSalesComponent } from './falcon/dasboard/e-commerce-total-sales/e-commerce-total-sales.component';
 import { SocialCreatePostComponent } from './falcon/dasboard/social-create-post/social-create-post.component';
+import { SocialAddToYourFeedComponent } from './falcon/dasboard/social-add-to-your-feed/social-add-to-your-feed.component';
 
 
 @NgModule({
@@ -155,6 +156,7 @@ import { SocialCreatePostComponent } from './falcon/dasboard/social-create-post/
     ECommerceSalesByPosLocationComponent,
     ECommerceTotalSalesComponent,
     SocialCreatePostComponent,
+    SocialAddToYourFeedComponent,
   ],
   imports: [
     CommonModule,
