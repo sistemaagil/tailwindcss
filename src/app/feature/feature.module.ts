@@ -73,7 +73,6 @@ import { FalconDashboardManagementWELCOMETOFALCONComponent } from './falcon/dash
 import { FalconDashboardDefaultTOPPRODUCTSComponent } from './falcon/dashboard/falcon-dashboard-default-top-products/falcon-dashboard-default-top-products.component';
 import { ECommerceSalesByPosLocationComponent } from './falcon/dasboard/e-commerce-sales-by-pos-location/e-commerce-sales-by-pos-location.component';
 import { ShoppingCartComponent } from './falcon/dashboard/shopping-cart/shopping-cart.component';
-import { DashboardComponent } from './dashboard/dashboard.component';
 import { TopProductsComponent } from './falcon/dashboard/top-products/top-products.component';
 
 
@@ -155,13 +154,13 @@ import { TopProductsComponent } from './falcon/dashboard/top-products/top-produc
     FalconDashboardDefaultTOPPRODUCTSComponent,
     ECommerceSalesByPosLocationComponent,
     ShoppingCartComponent,
-    DashboardComponent,
     TopProductsComponent,
   ],
   imports: [
     CommonModule,
     FeatureRoutingModule,
     FormsModule,
+    NgChartsModule,
     NgChartsModule,
     NgChartsModule
   ]
