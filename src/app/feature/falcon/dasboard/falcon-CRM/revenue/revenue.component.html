@@ -1,0 +1,106 @@
+<div>
+  <div class="btn-group pb-5">
+   <input type="button" value="Revenue" class="btn bg-white  border-white text-black" (click)="setClickClass(1)" [class]="activeClickActive  === 1 ? ' text-sky-600':' ' "/>
+   <input type="button" value="Users" class="btn bg-white  border-white text-black" (click)="setClickClass(2)" [class]="activeClickActive  === 2 ? ' text-sky-600':' ' "/>
+   <input type="button" value="Deals" class="btn bg-white  border-white text-black" (click)="setClickClass(3)" [class]="activeClickActive  === 3 ? ' text-sky-600':' ' "/>
+   <input type="button" value="Profit" class="btn bg-white  border-white text-black" (click)="setClickClass(4)" [class]="activeClickActive  === 4 ? ' text-sky-600':' ' "/>
+  </div>
+  <div class="">
+    <div class="flex">
+      <div class="grid">
+        <span class="text-3xl text-blue-500 pb-4 font-semibold">$37,950</span>
+      <div class="flex">
+        <div class="rounded-full bg-blue-500 w-3 h-3"></div>
+        <span class="text-xs pl-3">Closed Amount</span>
+      </div>
+      <div class="flex">
+        <div class="rounded-full bg-orange-500 w-3 h-3"></div>
+        <span class="text-xs pl-3">Revenue Goal</span>
+      </div>
+      <div class ="flex">
+        <div class=" flex pt-2">
+          <input type="radio" name="radio-2" class="radio radio-primary" checked />
+          <span class="text-xs pl-3 pr-4">Inbound</span>
+        </div>
+        <div class="flex pt-2">
+          <input type="radio" name="radio-2" class="radio radio-primary" />
+          <span class="text-xs pl-3">Outbound</span>
+        </div>
+
+      </div>
+      </div>
+      <div class="flex  text-slate-500">
+        <div class="pt-10 pl-60">
+          <table>
+            <tr>
+              <td class="grid">
+                <span class="text-xl">$ 4.2K</span>
+                <span>Email</span>
+              </td>
+              <td class="grid">
+                <span class="text-xl">$ 6.7K</span>
+                <span>Call</span>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="pt-10 pl-40">
+          <table>
+            <tr>
+              <td class="grid">
+                <span class="text-xl">$ 5.6K</span>
+                <span>Social</span>
+              </td>
+              <td class="grid">
+                <span class="text-xl">$ 2.3K</span>
+                <span>Other</span>
+              </td>
+            </tr>
+          </table>
+
+        </div>
+
+  </div>
+
+
+</div>
+<div class="grid pt-20 " [class]="activeClickActive  === 1 ? ' block':'hidden' ">
+  <canvas baseChart width="700" height="400"
+    [type]="'scatter'"
+    [data]="ChartData1"
+    [options]="lineChartOptions1"
+    [legend]="lineChartLegend1">
+  </canvas>
+
+</div>
+<div class="grid pt-20" [class]="activeClickActive  === 2 ? ' block':'hidden' ">
+  <canvas baseChart width="700" height="400"
+    [type]="'scatter'"
+    [data]="ChartData"
+    [options]="lineChartOptions"
+    [legend]="lineChartLegend">
+  </canvas>
+
+</div>
+
+<div class="grid pt-20" [class]="activeClickActive  === 3 ? ' block':'hidden' ">
+  <canvas baseChart width="700" height="400"
+    [type]="'scatter'"
+    [data]="ChartData2"
+    [options]="lineChartOptions2"
+    [legend]="lineChartLegend2">
+  </canvas>
+
+</div>
+
+<div class="grid pt-20" [class]="activeClickActive  === 4 ? ' block':'hidden' ">
+  <canvas baseChart width="700" height="400"
+    [type]="'scatter'"
+    [data]="ChartData3"
+    [options]="lineChartOptions3"
+    [legend]="lineChartLegend3">
+  </canvas>
+
+</div>
+
+

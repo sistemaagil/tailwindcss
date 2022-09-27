@@ -1,0 +1,37 @@
+<div class="flex w-12">
+  <div class="grow">
+    <h6 class="text-700">Completed Goals</h6>
+    <h3 class="fw-normal text-700 ml-8">1727</h3>
+    <div style="display: block;">
+      <canvas baseChart width="70" height="30" class=" ml-4 " [type]="'bar'" [data]="barChartData"
+        [options]="barChartOptions" [legend]="barChartLegend">
+      </canvas>
+      <hr class="bg-slate-300 rotate-90 w-16 ml-24 -mt-10">
+    </div>
+  </div>
+  <div class="grow">
+    <h6 class="text-700 ml-8">Value</h6>
+    <h3 class="fw-normal text-700 ml-7">$34.2M</h3>
+    <div style="display: block;">
+      <canvas baseChart width="70" height="30" class=" ml-4 " [type]="'bar'" [data]="barChartData"
+        [options]="barChartOptions" [legend]="barChartLegend">
+      </canvas>
+      <hr class="bg-slate-300 rotate-90 w-16 ml-24 -mt-10">
+    </div>
+  </div>
+
+  <div class="col-sm-4">
+    <div class="">
+      <div class="grow">
+        <h6 class="text-700">Conversion Rate</h6>
+        <h3 class="fw-normal text-700 ml-7">19.67%</h3>
+        <div style="display: block;">
+          <canvas baseChart width="70" height="30" class=" ml-4 " [type]="'bar'" [data]="barChartData"
+            [options]="barChartOptions" [legend]="barChartLegend">
+          </canvas>
+          <hr class="bg-slate-50 rotate-90 w-16 ml-24 -mt-10">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

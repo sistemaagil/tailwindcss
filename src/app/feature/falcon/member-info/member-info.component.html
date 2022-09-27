@@ -1,0 +1,238 @@
+<div class="border border-gray-300 h-auto  rounded-md flex flex-col items-center">
+  <div class="flex items-center bg-slate-100 p-4 w-full">
+    <span class="grow">Member info</span>
+    <span class="grow">Attendance</span>
+    <span class="grow">Today</span>
+    <span class="grow">This Week</span>
+
+  </div>
+  <table class="table w-full p-2">
+    <thead class="hidden">
+      <tr>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="p-0 w-4">
+          <div class="col-start-11 rounded-full w-11 h-11 p-0.5 m-2 border-2 text-gray-400"><svg
+              xmlns="" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor"
+              class="w-9 h-9">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
+            </svg>
+          </div>
+          <div
+            class="ml-10 -mt-6 uppercase text-green-500 font-bold border bg-green-500 rounded-full h-4 w-4 text-center">
+          </div>
+        </td>
+        <td><span class="capitalize btn-link text-slate-900 "><strong>Gavin Belson</strong></span> <br>
+          <h1 class="text-slate-500"> CMR dashboard design</h1>
+        </td>
+        <td><span class="bg-red-100 text-red-600 rounded-xl p-1 text-sm ml-2">Late</span> </td>
+        <td><span class="bg-red-100 text-red-600  rounded-xl p-1 text-sm ml-2">90%</span>
+          <br><span class="text-sm ">1h:52min</span>
+        </td>
+        <td>
+        <td><span class="bg-red-100 text-red-600  rounded-xl p-1 text-sm ml-2">90%</span>
+          <br><span class="text-sm">1h:52min</span>
+          <div style="display: block; ">
+            <canvas baseChart width="70" height="20" class=" ml-16 -mt-6"
+              [type]="'bar'"
+              [data]="barChartData"
+              [options]="barChartOptions"
+              [legend]="barChartLegend"
+              >
+            </canvas>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="p-0 w-4">
+          <div class="col-start-11 rounded-full w-11 h-11 p-0.5 m-2 border-2 text-gray-400"><svg
+              xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor"
+              class="w-9 h-9">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
+            </svg>
+          </div>
+          <div
+            class="ml-10 -mt-6 uppercase text-green-500 font-bold border bg-green-500 rounded-full h-4 w-4 text-center">
+          </div>
+
+        <td><span class="capitalize btn-link text-slate-900 "><strong>Russ Hanneman</strong></span> <br>
+          <h1 class="text-slate-500"> Smart Learning Management</h1>
+        </td>
+        <td><span class="bg-green-100 text-green-500 rounded-xl p-1 text-sm ml-2">intime</span> </td>
+        <td><span class="bg-green-100 text-green-500 rounded-xl p-1 text-sm ml-2">86%</span>
+          <br><span class="text-sm ">1h:52min</span>
+        </td>
+        <td>
+        <td><span class="bg-red-100 text-red-600  rounded-xl p-1 text-sm ml-2">45%</span>
+          <br><span class="text-sm">1h:52min</span>
+          <div style="display: block;">
+            <canvas baseChart width="70" height="20" class=" ml-16 -mt-6"
+              [type]="'bar'"
+              [data]="barChartData"
+              [options]="barChartOptions"
+              [legend]="barChartLegend"
+              >
+            </canvas>
+          </div>
+        </td>
+      </tr><tr>
+        <td class="p-0 w-4">
+          <div class="col-start-11 rounded-full w-11 h-11 p-0.5 m-2 border-2 text-gray-400"><svg
+              xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor"
+              class="w-9 h-9">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
+            </svg>
+          </div>
+          <div
+            class="ml-10 -mt-6 uppercase text-green-500 font-bold border bg-green-500 rounded-full h-4 w-4 text-center">
+          </div>
+        </td>
+        <td><span class="capitalize btn-link text-slate-900 "><strong>Peter Gregory</strong></span> <br>
+          <h1 class="text-slate-500">Graduaste Netwoork</h1>
+        </td>
+        <td><span class="bg-green-100 text-green-500 rounded-xl p-1 text-sm ml-2">intime</span> </td>
+        <td><span class="bg-green-100 text-green-500 rounded-xl p-1 text-sm ml-2">97%</span>
+          <br><span class="text-sm ">1h:52min</span>
+        </td>
+        <td>
+        <td><span class="bg-blue-100 text-blue-600  rounded-xl p-1 text-sm ml-2">60%</span>
+          <br><span class="text-sm">1h:52min</span>
+          <div style="display: block;">
+            <canvas baseChart width="70" height="20" class=" ml-16 -mt-6"
+              [type]="'bar'"
+              [data]="barChartData"
+              [options]="barChartOptions"
+              [legend]="barChartLegend"
+              >
+            </canvas>
+          </div>
+        </td>
+      </tr><tr>
+        <td class="p-0 w-4">
+          <div class="col-start-11 rounded-full w-11 h-11 p-0.5 m-2 border-2 text-gray-400"><svg
+              xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor"
+              class="w-9 h-9">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
+            </svg>
+          </div>
+          <div
+            class="ml-10 -mt-6 uppercase text-green-500 font-bold border bg-green-500 rounded-full h-4 w-4 text-center">
+          </div>
+        </td>
+        <td><span class="capitalize btn-link text-slate-900 "><strong>Jian-Yang</strong></span> <br>
+          <h1 class="text-slate-500">Quelity testing </h1>
+        </td>
+        <td><span class="bg-green-100 text-green-600 rounded-xl p-1 text-sm ml-2">intime</span> </td>
+        <td><span class="bg-red-100 text-red-600  rounded-xl p-1 text-sm ml-2">34%</span>
+          <br><span class="text-sm ">1h:52min</span>
+        </td>
+        <td>
+        <td><span class="bg-green-100 text-green-500  rounded-xl p-1 text-sm ml-2">80%</span>
+          <br><span class="text-sm">1h:52min</span>
+          <div style="display: block;">
+            <canvas baseChart width="70" height="20" class=" ml-16 -mt-6"
+              [type]="'bar'"
+              [data]="barChartData"
+              [options]="barChartOptions"
+              [legend]="barChartLegend"
+              >
+            </canvas>
+          </div>
+        </td>
+      </tr><tr>
+        <td class="p-0 w-4">
+          <div class="col-start-11 rounded-full w-11 h-11 p-0.5 m-2 border-2 text-gray-400"><svg
+              xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor"
+              class="w-9 h-9">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
+            </svg>
+          </div>
+          <div
+            class="ml-10 -mt-6 uppercase text-green-500 font-bold border bg-green-500 rounded-full h-4 w-4 text-center">
+          </div>
+        </td>
+        <td><span class="capitalize btn-link text-slate-900 "><strong>Laurie Bream</strong></span> <br>
+          <h1 class="text-slate-500"> Accounts</h1>
+        </td>
+        <td><span class="bg-red-100 text-red-600 rounded-xl p-1 text-sm ml-2">Late</span> </td>
+        <td><span class="bg-blue-100 text-blue-600 rounded-xl p-1 text-sm ml-2">12%</span>
+          <br><span class="text-sm ">1h:52min</span>
+        </td>
+        <td>
+        <td><span class="bg-red-100 text-red-600  rounded-xl p-1 text-sm ml-2">68%</span>
+          <br><span class="text-sm">1h:52min</span>
+          <div style="display: block;">
+            <canvas baseChart width="70" height="20" class=" ml-16 -mt-6"
+              [type]="'bar'"
+              [data]="barChartData"
+              [options]="barChartOptions"
+              [legend]="barChartLegend"
+              >
+            </canvas>
+          </div>
+        </td>
+      </tr><tr>
+        <td class="p-0 w-4">
+          <div class="col-start-11 rounded-full w-11 h-11 p-0.5 m-2 border-2 text-gray-400"><svg
+              xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor"
+              class="w-9 h-9">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
+            </svg>
+          </div>
+          <div
+            class="ml-10 -mt-6 uppercase text-green-500 font-bold border bg-green-500 rounded-full h-4 w-4 text-center">
+          </div>
+        </td>
+        <td><span class="capitalize btn-link text-slate-900 "><strong>Fionna Mayer</strong></span> <br>
+          <h1 class="text-slate-500">SAAS dashboard design</h1>
+        </td>
+        <td><span class="bg-red-100 text-red-600 rounded-xl p-1 text-sm ml-2">Absent</span> </td>
+        <td><span class="bg-blue-100 text-blue-500  rounded-xl p-1 text-sm ml-2">12%</span>
+          <br><span class="text-sm ">1h:52min</span>
+        </td>
+        <td>
+        <td><span class="bg-green-100 text-green-500  rounded-xl p-1 text-sm ml-2">68%</span>
+          <br><span class="text-sm">1h:52min</span>
+          <div style="display: block;">
+            <canvas baseChart width="70" height="20" class=" ml-16 -mt-6"
+              [type]="'bar'"
+              [data]="barChartData"
+              [options]="barChartOptions"
+              [legend]="barChartLegend"
+              >
+            </canvas>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="grow "></span>
+  <div class="relative -left-52">
+    <select class=" select select-primary max-w-sm select-sm -ml-32">
+      <option>Last 7 days</option>
+      <option>Last Month</option>
+      <option>Last Year</option>
+      <option></option>
+    </select>
+  </div>
+  <div class="relative -right-64">
+    <a class="text-primary font-bold ml-24" blueeout="this.style.color=''">View All > <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right"
+        class="svg-inline--fa fa-chevron-right fa-w-9 ml-36 fs--2 h-4 w-4" role="img" viewBox="0 0 320 512">
+
+
+      </svg></a>
+
+  </div>
+</div>

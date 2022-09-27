@@ -1,0 +1,680 @@
+<div class="flex shadow-md w-11/12">
+    <div class="max-w-sm w-auto">
+                    <div class=" dark:bg-gray-800 bg-white rounded-t">
+                        <div class="px-1 flex items-center justify-between">
+                            <label for="my-modal-3" class="btn modal-button mt-6 ml-3 bg-white hover:bg-white hover:shadow-base hover:border-gray-200 shadow-md w-30 text-blue-500 capitalize btn-sm rounded border border-gray-200">
+                            <svg aria-hidden="true" data-icon="plus" class="w-3 mr-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                              <path fill="currentColor" d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path>
+                            </svg>
+                            new schedule
+                        </label>
+                        <input type="checkbox" id="my-modal-3" class="modal-toggle" />
+                            <div class="modal">
+                            <div class="modal-box relative rounded">
+                              <div class="">
+                                <label for="my-modal-3" class="btn btn-sm btn-ghost hover:bg-white absolute right-2 top-5 text-lg">✕</label>
+                                <h3 class="text-lg font-bold">Create Schedule</h3>
+                              </div>
+                                <div class="flex flex-col">
+                                    <label class="font-semibold text-gray-500 mt-3" for="">Title</label>
+                                    <input class="border border-slate-200 rounded mt-2" type="text">
+                                </div>
+                                <div class="flex flex-col">
+                                    <label class="font-semibold text-gray-500 mt-3" for="">Start Date</label>
+                                    <input class="border border-slate-200 rounded mt-2" type="date" placeholder="MM-DD-YYYY H:M">
+                                </div>
+                                <div class="flex flex-col">
+                                    <label class="font-semibold text-gray-500 mt-3" for="">End Date</label>
+                                    <input class="border border-slate-200 rounded mt-2" type="date" placeholder="MM-DD-YYYY H:M">
+                                </div>
+                                <div class="flex flex-row items-center">
+                                    <label class="label">
+                                      <input type="checkbox" checked="checked" class="form-check-input mt-3 checkbox-xs rounded " />
+                                      <span class="label-text mt-3">All Day</span>
+                                    </label>
+                                </div>
+                                <div class="flex flex-col">
+                                    <span class="font-semibold text-gray-500 mt-2">Schedule Meeting</span>
+                                    <button class="btn btn-sm w-1/2 capitalize bg-green-200 text-green-800 font-semibold border-none hover:bg-green-200 mt-2">
+                                      <svg aria-hidden="true" data-icon="video" class="w-4 mr-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                        <path fill="currentColor" d="M336.2 64H47.8C21.4 64 0 85.4 0 111.8v288.4C0 426.6 21.4 448 47.8 448h288.4c26.4 0 47.8-21.4 47.8-47.8V111.8c0-26.4-21.4-47.8-47.8-47.8zm189.4 37.7L416 177.3v157.4l109.6 75.5c21.2 14.6 50.4-.3 50.4-25.8V127.5c0-25.4-29.1-40.4-50.4-25.8z">
+                                        </path>
+                                      </svg>
+                                      add video conference link
+                                    </button>
+                                </div>
+                                <div class="flex flex-col">
+                                    <label class="font-semibold text-gray-500 mt-3" for="">Description</label>
+                                    <textarea class="textarea textarea-info border-slate-300 max-h-20 mt-2"  name="description" id="" cols="30" rows="10"></textarea>
+                                </div>
+                                <div class="flex flex-col">
+                                    <label class="font-semibold text-gray-500 mt-3" for="">Label</label>
+                                    <select class="select select-info select-sm border-slate-300 rounded w-full max-w-xs mt-2">
+                                        <option>None</option>
+                                        <option>Business</option>
+                                        <option>Important</option>
+                                        <option>Personal</option>
+                                        <option>Must Attend</option>
+                                      </select>
+                                </div>
+                                <div class="flex flex-row justify-end items-center mt-4">
+                                    <a class=" link link-hover text-slate-500 mr-2">More options</a>
+                                    <button class="btn btn-sm mt-1 w-20 font-bold bg-sky-600 rounded border-none text-white capitalize hover:bg-sky-600">save</button>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="flex items-center mt-4">
+                              <button class=" btn bg-white hover:bg-white hover:shadow-base hover:border-gray-200 shadow-md text-gray-700  btn-sm mr-1 mt-4 rounded border border-gray-200">
+                                <svg aria-hidden="true" data-icon="chevron-left" class="w-2 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                  <path fill="currentColor" d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z"></path>
+                                </svg>
+                              </button>
+                              <button class="btn bg-white hover:bg-white hover:shadow-base hover:border-gray-200 shadow-md text-gray-600 capitalize btn-sm mt-4 rounded border border-gray-200">
+                                today
+                              </button>
+                              <button class="btn bg-white hover:bg-white hover:shadow-base hover:border-gray-200 shadow-md text-gray-700 btn-sm mt-4 ml-1 rounded border border-gray-200">
+                                <svg aria-hidden="true" data-icon="chevron-right" class="w-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                  <path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path>
+                                </svg>
+                              </button>
+                            </div>
+                        </div>
+                        <div class="flex items-center justify-between pt-12 overflow-x-auto">
+                            <table class="w-96 ml-4">
+                                <thead class="bg-slate-100">
+                                    <tr>
+                                        <th>
+                                            <div class="w-full flex justify-center">
+                                                <p class="text-base font-medium text-center text-gray-800 dark:text-gray-100">Mo</p>
+                                            </div>
+                                        </th>
+                                        <th>
+                                            <div class="w-full flex justify-center">
+                                                <p class="text-base font-medium text-center text-gray-800 dark:text-gray-100">Tue</p>
+                                            </div>
+                                        </th>
+                                        <th>
+                                            <div class="w-full flex justify-center">
+                                                <p class="text-base font-medium text-center text-gray-800 dark:text-gray-100">Wed</p>
+                                            </div>
+                                        </th>
+                                        <th>
+                                            <div class="w-full flex justify-center">
+                                                <p class="text-base font-medium text-center text-gray-800 dark:text-gray-100">Thu</p>
+                                            </div>
+                                        </th>
+                                        <th>
+                                            <div class="w-full flex justify-center">
+                                                <p class="text-base font-medium text-center text-gray-800 dark:text-gray-100">Fri</p>
+                                            </div>
+                                        </th>
+                                        <th>
+                                            <div class="w-full flex justify-center">
+                                                <p class="text-base font-medium text-center text-gray-800 dark:text-gray-100">Sat</p>
+                                            </div>
+                                        </th>
+                                        <th>
+                                            <div class="w-full flex justify-center">
+                                                <p class="text-base font-medium text-center text-gray-800 dark:text-gray-100">Sun</p>
+                                            </div>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="pt-6">
+                                            <div class="px-2 py-2 cursor-pointer flex w-full justify-center">
+                                                <label for="my-modal-4" class="btn modal-button w-4 max-h-2 bg-white hover:bg-white  text-base text-gray-300 dark:text-gray-100 font-medium border-none">29</label>
+                                            </div>
+                                            <input type="checkbox" id="my-modal-4" class="modal-toggle" />
+                            <div class="modal">
+                            <div class="modal-box relative rounded">
+                              <div class="">
+                                <label for="my-modal-4" class="btn btn-sm btn-ghost hover:bg-white absolute right-2 top-5 text-lg">✕</label>
+                                <h3 class="text-lg font-bold">Create Schedule</h3>
+                              </div>
+                                <div class="flex flex-col">
+                                    <label class="font-semibold text-gray-500 mt-3" for="">Title</label>
+                                    <input class="border border-slate-200 rounded mt-2" type="text">
+                                </div>
+                                <div class="flex flex-col">
+                                    <label class="font-semibold text-gray-500 mt-3" for="">Start Date</label>
+                                    <input class="border border-slate-200 rounded mt-2" type="date" placeholder="MM-DD-YYYY H:M">
+                                </div>
+                                <div class="flex flex-col">
+                                    <label class="font-semibold text-gray-500 mt-3" for="">End Date</label>
+                                    <input class="border border-slate-200 rounded mt-2" type="date" placeholder="MM-DD-YYYY H:M">
+                                </div>
+                                <div class="flex flex-row items-center">
+                                    <label class="label">
+                                      <input type="checkbox" checked="checked" class="form-check-input mt-3 checkbox-xs rounded " />
+                                      <span class="label-text mt-3">All Day</span>
+                                    </label>
+                                </div>
+                                <div class="flex flex-col">
+                                    <span class="font-semibold text-gray-500 mt-2">Schedule Meeting</span>
+                                    <button class="btn btn-sm w-1/2 capitalize bg-green-200 text-green-800 font-semibold border-none hover:bg-green-200 mt-2">
+                                      <svg aria-hidden="true" data-icon="video" class="w-4 mr-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                        <path fill="currentColor" d="M336.2 64H47.8C21.4 64 0 85.4 0 111.8v288.4C0 426.6 21.4 448 47.8 448h288.4c26.4 0 47.8-21.4 47.8-47.8V111.8c0-26.4-21.4-47.8-47.8-47.8zm189.4 37.7L416 177.3v157.4l109.6 75.5c21.2 14.6 50.4-.3 50.4-25.8V127.5c0-25.4-29.1-40.4-50.4-25.8z">
+                                        </path>
+                                      </svg>
+                                      add video conference link
+                                    </button>
+                                </div>
+                                <div class="flex flex-col">
+                                    <label class="font-semibold text-gray-500 mt-3" for="">Description</label>
+                                    <textarea class="textarea textarea-info border-slate-300 max-h-20 mt-2"  name="description" id="" cols="30" rows="10"></textarea>
+                                </div>
+                                <div class="flex flex-col">
+                                    <label class="font-semibold text-gray-500 mt-3" for="">Label</label>
+                                    <select class="select select-info select-sm border-slate-300 rounded w-full max-w-xs mt-2">
+                                        <option>None</option>
+                                        <option>Business</option>
+                                        <option>Important</option>
+                                        <option>Personal</option>
+                                        <option>Must Attend</option>
+                                      </select>
+                                </div>
+                                <div class="flex flex-row justify-end items-center mt-4">
+                                    <a class=" link link-hover text-slate-500 mr-2">More options</a>
+                                    <button class="btn btn-sm mt-1 w-20 font-bold bg-sky-600 rounded border-none text-white capitalize hover:bg-sky-600">save</button>
+                                </div>
+                            </div>
+                            </div>
+                           </td>
+                                          <td class="pt-6">
+                                            <div class="px-2 py-2 cursor-pointer flex w-full justify-center">
+                                                <label for="my-modal-4" class="btn modal-button w-4 max-h-2 bg-white hover:bg-white  text-base text-gray-300 dark:text-gray-100 font-medium border-none">30</label>
+                                            </div>
+                                            <input type="checkbox" id="my-modal-4" class="modal-toggle" />
+                            <div class="modal">
+                            <div class="modal-box relative rounded">
+                              <div class="">
+                                <label for="my-modal-4" class="btn btn-sm btn-ghost hover:bg-white absolute right-2 top-5 text-lg">✕</label>
+                                <h3 class="text-lg font-bold">Create Schedule</h3>
+                              </div>
+                                <div class="flex flex-col">
+                                    <label class="font-semibold text-gray-500 mt-3" for="">Title</label>
+                                    <input class="border border-slate-200 rounded mt-2" type="text">
+                                </div>
+                                <div class="flex flex-col">
+                                    <label class="font-semibold text-gray-500 mt-3" for="">Start Date</label>
+                                    <input class="border border-slate-200 rounded mt-2" type="date" placeholder="MM-DD-YYYY H:M">
+                                </div>
+                                <div class="flex flex-col">
+                                    <label class="font-semibold text-gray-500 mt-3" for="">End Date</label>
+                                    <input class="border border-slate-200 rounded mt-2" type="date" placeholder="MM-DD-YYYY H:M">
+                                </div>
+                                <div class="flex flex-row items-center">
+                                    <label class="label">
+                                      <input type="checkbox" checked="checked" class="form-check-input mt-3 checkbox-xs rounded " />
+                                      <span class="label-text mt-3">All Day</span>
+                                    </label>
+                                </div>
+                                <div class="flex flex-col">
+                                    <span class="font-semibold text-gray-500 mt-2">Schedule Meeting</span>
+                                    <button class="btn btn-sm w-1/2 capitalize bg-green-200 text-green-800 font-semibold border-none hover:bg-green-200 mt-2">
+                                      <svg aria-hidden="true" data-icon="video" class="w-4 mr-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                        <path fill="currentColor" d="M336.2 64H47.8C21.4 64 0 85.4 0 111.8v288.4C0 426.6 21.4 448 47.8 448h288.4c26.4 0 47.8-21.4 47.8-47.8V111.8c0-26.4-21.4-47.8-47.8-47.8zm189.4 37.7L416 177.3v157.4l109.6 75.5c21.2 14.6 50.4-.3 50.4-25.8V127.5c0-25.4-29.1-40.4-50.4-25.8z">
+                                        </path>
+                                      </svg>
+                                      add video conference link
+                                    </button>
+                                </div>
+                                <div class="flex flex-col">
+                                    <label class="font-semibold text-gray-500 mt-3" for="">Description</label>
+                                    <textarea class="textarea textarea-info border-slate-300 max-h-20 mt-2"  name="description" id="" cols="30" rows="10"></textarea>
+                                </div>
+                                <div class="flex flex-col">
+                                    <label class="font-semibold text-gray-500 mt-3" for="">Label</label>
+                                    <select class="select select-info select-sm border-slate-300 rounded w-full max-w-xs mt-2">
+                                        <option>None</option>
+                                        <option>Business</option>
+                                        <option>Important</option>
+                                        <option>Personal</option>
+                                        <option>Must Attend</option>
+                                      </select>
+                                </div>
+                                <div class="flex flex-row justify-end items-center mt-4">
+                                    <a class=" link link-hover text-slate-500 mr-2">More options</a>
+                                    <button class="btn btn-sm mt-1 w-20 font-bold bg-sky-600 rounded border-none text-white capitalize hover:bg-sky-600">save</button>
+                                </div>
+                            </div>
+                            </div>
+                                        </td>
+                                        <td class="pt-6">
+                                          <div class="px-2 py-2 cursor-pointer flex w-full justify-center">
+                                              <label for="my-modal-4" class="btn modal-button w-4 max-h-2 bg-white hover:bg-white  text-base text-gray-300 dark:text-gray-100 font-medium border-none">31</label>
+                                          </div>
+                                          <input type="checkbox" id="my-modal-4" class="modal-toggle" />
+                          <div class="modal">
+                          <div class="modal-box relative rounded">
+                            <div class="">
+                              <label for="my-modal-4" class="btn btn-sm btn-ghost hover:bg-white absolute right-2 top-5 text-lg">✕</label>
+                              <h3 class="text-lg font-bold">Create Schedule</h3>
+                            </div>
+                              <div class="flex flex-col">
+                                  <label class="font-semibold text-gray-500 mt-3" for="">Title</label>
+                                  <input class="border border-slate-200 rounded mt-2" type="text">
+                              </div>
+                              <div class="flex flex-col">
+                                  <label class="font-semibold text-gray-500 mt-3" for="">Start Date</label>
+                                  <input class="border border-slate-200 rounded mt-2" type="date" placeholder="MM-DD-YYYY H:M">
+                              </div>
+                              <div class="flex flex-col">
+                                  <label class="font-semibold text-gray-500 mt-3" for="">End Date</label>
+                                  <input class="border border-slate-200 rounded mt-2" type="date" placeholder="MM-DD-YYYY H:M">
+                              </div>
+                              <div class="flex flex-row items-center">
+                                  <label class="label">
+                                    <input type="checkbox" checked="checked" class="form-check-input mt-3 checkbox-xs rounded " />
+                                    <span class="label-text mt-3">All Day</span>
+                                  </label>
+                              </div>
+                              <div class="flex flex-col">
+                                  <span class="font-semibold text-gray-500 mt-2">Schedule Meeting</span>
+                                  <button class="btn btn-sm w-1/2 capitalize bg-green-200 text-green-800 font-semibold border-none hover:bg-green-200 mt-2">
+                                    <svg aria-hidden="true" data-icon="video" class="w-4 mr-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                      <path fill="currentColor" d="M336.2 64H47.8C21.4 64 0 85.4 0 111.8v288.4C0 426.6 21.4 448 47.8 448h288.4c26.4 0 47.8-21.4 47.8-47.8V111.8c0-26.4-21.4-47.8-47.8-47.8zm189.4 37.7L416 177.3v157.4l109.6 75.5c21.2 14.6 50.4-.3 50.4-25.8V127.5c0-25.4-29.1-40.4-50.4-25.8z">
+                                      </path>
+                                    </svg>
+                                    add video conference link
+                                  </button>
+                              </div>
+                              <div class="flex flex-col">
+                                  <label class="font-semibold text-gray-500 mt-3" for="">Description</label>
+                                  <textarea class="textarea textarea-info border-slate-300 max-h-20 mt-2"  name="description" id="" cols="30" rows="10"></textarea>
+                              </div>
+                              <div class="flex flex-col">
+                                  <label class="font-semibold text-gray-500 mt-3" for="">Label</label>
+                                  <select class="select select-info select-sm border-slate-300 rounded w-full max-w-xs mt-2">
+                                      <option>None</option>
+                                      <option>Business</option>
+                                      <option>Important</option>
+                                      <option>Personal</option>
+                                      <option>Must Attend</option>
+                                    </select>
+                              </div>
+                              <div class="flex flex-row justify-end items-center mt-4">
+                                  <a class=" link link-hover text-slate-500 mr-2">More options</a>
+                                  <button class="btn btn-sm mt-1 w-20 font-bold bg-sky-600 rounded border-none text-white capitalize hover:bg-sky-600">save</button>
+                              </div>
+                          </div>
+                          </div>
+                        </td>
+                                        <td class="pt-6">
+                                            <div class="px-2 py-2 cursor-pointer flex w-full justify-center">
+                                                <p class="text-base text-gray-500 dark:text-gray-100 font-medium">1</p>
+                                            </div>
+                                        </td>
+                                        <td class="pt-6">
+                                            <div class="px-2 py-2 cursor-pointer flex w-full justify-center">
+                                                <p class="text-base text-gray-500 dark:text-gray-100 font-medium">2</p>
+                                            </div>
+                                        </td>
+                                        <td class="pt-6">
+                                            <div class="px-2 py-2 cursor-pointer flex w-full justify-center">
+                                                <p class="text-base text-gray-500 dark:text-gray-100 font-medium">3</p>
+                                            </div>
+                                        </td>
+                                        <td class="pt-6">
+                                            <div class="px-2 py-2 cursor-pointer flex w-full justify-center">
+                                                <p class="text-base text-gray-500 dark:text-gray-100 font-medium">4</p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="px-2 py-2 cursor-pointer flex w-full justify-center">
+                                                <p class="text-base text-gray-500 dark:text-gray-100 font-medium">5</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="px-2 py-2 cursor-pointer flex w-full justify-center">
+                                                <p class="text-base text-gray-500 dark:text-gray-100 font-medium">6</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="px-2 py-2 cursor-pointer flex w-full justify-center">
+                                                <p class="text-base text-gray-500 dark:text-gray-100 font-medium">7</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="w-full h-full">
+                                                <div class="flex items-center justify-center w-full rounded-full cursor-pointer">
+                                                    <a  role="link" tabindex="0" class="focus:outline-none  focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 focus:bg-indigo-500 hover:bg-indigo-500 text-base w-8 h-8 flex items-center justify-center font-medium text-white bg-indigo-700 rounded-full">8</a>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="px-2 py-2 cursor-pointer flex w-full justify-center">
+                                                <p class="text-base text-gray-500 dark:text-gray-100 font-medium">9</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="px-2 py-2 cursor-pointer flex w-full justify-center">
+                                                <p class="text-base text-gray-500 dark:text-gray-100 font-medium">10</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="px-2 py-2 cursor-pointer flex w-full justify-center">
+                                                <p class="text-base text-gray-500 dark:text-gray-100 font-medium">11</p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="px-2 py-2 cursor-pointer flex w-full justify-center">
+                                                <p class="text-base text-gray-500 dark:text-gray-100 font-medium">12</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="px-2 py-2 cursor-pointer flex w-full justify-center">
+                                                <p class="text-base text-gray-500 dark:text-gray-100 font-medium">13</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="px-2 py-2 cursor-pointer flex w-full justify-center">
+                                                <p class="text-base text-gray-500 dark:text-gray-100 font-medium">14</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="px-2 py-2 cursor-pointer flex w-full justify-center">
+                                                <p class="text-base text-gray-500 dark:text-gray-100 font-medium">15</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="px-2 py-2 cursor-pointer flex w-full justify-center">
+                                                <p class="text-base text-gray-500 dark:text-gray-100 font-medium">16</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="px-2 py-2 cursor-pointer flex w-full justify-center">
+                                                <p class="text-base text-gray-500 dark:text-gray-100 font-medium">17</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="px-2 py-2 cursor-pointer flex w-full justify-center">
+                                                <p class="text-base text-gray-500 dark:text-gray-100 font-medium">18</p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="px-2 py-2 cursor-pointer flex w-full justify-center">
+                                                <p class="text-base text-gray-500 dark:text-gray-100 font-medium">19</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="px-2 py-2 cursor-pointer flex w-full justify-center">
+                                                <p class="text-base text-gray-500 dark:text-gray-100 font-medium">20</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="px-2 py-2 cursor-pointer flex w-full justify-center">
+                                                <p class="text-base text-gray-500 dark:text-gray-100 font-medium">21</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="px-2 py-2 cursor-pointer flex w-full justify-center">
+                                                <p class="text-base text-gray-500 dark:text-gray-100 font-medium">22</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="px-2 py-2 cursor-pointer flex w-full justify-center">
+                                                <p class="text-base text-gray-500 dark:text-gray-100 font-medium">23</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="px-2 py-2 cursor-pointer flex w-full justify-center">
+                                                <p class="text-base text-gray-500 dark:text-gray-100 font-medium">24</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="px-2 py-2 cursor-pointer flex w-full justify-center">
+                                                <p class="text-base text-gray-500 dark:text-gray-100 font-medium">25</p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="px-2 py-2 cursor-pointer flex w-full justify-center">
+                                                <p class="text-base text-gray-500 dark:text-gray-100 font-medium">26</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="px-2 py-2 cursor-pointer flex w-full justify-center">
+                                                <p class="text-base text-gray-500 dark:text-gray-100 font-medium">27</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="px-2 py-2 cursor-pointer flex w-full justify-center">
+                                                <p class="text-base text-gray-500 dark:text-gray-100 font-medium">28</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="px-2 py-2 cursor-pointer flex w-full justify-center">
+                                                <p class="text-base text-gray-500 dark:text-gray-100 font-medium">29</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="px-2 py-2 cursor-pointer flex w-full justify-center">
+                                                <p class="text-base text-gray-500 dark:text-gray-100 font-medium">30</p>
+                                            </div>
+                                        </td>
+                                        <td class="pt-1">
+                                          <div class="px-2 py-2 cursor-pointer flex w-full justify-center">
+                                              <label for="my-modal-4" class="btn modal-button w-4 max-h-2 bg-white hover:bg-white  text-base text-gray-300 dark:text-gray-100 font-medium border-none">1</label>
+                                          </div>
+                                          <input type="checkbox" id="my-modal-4" class="modal-toggle" />
+                          <div class="modal">
+                          <div class="modal-box relative rounded">
+                            <div class="">
+                              <label for="my-modal-4" class="btn btn-sm btn-ghost hover:bg-white absolute right-2 top-5 text-lg">✕</label>
+                              <h3 class="text-lg font-bold">Create Schedule</h3>
+                            </div>
+                              <div class="flex flex-col">
+                                  <label class="font-semibold text-gray-500 mt-3" for="">Title</label>
+                                  <input class="border border-slate-200 rounded mt-2" type="text">
+                              </div>
+                              <div class="flex flex-col">
+                                  <label class="font-semibold text-gray-500 mt-3" for="">Start Date</label>
+                                  <input class="border border-slate-200 rounded mt-2" type="date" placeholder="MM-DD-YYYY H:M">
+                              </div>
+                              <div class="flex flex-col">
+                                  <label class="font-semibold text-gray-500 mt-3" for="">End Date</label>
+                                  <input class="border border-slate-200 rounded mt-2" type="date" placeholder="MM-DD-YYYY H:M">
+                              </div>
+                              <div class="flex flex-row items-center">
+                                  <label class="label">
+                                    <input type="checkbox" checked="checked" class="form-check-input mt-3 checkbox-xs rounded " />
+                                    <span class="label-text mt-3">All Day</span>
+                                  </label>
+                              </div>
+                              <div class="flex flex-col">
+                                  <span class="font-semibold text-gray-500 mt-2">Schedule Meeting</span>
+                                  <button class="btn btn-sm w-1/2 capitalize bg-green-200 text-green-800 font-semibold border-none hover:bg-green-200 mt-2">
+                                    <svg aria-hidden="true" data-icon="video" class="w-4 mr-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                      <path fill="currentColor" d="M336.2 64H47.8C21.4 64 0 85.4 0 111.8v288.4C0 426.6 21.4 448 47.8 448h288.4c26.4 0 47.8-21.4 47.8-47.8V111.8c0-26.4-21.4-47.8-47.8-47.8zm189.4 37.7L416 177.3v157.4l109.6 75.5c21.2 14.6 50.4-.3 50.4-25.8V127.5c0-25.4-29.1-40.4-50.4-25.8z">
+                                      </path>
+                                    </svg>
+                                    add video conference link
+                                  </button>
+                              </div>
+                              <div class="flex flex-col">
+                                  <label class="font-semibold text-gray-500 mt-3" for="">Description</label>
+                                  <textarea class="textarea textarea-info border-slate-300 max-h-20 mt-2"  name="description" id="" cols="30" rows="10"></textarea>
+                              </div>
+                              <div class="flex flex-col">
+                                  <label class="font-semibold text-gray-500 mt-3" for="">Label</label>
+                                  <select class="select select-info select-sm border-slate-300 rounded w-full max-w-xs mt-2">
+                                      <option>None</option>
+                                      <option>Business</option>
+                                      <option>Important</option>
+                                      <option>Personal</option>
+                                      <option>Must Attend</option>
+                                    </select>
+                              </div>
+                              <div class="flex flex-row justify-end items-center mt-4">
+                                  <a class=" link link-hover text-slate-500 mr-2">More options</a>
+                                  <button class="btn btn-sm mt-1 w-20 font-bold bg-sky-600 rounded border-none text-white capitalize hover:bg-sky-600">save</button>
+                              </div>
+                          </div>
+                          </div>
+                        </td>
+                        <td class="pt-1">
+                          <div class="px-2 py-2 cursor-pointer flex w-full justify-center">
+                              <label for="my-modal-4" class="btn modal-button w-4 max-h-2 bg-white hover:bg-white  text-base text-gray-300 dark:text-gray-100 font-medium border-none">2</label>
+                          </div>
+                          <input type="checkbox" id="my-modal-4" class="modal-toggle" />
+          <div class="modal">
+          <div class="modal-box relative rounded">
+            <div class="">
+              <label for="my-modal-4" class="btn btn-sm btn-ghost hover:bg-white absolute right-2 top-5 text-lg">✕</label>
+              <h3 class="text-lg font-bold">Create Schedule</h3>
+            </div>
+              <div class="flex flex-col">
+                  <label class="font-semibold text-gray-500 mt-3" for="">Title</label>
+                  <input class="border border-slate-200 rounded mt-2" type="text">
+              </div>
+              <div class="flex flex-col">
+                  <label class="font-semibold text-gray-500 mt-3" for="">Start Date</label>
+                  <input class="border border-slate-200 rounded mt-2" type="date" placeholder="MM-DD-YYYY H:M">
+              </div>
+              <div class="flex flex-col">
+                  <label class="font-semibold text-gray-500 mt-3" for="">End Date</label>
+                  <input class="border border-slate-200 rounded mt-2" type="date" placeholder="MM-DD-YYYY H:M">
+              </div>
+              <div class="flex flex-row items-center">
+                  <label class="label">
+                    <input type="checkbox" checked="checked" class="form-check-input mt-3 checkbox-xs rounded " />
+                    <span class="label-text mt-3">All Day</span>
+                  </label>
+              </div>
+              <div class="flex flex-col">
+                  <span class="font-semibold text-gray-500 mt-2">Schedule Meeting</span>
+                  <button class="btn btn-sm w-1/2 capitalize bg-green-200 text-green-800 font-semibold border-none hover:bg-green-200 mt-2">
+                    <svg aria-hidden="true" data-icon="video" class="w-4 mr-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                      <path fill="currentColor" d="M336.2 64H47.8C21.4 64 0 85.4 0 111.8v288.4C0 426.6 21.4 448 47.8 448h288.4c26.4 0 47.8-21.4 47.8-47.8V111.8c0-26.4-21.4-47.8-47.8-47.8zm189.4 37.7L416 177.3v157.4l109.6 75.5c21.2 14.6 50.4-.3 50.4-25.8V127.5c0-25.4-29.1-40.4-50.4-25.8z">
+                      </path>
+                    </svg>
+                    add video conference link
+                  </button>
+              </div>
+              <div class="flex flex-col">
+                  <label class="font-semibold text-gray-500 mt-3" for="">Description</label>
+                  <textarea class="textarea textarea-info border-slate-300 max-h-20 mt-2"  name="description" id="" cols="30" rows="10"></textarea>
+              </div>
+              <div class="flex flex-col">
+                  <label class="font-semibold text-gray-500 mt-3" for="">Label</label>
+                  <select class="select select-info select-sm border-slate-300 rounded w-full max-w-xs mt-2">
+                      <option>None</option>
+                      <option>Business</option>
+                      <option>Important</option>
+                      <option>Personal</option>
+                      <option>Must Attend</option>
+                    </select>
+              </div>
+              <div class="flex flex-row justify-end items-center mt-4">
+                  <a class=" link link-hover text-slate-500 mr-2">More options</a>
+                  <button class="btn btn-sm mt-1 w-20 font-bold bg-sky-600 rounded border-none text-white capitalize hover:bg-sky-600">save</button>
+              </div>
+          </div>
+          </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="py-5 px-8 dark:bg-gray-700 bg-gray-50 rounded-b ml-12">
+                  <span  tabindex="0" class="focus:outline-none text-xl font-semibold dark:text-gray-100 text-gray-800">September 2020</span>
+                  <br>
+                  <a tabindex="0" class="focus:outline-none text-base font-medium leading-5 text-gray-300 dark:text-gray-100 mt-2">Wednesday</a>
+                  <div class="">
+                      <div class="border-b pb-4 border-gray-400 ">
+                        <div class="border-blue-600 border-l-4 ">
+                          <label for="my-modal-1" class="btn modal-button btn-ghost no-animation text-left capitalize hover:bg-gray-50">
+                            <a tabindex="0" class="ml-3 focus:outline-none text-base font-medium leading-5 text-gray-500 dark:text-gray-100 mt-2">Monthly team meeting for Falcon React Project</a>
+                            <p class="text-sm -right-16 leading-4 text-gray-400 dark:text-gray-300 text-left">07 Sep, 2022 - 10 Sep, 2022</p>
+                          </label>
+                          <input type="checkbox" id="my-modal-1" class="modal-toggle" />
+                          <div class="modal rounded-sm">
+                            <div class="modal-box p-0 rounded-sm">
+                              <div class="bg-slate-50 p-4">
+                                <label for="my-modal-1" class="btn btn-sm btn-ghost text-lg hover:bg-slate-50 absolute right-2 top-6">✕</label>
+                                <h2 class=" text-lg font-bold">Monthly team meeting for Falcon React Project</h2>
+                                <div class="flex flex-row">
+                                    <p class="bottom-4 text-sm">by</p>
+                                    <a class="link link-hover text-blue-500 ml-1 text-sm">Boston Harbor Now</a>
+                                </div>
+                              </div>
+                              <div class="flex flex-row p-4">
+                                <div class="bg-blue-100 rounded-full h-5 w-8">
+                                    <svg aria-hidden="true" data-icon="align-left" class="w-2 h-3 ml-1.5 mt-1 text-primary" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                    <path fill="currentColor" d="M12.83 352h262.34A12.82 12.82 0 0 0 288 339.17v-38.34A12.82 12.82 0 0 0 275.17 288H12.83A12.82 12.82 0 0 0 0 300.83v38.34A12.82 12.82 0 0 0 12.83 352zm0-256h262.34A12.82 12.82 0 0 0 288 83.17V44.83A12.82 12.82 0 0 0 275.17 32H12.83A12.82 12.82 0 0 0 0 44.83v38.34A12.82 12.82 0 0 0 12.83 96zM432 160H16a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16zm0 256H16a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16z"></path>
+                                    </svg>
+                                </div>
+                                <p class="ml-4">Description <br>
+                                  Boston Harbor Now in partnership with the Friends of Christopher Columbus Park, the Wharf District Council.</p>
+                              </div>
+                              <div class="flex flex-row p-4">
+                                <div class="bg-blue-100 rounded-full h-6 w-7">
+                                    <svg aria-hidden="true" data-icon="calendar-check" class="w-3 h-3 ml-1 mt-1  text-primary" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                    <path fill="currentColor" d="M436 160H12c-6.627 0-12-5.373-12-12v-36c0-26.51 21.49-48 48-48h48V12c0-6.627 5.373-12 12-12h40c6.627 0 12 5.373 12 12v52h128V12c0-6.627 5.373-12 12-12h40c6.627 0 12 5.373 12 12v52h48c26.51 0 48 21.49 48 48v36c0 6.627-5.373 12-12 12zM12 192h424c6.627 0 12 5.373 12 12v260c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48V204c0-6.627 5.373-12 12-12zm333.296 95.947l-28.169-28.398c-4.667-4.705-12.265-4.736-16.97-.068L194.12 364.665l-45.98-46.352c-4.667-4.705-12.266-4.736-16.971-.068l-28.397 28.17c-4.705 4.667-4.736 12.265-.068 16.97l82.601 83.269c4.667 4.705 12.265 4.736 16.97.068l142.953-141.805c4.705-4.667 4.736-12.265.068-16.97z"></path>
+                                    </svg>
+                                </div>
+                                <p class="ml-4">Date and Time <br>
+                                  Wednesday, September 07, 2022, 12:00 AM-
+                                  Friday, September 09, 2022, 12:00 AM</p>
+                              </div>
+                              <div class="flex flex-row p-4">
+                                <div class="bg-blue-100 rounded-full h-6 w-7">
+                                    <svg aria-hidden="true" data-icon="map-marker-alt" class="w-4 h-3 ml-0.5 mt-1.5 text-primary bg-blue-100 rounded-full" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                                    <path fill="currentColor" d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path>
+                                    </svg>
+                                </div>
+                                <p class="ml-4">Location <br>
+                                    Boston Harborwalk, Christopher Columbus Park,
+                                    Boston, MA 02109, United States</p>
+                              </div>
+                              <div class="flex items-center justify-end mb-2 mr-2">
+                                <button class="flex flex-row items-center mr-2 bg-white hover:bg-white hover:shadow-base hover:border-gray-200 shadow-md w-30 text-gray-500 font-semibold capitalize btn-sm rounded border border-gray-200">
+                                    <svg aria-hidden="true" data-icon="pencil-alt" class="w-4 h-3" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path fill="currentColor" d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z"></path>
+                                    </svg>
+                                    edit
+                                </button>
+                                <button class="font-semibold flex flex-row items-center bg-white hover:bg-white hover:shadow-base hover:border-gray-200 shadow-md w-30 text-blue-500 capitalize btn-sm rounded border border-gray-200">
+                                    see more details
+                                    <svg aria-hidden="true" data-icon="chevron-right" class="w-2 h-3 ml-1" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                        <path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path>
+                                    </svg>
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="border-b pb-4 border-gray-400  pt-5">
+                        <div class="border-green-600 border-l-4 ">
+                          <a tabindex="0" class="ml-3 focus:outline-none text-base font-medium leading-5 text-gray-500 dark:text-gray-100 mt-2">Newmarket Nights</a>
+                          <p class="ml-3 text-sm pt-2 leading-4 text-gray-600 dark:text-gray-300">16 Sep, 2022</p>
+                        </div>
+                      </div>
+                    <div class=" border-b pb-4 border-gray-400  pt-5">
+                        <div class="border-orange-400 border-l-4 ">
+                          <a tabindex="0" class="ml-3 focus:outline-none text-base font-medium leading-5 text-gray-500 dark:text-gray-100 mt-2">Folk Festival</a>
+                          <p class="ml-3 text-sm pt-2 leading-4 text-gray-600 dark:text-gray-300">07 Sep, 2022 - 10 Sep, 2022</p>
+                        </div>
+                    </div>
+                      <div class="pb-4 border-gray-400 pt-5">
+                        <div class="border-red-500 border-l-4 ">
+                            <a tabindex="0" class="ml-3 focus:outline-none text-sm font-medium leading-5 text-gray-500 dark:text-gray-100 mt-2">Film Festival</a>
+                            <p class="ml-3 text-xs pt-2 leading-4 text-gray-600 dark:text-gray-300">07 Sep, 2022 - 10 Sep, 2022</p>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+            </div>

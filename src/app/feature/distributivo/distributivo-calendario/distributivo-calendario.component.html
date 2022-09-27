@@ -1,0 +1,103 @@
+<h1 class="text-black">Asignacion de Aula</h1>
+<br>
+<div class="flex gap-5 flex-row">
+    <div>
+        <label class="text-black"><b>Solicitud</b></label>
+        <input type="text" placeholder="008" class="input input-bordered w-full max-w-xs bg-slate-200"/>
+    </div>
+    <div>
+    <label class="text-black"><b>Horas Semanales</b></label>
+    <input type="text" placeholder="5" class="input input-bordered w-full max-w-xs bg-slate-200" />
+    </div>
+</div>
+
+<br>
+
+<div class="grid gap-5 grid-cols-4">
+    <div>
+        <label class="text-slate-500">Carrera</label>
+        <input type="text" placeholder="DESARROLLO DE SOFTWARE" class="input input-bordered w-full max-w-xs bg-slate-200" />
+    </div>
+    <div>
+        <label class="text-slate-500">Curso</label>
+        <input type="text" placeholder="3MA SOFTWARE" class="input input-bordered w-full max-w-xs bg-slate-200" />
+    </div>
+    <div>
+        <label class="text-slate-500">Asignatura</label>
+        <input type="text" placeholder="ALGEBEBRA" class="input input-bordered w-full max-w-xs bg-slate-200" />
+    </div>
+    <div>
+        <label class="text-slate-500">Docente</label>
+        <input type="text" placeholder="PATRICIO" class="input input-bordered w-full max-w-xs bg-slate-200" />
+    </div>
+</div>
+
+<div class="grid gap-5 grid-cols-4">
+
+    <div>
+            <label class="text-slate-500">Aula</label><br>
+            <select class="select select-bordered bg-slate-200">
+                <option disabled selected class="text-slate-500">AULA 1</option>
+                <option></option>
+                <option></option>
+              </select>
+    </div>
+    <div>
+        <label class="text-slate-500">Dia</label>
+        <input type="date" class="input input-bordered w-full max-w-xs bg-slate-200" />
+    </div>
+    <div>
+        <label class="text-slate-500">Hora</label>
+        <input type="time"  class="input input-bordered w-full max-w-xs bg-slate-200" />
+    </div><br>
+    <div>
+        <label class="text-slate-500">Fecha inicio</label>
+        <input type="date"  class="input input-bordered w-full max-w-xs bg-slate-200" />
+    </div>
+    <div>
+        <label class="text-slate-500">Fecha fin</label>
+        <input type="date"  class="input input-bordered w-full max-w-xs bg-slate-200" />
+    </div>
+    <div>
+        <label class="text-slate-500">Color</label><br>
+        <input type="color"  class="input input-bordered w-1/2 bg-slate-200" />
+    </div>
+    <div>
+        <br>
+        <button class="btn bg-green-500 hover:bg-green-400 text-white border-none">Agregar al horario</button>
+    </div>
+</div>
+<br>
+<h1><b>Aula 1</b></h1> <br>
+
+<div class="grid grid-cols-6">
+    <div class="border solid border-black bg-cyan-900 h-10 text-center text-white">Hora</div>
+    <div class="border solid border-black bg-cyan-900 text-center text-white">Lunes</div>
+    <div class="border solid border-black bg-cyan-900 text-center text-white">Martes</div>
+    <div class="border solid border-black bg-cyan-900 text-center text-white">Miercoles</div>
+    <div class="border solid border-black bg-cyan-900 text-center text-white">Jueves</div>
+    <div class="border solid border-black bg-cyan-900 text-center text-white">Viernes</div>
+    <div class="border solid border-black h-12 text-slate-500">07:00-08:00</div>
+    <div class="border solid border-black"></div>
+    <div class="row-span-2 border solid border-black text-white bg-lime-400 text-sm">Programacion visual</div>
+    <div class="row-span-2 border solid border-black text-white bg-lime-400 text-sm">Programacion visual</div>
+    <div class="border solid border-black"></div>
+    <div class="border solid border-black"></div>
+    <div class="border solid border-black h-12 text-slate-500 ">08:00-09:00</div>
+    <div class="row-span-3 border solid border-black text-white bg-lime-400 text-sm">Programacion visual</div>
+    <div class="border solid border-black"></div>
+    <div class="row-span-3 border solid border-black text-white bg-lime-400 text-sm">Programacion visual</div>
+    <div class="border solid border-black h-12 text-slate-500 ">09:00-10:00</div>
+    <div class="border solid border-black"></div>
+    <div class="border solid border-black"></div>
+    <div class="border solid border-black"></div>
+    <div class="border solid border-black h-12 text-slate-500">10:00-11:00</div>
+    <div class="border solid border-black"></div>
+    <div class="border solid border-black"></div>
+    <div class="border solid border-black"></div>
+</div>
+<br>
+<div class="flex gap-3 justify-end">
+    <button class="btn btn-sm bg-slate-400  text-white border-none hover:bg-red-700">Cancelar</button>
+    <button class="btn btn-sm bg-green-400 hover:bg-green-600 text-white border-none">Guardar</button>
+</div>

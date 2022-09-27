@@ -1,0 +1,46 @@
+<div class="p-3 w-1/2 border shadow-md">
+    <div class="flex">
+        <div class="grow">
+            <p class="font-medium">Returning Customer Rate</p>
+        <!-- <span class=" text-center border bg-sky-300 rounded-full ml-16 text-xs text-blue-600 font-bold ">3.5%</span>-->
+        </div>
+        <div class="align-middle">
+            <select class="select select-bordered select-sm">
+                <option>Jan</option>
+                <option>Feb</option>
+                <option>Mar</option>
+                <option>Apr</option>
+                <option>May</option>
+                <option>Jun</option>
+                <option>Jul</option>
+                <option>Aug</option>
+                <option>Sep</option>
+                <option>Oct</option>
+                <option>Nov</option>
+                <option>Dec</option>
+            </select>
+        </div>
+    </div>
+    <div class="flex">
+        <div>
+            <p class="text-2xl text-sky-500">59.09%</p>
+        </div>
+        <div class="border w-12 h-5 rounded-full bg-blue-200 text-center text-xs ml-8 mt-2">
+            <p class="text-blue-900 font-bold">3.5%</p>
+        </div>
+    </div>
+    <br>
+    <div class="flex font-semibold">Customers</div>
+    <div class="grid p-2">
+        <canvas baseChart width="400" height="300"
+          [type]="'scatter'"
+          [data]="ChartData"
+          [options]="lineChartOptions"
+          >
+        </canvas>
+    </div>
+    <hr>
+    <div class="flex justify-end">
+        <button class="btn btn-link">View Report > </button>
+    </div>
+</div>

@@ -1,0 +1,27 @@
+<div class="sm:w-11/12 sm:mx-auto h-[7vh]" >
+    <app-header></app-header>
+</div>
+
+<div class="drawer drawer-mobile sm:w-11/12 sm:mx-auto h-[93vh] p-4">
+    <input id="my-drawer-2" type="checkbox" class="drawer-toggle" [(ngModel)]="sidebarClosed" />
+    <div class="drawer-content ml-2 mr-2 p-4 bg-white rounded-lg shadow-lg shadow-slate-900 h-full ">
+
+        <div class="flex flex-col h-full w-full m-auto">
+
+            <div class="tabs self-start">
+                <label id="previewtab" class="tab tab-lifted tab-active" >Vista previa</label>
+                <a href="{{code}}" target="_blank" class="tab tab-lifted text-xl text-primary"> HTML</a>
+            </div>
+
+            <div class="mytab h-full w-full " id="preview" >
+                <router-outlet></router-outlet>
+            </div>
+
+    </div>
+
+    </div>
+    <div class="drawer-side">
+        <label for="my-drawer-2" class="drawer-overlay"></label>
+        <app-sidebar (sidebar)="close()"></app-sidebar>
+    </div>
+</div>

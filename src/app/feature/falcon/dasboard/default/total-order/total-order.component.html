@@ -1,0 +1,18 @@
+<div class="flex">
+  <div class="grid">
+    <span class="p-3 font-semibold">Total Order</span>
+    <span class="p-3 text-4xl text-slate-500">58.4K</span>
+    <span class="p-3 text-sm  text-blue-500"> ▲ 13.6%</span>
+  </div>
+  <div>
+    <div class="flex p-5">
+      <canvas baseChart class="w-3/5 h-100 pl-20 pt-5"
+        [type]="'line'"
+        [data]="lineChartData"
+        [options]="lineChartOptions"
+        [legend]="lineChartLegend">
+      </canvas>
+   </div>
+
+  </div>
+</div>

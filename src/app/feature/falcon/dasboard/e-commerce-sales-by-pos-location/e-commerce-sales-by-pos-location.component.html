@@ -1,0 +1,55 @@
+<div class="w-96 border shadow rounded-md">
+  <div class="grid grid-cols-1 sm:grid-cols-1 bg-slate-200 h-14">
+    <div class="md:flex w-full ">
+      <span class="self-center mr-24 ml-2">Sales by POS location</span>
+      <span class="self-center ml-3 text-cyan-600 hover:text-cyan-500 text-sm">View details</span>
+      <li class="md:flex self-center mt-1 text-cyan-600"><a><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 512 512"><title>Chevron Forward</title><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M184 112l144 144-144 144"/></svg></a></li>
+    </div>
+  </div>
+  <div class="grid grid-cols-1 sm:grid-cols-3 p-2 mt-8">
+
+    <div>
+      <div class="flex w-40">
+        <div class="badge badge-sm badge-primary self-center"></div>
+        <p>Allocated Budget</p>
+      </div>
+    </div>
+    <div>
+      <div class="flex ml-20">
+        <p>$13,325.98</p>
+      </div>
+    </div>
+    <div>
+      <div class="flex ml-20">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-2 w-2 -ml-3 mt-2" viewBox="0 0 512 512"><title>Caret Up</title><path d="M414 321.94L274.22 158.82a24 24 0 00-36.44 0L98 321.94c-13.34 15.57-2.28 39.62 18.22 39.62h279.6c20.5 0 31.56-24.05 18.18-39.62z"/></svg><p>10%</p>
+      </div>
+    </div>
+  </div>
+  <div class="grid grid-cols-1 sm:grid-cols-3 p-2">
+
+    <div>
+      <div class="flex w-40">
+        <div class="badge badge-sm badge-error self-center"></div>
+        <p>Allocated Budget</p>
+      </div>
+    </div>
+    <div>
+      <div class="flex ml-20">
+        <p>$13,325.98</p>
+      </div>
+    </div>
+    <div>
+      <div class="flex ml-20">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-2 w-2 -ml-3 mt-2" viewBox="0 0 512 512"><title>Caret Up</title><path d="M414 321.94L274.22 158.82a24 24 0 00-36.44 0L98 321.94c-13.34 15.57-2.28 39.62 18.22 39.62h279.6c20.5 0 31.56-24.05 18.18-39.62z"/></svg><p>10%</p>
+      </div>
+    </div>
+  </div>
+  <div class="p-10">
+    <canvas baseChart
+        [datasets]="radarChartDatasets"
+        [options]="radarChartOptions"
+        [labels]="radarChartLabels"
+        [type]="'radar'">
+    </canvas>
+  </div>
+</div>
