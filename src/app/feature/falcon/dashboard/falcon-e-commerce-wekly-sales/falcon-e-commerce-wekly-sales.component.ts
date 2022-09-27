@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ChartConfiguration } from 'chart.js';
+import { CodeService } from 'src/app/feature/code.service';
 
 @Component({
   selector: 'app-falcon-e-commerce-wekly-sales',
@@ -27,9 +28,10 @@ export class FalconECommerceWeklySalesComponent implements OnInit {
   };
 
 
-  constructor() { }
+  constructor(private codeService: CodeService) { }
 
   ngOnInit(): void {
+    this.codeService.sendCode("https://raw.githubusercontent.com/sistemaagil/tailwindcss/feature/falcon/e-commerce/weekly-Sales/src/app/feature/falcon/dashboard/falcon-e-commerce-wekly-sales/falcon-e-commerce-wekly-sales.component.html?token=GHSAT0AAAAAABZHVAWSI7IGG7ASY75VPL3CYZTPZHA");
   }
 
 }
