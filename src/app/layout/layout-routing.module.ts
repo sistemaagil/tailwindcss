@@ -71,6 +71,7 @@ import { FalconDashboardManagementWELCOMETOFALCONComponent } from '../feature/fa
 import { FalconDashboardDefaultTOPPRODUCTSComponent } from '../feature/falcon/dashboard/falcon-dashboard-default-top-products/falcon-dashboard-default-top-products.component';
 import { ECommerceSalesByPosLocationComponent } from '../feature/falcon/dasboard/e-commerce-sales-by-pos-location/e-commerce-sales-by-pos-location.component';
 import { ShoppingCartComponent } from '../feature/falcon/dashboard/shopping-cart/shopping-cart.component';
+import { TopProductsComponent } from '../feature/falcon/dashboard/top-products/top-products.component';
 
 const routes: Routes = [
   {path: '', component: MainComponent,
@@ -152,7 +153,8 @@ const routes: Routes = [
       {path: 'falcon-dashboard-management-WELCOME_TOFALCON', component:FalconDashboardManagementWELCOMETOFALCONComponent},
       {path: 'falcon-dashboard-default-TOP_PRODUCTS', component:FalconDashboardDefaultTOPPRODUCTSComponent},
       {path: 'falcon-e-commerce-pos-location', component:ECommerceSalesByPosLocationComponent},
-      {path: 'falcon-dashboard-e-commerce-Shopping-Cart', component: ShoppingCartComponent}
+      {path: 'falcon-dashboard-e-commerce-Shopping-Cart', component: ShoppingCartComponent},
+      {path: 'falcon-dashboard-e-commerce-Top-Products', component: TopProductsComponent},
     ]
   }
 ];
