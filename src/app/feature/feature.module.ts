@@ -147,7 +147,7 @@ import { TopProductsComponent } from './falcon/dashboard/top-products/top-produc
     LeadConversionComponent,
     RunningProjectsComponent,
     FalconDashboardMostLeadsComponent,
-    MensajeriaFiltroComponent,
+    
     FalconDashboardTrafficSourceComponent,
     FalconDashboardManagementTODOLISTComponent,
     FalconDashboardManagementWELCOMETOFALCONComponent,
