@@ -28,7 +28,7 @@ export class FalconDashboardSessionByBrowserComponent implements OnInit {
 
   constructor(private codeService: CodeService) { }
 
-  ngOnInit(): void {this.codeService.sendCode("https://gitea.sistemaagil.net/Tailwindcss/tailwindcss-frontend/raw/branch/feature/falcon/Session-By-Browser/src/app/feature/falcon/dashboard/falcon-dashboard-market-share/falcon-dashboard-market-share.component.html");
+  ngOnInit(): void {this.codeService.sendCode("https://gitea.sistemaagil.net/Tailwindcss/tailwindcss-frontend/raw/branch/feature/falcon/Session-By-Browser/src/app/feature/falcon/dashboart/falcon-dashboard-session-by-browser/falcon-dashboard-session-by-browser.component.html");
   }
 
 }
