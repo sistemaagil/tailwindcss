@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ChartConfiguration } from 'chart.js';
+import { CodeService } from 'src/app/feature/code.service';
 
 @Component({
   selector: 'app-falcon-dashboard-session-by-browser',
@@ -25,9 +26,9 @@ export class FalconDashboardSessionByBrowserComponent implements OnInit {
     responsive: false
   };
 
-  constructor() { }
+  constructor(private codeService: CodeService) { }
 
-  ngOnInit(): void {
+  ngOnInit(): void {this.codeService.sendCode("https://gitea.sistemaagil.net/Tailwindcss/tailwindcss-frontend/raw/branch/feature/falcon/Session-By-Browser/src/app/feature/falcon/dashboard/falcon-dashboard-market-share/falcon-dashboard-market-share.component.html");
   }
 
 }
