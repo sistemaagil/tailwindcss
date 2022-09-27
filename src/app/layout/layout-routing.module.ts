@@ -72,6 +72,7 @@ import { FalconDashboardDefaultTOPPRODUCTSComponent } from '../feature/falcon/da
 import { ECommerceSalesByPosLocationComponent } from '../feature/falcon/dasboard/e-commerce-sales-by-pos-location/e-commerce-sales-by-pos-location.component';
 import { FalconECommerceProductGirdProductDetailsComponent } from '../feature/falcon/dashboard/falcon-e-commerce-product-gird-product-details/falcon-e-commerce-product-gird-product-details.component';
 import { FalconECommerceWeklySalesComponent } from '../feature/falcon/dashboard/falcon-e-commerce-wekly-sales/falcon-e-commerce-wekly-sales.component';
+import { FalconDashboardDefaultWeklySalesComponent } from '../feature/falcon/dashboard/falcon-dashboard-default-wekly-sales/falcon-dashboard-default-wekly-sales.component';
 
 const routes: Routes = [
   {path: '', component: MainComponent,
@@ -155,6 +156,7 @@ const routes: Routes = [
       {path: 'falcon-e-commerce-pos-location', component:ECommerceSalesByPosLocationComponent},
       {path: 'falcon-e-commerce-Product_Gird_Product_Details', component: FalconECommerceProductGirdProductDetailsComponent},
       {path: 'falcon-e-commerce-wekly-Sales', component: FalconECommerceWeklySalesComponent},
+      {path: 'falcon-dashboard-default-weklySales', component: FalconDashboardDefaultWeklySalesComponent},
     ]
   }
 ];

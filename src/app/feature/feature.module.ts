@@ -74,6 +74,7 @@ import { FalconDashboardDefaultTOPPRODUCTSComponent } from './falcon/dashboard/f
 import { ECommerceSalesByPosLocationComponent } from './falcon/dasboard/e-commerce-sales-by-pos-location/e-commerce-sales-by-pos-location.component';
 import { FalconECommerceProductGirdProductDetailsComponent } from './falcon/dashboard/falcon-e-commerce-product-gird-product-details/falcon-e-commerce-product-gird-product-details.component';
 import { FalconECommerceWeklySalesComponent } from './falcon/dashboard/falcon-e-commerce-wekly-sales/falcon-e-commerce-wekly-sales.component';
+import { FalconDashboardDefaultWeklySalesComponent } from './falcon/dashboard/falcon-dashboard-default-wekly-sales/falcon-dashboard-default-wekly-sales.component';
 
 
 @NgModule({
@@ -155,6 +156,7 @@ import { FalconECommerceWeklySalesComponent } from './falcon/dashboard/falcon-e-
     ECommerceSalesByPosLocationComponent,
     FalconECommerceProductGirdProductDetailsComponent,
     FalconECommerceWeklySalesComponent,
+    FalconDashboardDefaultWeklySalesComponent,
   ],
   imports: [
     CommonModule,
