@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ChartConfiguration } from 'chart.js';
+import { CodeService } from 'src/app/feature/code.service';
 
 @Component({
   selector: 'app-falcon-dashboard-most-leads',
@@ -26,9 +27,9 @@ export class FalconDashboardMostLeadsComponent implements OnInit {
   };
 
 
-  constructor() { }
+  constructor(private codeService: CodeService) { }
 
-  ngOnInit(): void {
+  ngOnInit(): void {this.codeService.sendCode("https://gitea.sistemaagil.net/Tailwindcss/tailwindcss-frontend/src/branch/feature/falcon/recentLeads/src/app/feature/falcon/dashboard/falcon-dashboard-most-leads/falcon-dashboard-most-leads.component.html");
   }
 
 }
