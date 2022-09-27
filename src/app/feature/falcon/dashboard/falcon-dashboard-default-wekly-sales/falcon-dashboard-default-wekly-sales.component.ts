@@ -30,7 +30,7 @@ export class FalconDashboardDefaultWeklySalesComponent implements OnInit {
 
   constructor(private codeService: CodeService) { }
   ngOnInit(): void {
-    this.codeService.sendCode("");
+    this.codeService.sendCode("https://raw.githubusercontent.com/sistemaagil/tailwindcss/feature/falcon/default/weeklySales/src/app/feature/falcon/dashboard/falcon-dashboard-default-wekly-sales/falcon-dashboard-default-wekly-sales.component.html?token=GHSAT0AAAAAABZHVAWSRRNW75ZLPRB6UTIAYZTRKXA");
   }
 
 }
