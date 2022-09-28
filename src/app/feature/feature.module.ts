@@ -85,6 +85,7 @@ import { FalconAPPEemailInboxComponent } from './falcon/eemail/falcon-app-eemail
 import { SaasActiveUsersComponent } from './falcon/dasboard/saas-active-users/saas-active-users.component';
 import { SaasRevenueComponent } from './falcon/dasboard/saas-revenue/saas-revenue.component';
 import { SaasConversionComponent } from './falcon/dasboard/saas-conversion/saas-conversion.component';
+import { FalconAppEventOtherInfoComponent } from './falcon/app/falcon-app-event-other-info/falcon-app-event-other-info.component';
 
 
 @NgModule({
@@ -177,6 +178,7 @@ import { SaasConversionComponent } from './falcon/dasboard/saas-conversion/saas-
     SaasActiveUsersComponent,
     SaasRevenueComponent,
     SaasConversionComponent,
+    FalconAppEventOtherInfoComponent,
 
   ],
   imports: [
