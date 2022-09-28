@@ -80,13 +80,11 @@ import { ShoppingCartComponent } from './falcon/e-commerce/shopping-cart/shoppin
 import { FalconDashboardSaasBANDWIDTHSAVEDComponent } from './falcon/dashboard/saas/falcon-dashboard-saas-bandwidth-saved/falcon-dashboard-saas-bandwidth-saved.component';
 import { RecentActivityComponent } from './falcon/management/recent-activity/recent-activity.component';
 import { TopProductsComponent } from './falcon/e-commerce/top-products/top-products.component';
-<<<<<<< HEAD
 import { FalconAPPEemailInboxComponent } from './falcon/eemail/falcon-app-eemail-inbox/falcon-app-eemail-inbox.component';
-=======
 import { SaasActiveUsersComponent } from './falcon/dasboard/saas-active-users/saas-active-users.component';
 import { SaasRevenueComponent } from './falcon/dasboard/saas-revenue/saas-revenue.component';
 import { SaasConversionComponent } from './falcon/dasboard/saas-conversion/saas-conversion.component';
->>>>>>> develop
+import { FalconAPPEemailEemailDetailComponent } from './falcon/eemail/falcon-app-eemail-eemail-detail/falcon-app-eemail-eemail-detail.component';
 
 
 @NgModule({
@@ -174,14 +172,12 @@ import { SaasConversionComponent } from './falcon/dasboard/saas-conversion/saas-
     FalconDashboardSaasBANDWIDTHSAVEDComponent,
     RecentActivityComponent,
     TopProductsComponent,
-<<<<<<< HEAD
     FalconAPPEemailInboxComponent,
-=======
     SaasActiveUsersComponent,
     SaasRevenueComponent,
     SaasConversionComponent,
+    FalconAPPEemailEemailDetailComponent,
 
->>>>>>> develop
   ],
   imports: [
     CommonModule,
