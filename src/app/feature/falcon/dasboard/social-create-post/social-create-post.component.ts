@@ -7,7 +7,7 @@ import { CodeService } from 'src/app/feature/code.service';
 })
 export class SocialCreatePostComponent implements OnInit {
 
-  constructor( private codeService: CodeService) { }
+  constructor(private codeService: CodeService) { }
 
   ngOnInit(): void {
     this.codeService.sendCode("https://raw.githubusercontent.com/sistemaagil/tailwindcss/falcon/ecommerce-Total-Sales/src/app/feature/falcon/dasboard/social-create-post/social-create-post.component.html?token=GHSAT0AAAAAABZH2SPD5GC2U5TC4BJ2YF64YZTJ5JQ")
