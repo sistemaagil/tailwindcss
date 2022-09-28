@@ -82,6 +82,7 @@ import { RecentActivityComponent } from './falcon/management/recent-activity/rec
 import { TopProductsComponent } from './falcon/e-commerce/top-products/top-products.component';
 import { SaasActiveUsersComponent } from './falcon/dasboard/saas-active-users/saas-active-users.component';
 import { SaasRevenueComponent } from './falcon/dasboard/saas-revenue/saas-revenue.component';
+import { SaasConversionComponent } from './falcon/dasboard/saas-conversion/saas-conversion.component';
 
 
 @NgModule({
@@ -171,6 +172,7 @@ import { SaasRevenueComponent } from './falcon/dasboard/saas-revenue/saas-revenu
     TopProductsComponent,
     SaasActiveUsersComponent,
     SaasRevenueComponent,
+    SaasConversionComponent,
 
   ],
   imports: [
