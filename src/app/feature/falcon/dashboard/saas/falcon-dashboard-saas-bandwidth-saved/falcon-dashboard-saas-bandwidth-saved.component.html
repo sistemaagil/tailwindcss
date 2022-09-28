@@ -1,1 +1,33 @@
-<p>falcon-dashboard-saas-bandwidth-saved works!</p>
+<!-- Edison gualpa -->
+<div class="border border-slate-300 rounded-sm  card w-96 h-auto m-2">
+  <div class="border border-slate-100 rounded-sm h-auto flex flex-col w-auto">
+    <div class="flex items-center bg-slate-50 h-10 pr-2">
+      <span class="grow font-semibold text-base  pl-3">Bandwidth Saved</span>
+      <div class="dropdown dropdown-end  rounded-md ">
+        <label tabindex="0" class="btn  btn-ghost btn-xs    text-gray-500 text-sm hover:border-slate-500">...</label>
+        <ul tabindex="0" class="dropdown-content border border-slate-300 rounded-md menu   bg-white w-44 ">
+          <li><a class="text-gray-900 block  text-sm " role="menuitem" tabindex="-1"  id="menu-item-0">View</a></li>
+          <li><a class="text-gray-500 block  text-sm " role="menuitem" tabindex="-2" id="menu-item-1">Export</a></li>
+          <li class="divider"></li>
+          <li> <a class="text-red-500 block  text-sm " role="menuitem" tabindex="-3" id="menu-item-2">Remove</a> </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="flex justify-center mt-10">
+      <div class="radial-progress text-blue-500 cursor-pointer" style="--value: 93; --size: 10rem; --thickness: 10px"><span class="text-gray-400 font-bold text-3xl">93% </span></div>
+    </div>
+    <div class="flex justify-center mt-4"><img class="h-5 w-5 mt-1"  src="https://media.istockphoto.com/vectors/check-mark-icon-vector-id1217555176?b=1&k=6&m=1217555176&s=170667a&w=0&h=eTGEmkukO8uPiaUUT1sUBaTs-ZcRAUvTI3rSg1BSrkE="alt="" />
+      <span class=" text-center text-lg font-semibold">35.75 GB saved</span>
+    </div>
+    <span class="text-center text-gray-400 text-sm">38.44 GB total bandwidth</span>
+    <div class="flex justify-between p-1 bg-slate-50 mt-10 pl-3 pb-2">
+      <select class="select select-info select-sm w-36 h-8 rounded-sm text-gray-600 text-sm ">
+        <option>Last 6 Month</option>
+        <option>Last year</option>
+        <option>Last 2 year</option>
+      </select>
+      <a class="link link-hover text-blue-400 items-center mr-3">Help</a>
+    </div>
+  </div>
+</div>
