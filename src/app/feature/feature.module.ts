@@ -77,6 +77,9 @@ import { FalconECommerceWeklySalesComponent } from './falcon/dashboard/falcon-e-
 import { FalconDashboardDefaultWeklySalesComponent } from './falcon/dashboard/falcon-dashboard-default-wekly-sales/falcon-dashboard-default-wekly-sales.component';
 import { ShoppingCartComponent } from './falcon/e-commerce/shopping-cart/shopping-cart.component';
 import { FalconDashboardSaasBANDWIDTHSAVEDComponent } from './falcon/dashboard/saas/falcon-dashboard-saas-bandwidth-saved/falcon-dashboard-saas-bandwidth-saved.component';
+import { RecentActivityComponent } from './falcon/management/recent-activity/recent-activity.component';
+import { TopProductsComponent } from './falcon/e-commerce/top-products/top-products.component';
+import { SaasActiveUsersComponent } from './falcon/dasboard/saas-active-users/saas-active-users.component';
 
 
 @NgModule({
@@ -161,6 +164,9 @@ import { FalconDashboardSaasBANDWIDTHSAVEDComponent } from './falcon/dashboard/s
     FalconDashboardDefaultWeklySalesComponent,
     ShoppingCartComponent,
     FalconDashboardSaasBANDWIDTHSAVEDComponent,
+    RecentActivityComponent,
+    TopProductsComponent,
+    SaasActiveUsersComponent,
   ],
   imports: [
     CommonModule,
