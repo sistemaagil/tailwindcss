@@ -79,6 +79,7 @@ import { RecentActivityComponent } from '../feature/falcon/management/recent-act
 import { TopProductsComponent } from '../feature/falcon/e-commerce/top-products/top-products.component';
 import { SaasActiveUsersComponent } from '../feature/falcon/dasboard/saas-active-users/saas-active-users.component';
 import { SaasRevenueComponent } from '../feature/falcon/dasboard/saas-revenue/saas-revenue.component';
+import { SaasConversionComponent } from '../feature/falcon/dasboard/saas-conversion/saas-conversion.component';
 
 const routes: Routes = [
   {path: '', component: MainComponent,
@@ -168,6 +169,7 @@ const routes: Routes = [
       {path: 'falcon-dashboard-e-commerce-Top-Products', component: TopProductsComponent},
       {path: 'falcon-saas-active-users', component:SaasActiveUsersComponent},
       {path: 'falcon-saas-revenue', component:SaasRevenueComponent},
+      {path: 'falcon-saas-conversion', component:SaasConversionComponent},
     ]
   }
 ];
