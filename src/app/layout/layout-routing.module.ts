@@ -77,6 +77,7 @@ import { ShoppingCartComponent } from '../feature/falcon/e-commerce/shopping-car
 import { RecentActivityComponent } from '../feature/falcon/management/recent-activity/recent-activity.component';
 import { TopProductsComponent } from '../feature/falcon/e-commerce/top-products/top-products.component';
 import { SaasActiveUsersComponent } from '../feature/falcon/dasboard/saas-active-users/saas-active-users.component';
+import { SaasRevenueComponent } from '../feature/falcon/dasboard/saas-revenue/saas-revenue.component';
 
 const routes: Routes = [
   {path: '', component: MainComponent,
@@ -164,6 +165,7 @@ const routes: Routes = [
       {path: 'falcon-dashboard-management-Recent-Activity', component: RecentActivityComponent},
       {path: 'falcon-dashboard-e-commerce-Top-Products', component: TopProductsComponent},
       {path: 'falcon-saas-active-users', component:SaasActiveUsersComponent},
+      {path: 'falcon-saas-revenue', component:SaasRevenueComponent},
     ]
   }
 ];
