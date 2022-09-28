@@ -72,6 +72,8 @@ import { FalconDashboardManagementTODOLISTComponent } from './falcon/dashboard/f
 import { FalconDashboardManagementWELCOMETOFALCONComponent } from './falcon/dashboard/falcon-dashboard-management-welcome-tofalcon/falcon-dashboard-management-welcome-tofalcon.component';
 import { FalconDashboardDefaultTOPPRODUCTSComponent } from './falcon/dashboard/falcon-dashboard-default-top-products/falcon-dashboard-default-top-products.component';
 import { ECommerceSalesByPosLocationComponent } from './falcon/dasboard/e-commerce-sales-by-pos-location/e-commerce-sales-by-pos-location.component';
+import { FalconSocialFollowersComponent } from './falcon/social/followers/falcon-social-followers/falcon-social-followers.component';
+import { FalconSocialFollowersPerfilComponent } from './falcon/social/followers/falcon-social-followers-perfil/falcon-social-followers-perfil.component';
 
 
 @NgModule({
@@ -151,6 +153,8 @@ import { ECommerceSalesByPosLocationComponent } from './falcon/dasboard/e-commer
     FalconDashboardManagementWELCOMETOFALCONComponent,
     FalconDashboardDefaultTOPPRODUCTSComponent,
     ECommerceSalesByPosLocationComponent,
+    FalconSocialFollowersComponent,
+    FalconSocialFollowersPerfilComponent,
   ],
   imports: [
     CommonModule,
