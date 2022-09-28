@@ -71,6 +71,14 @@ import { FalconDashboardManagementWELCOMETOFALCONComponent } from '../feature/fa
 import { FalconDashboardDefaultTOPPRODUCTSComponent } from '../feature/falcon/dashboard/falcon-dashboard-default-top-products/falcon-dashboard-default-top-products.component';
 import { ECommerceSalesByPosLocationComponent } from '../feature/falcon/dasboard/e-commerce-sales-by-pos-location/e-commerce-sales-by-pos-location.component';
 import { CalendarComponent } from '../feature/falcon/calendar/calendar.component';
+import { FalconECommerceProductGirdProductDetailsComponent } from '../feature/falcon/dashboard/falcon-e-commerce-product-gird-product-details/falcon-e-commerce-product-gird-product-details.component';
+import { FalconECommerceWeklySalesComponent } from '../feature/falcon/dashboard/falcon-e-commerce-wekly-sales/falcon-e-commerce-wekly-sales.component';
+import { FalconDashboardDefaultWeklySalesComponent } from '../feature/falcon/dashboard/falcon-dashboard-default-wekly-sales/falcon-dashboard-default-wekly-sales.component';
+import { ShoppingCartComponent } from '../feature/falcon/e-commerce/shopping-cart/shopping-cart.component';
+import { FalconDashboardSaasBANDWIDTHSAVEDComponent } from '../feature/falcon/dashboard/saas/falcon-dashboard-saas-bandwidth-saved/falcon-dashboard-saas-bandwidth-saved.component';
+import { RecentActivityComponent } from '../feature/falcon/management/recent-activity/recent-activity.component';
+import { TopProductsComponent } from '../feature/falcon/e-commerce/top-products/top-products.component';
+import { SaasActiveUsersComponent } from '../feature/falcon/dasboard/saas-active-users/saas-active-users.component';
 
 const routes: Routes = [
   {path: '', component: MainComponent,
@@ -153,6 +161,13 @@ const routes: Routes = [
       {path: 'falcon-dashboard-default-TOP_PRODUCTS', component:FalconDashboardDefaultTOPPRODUCTSComponent},
       {path: 'falcon-e-commerce-pos-location', component:ECommerceSalesByPosLocationComponent},
       {path: 'falcon-Calendar', component: CalendarComponent},
+      {path: 'falcon-e-commerce-wekly-Sales', component: FalconECommerceWeklySalesComponent},
+      {path: 'falcon-dashboard-default-weklySales', component: FalconDashboardDefaultWeklySalesComponent},
+      {path: 'falcon-dashboard-e-commerce-Shopping-Cart', component: ShoppingCartComponent},
+      {path: 'falcon-dashboard-saas-BANDWIDTH_SAVED', component: FalconDashboardSaasBANDWIDTHSAVEDComponent},
+      {path: 'falcon-dashboard-management-Recent-Activity', component: RecentActivityComponent},
+      {path: 'falcon-dashboard-e-commerce-Top-Products', component: TopProductsComponent},
+      {path: 'falcon-saas-active-users', component:SaasActiveUsersComponent},
     ]
   }
 ];
