@@ -73,6 +73,7 @@ import { ECommerceSalesByPosLocationComponent } from '../feature/falcon/dasboard
 import { ECommerceTotalSalesComponent } from '../feature/falcon/dasboard/e-commerce-total-sales/e-commerce-total-sales.component';
 import { SocialCreatePostComponent } from '../feature/falcon/dasboard/social-create-post/social-create-post.component';
 import { SocialAddToYourFeedComponent } from '../feature/falcon/dasboard/social-add-to-your-feed/social-add-to-your-feed.component';
+import { YouMayInterestedComponent } from '../feature/falcon/dasboard/social/you-may-interested/you-may-interested.component';
 
 const routes: Routes = [
   {path: '', component: MainComponent,
@@ -156,7 +157,8 @@ const routes: Routes = [
       {path: 'falcon-e-commerce-pos-location', component:ECommerceSalesByPosLocationComponent},
       {path: 'falcon-e-commerce-Total-Sales', component:ECommerceTotalSalesComponent},
       {path: 'Falcon-dashboard-Social-create-post', component: SocialCreatePostComponent},
-      {path: 'Falcon-dashboard-Social-Add-to-your-feed', component: SocialAddToYourFeedComponent}
+      {path: 'Falcon-dashboard-Social-Add-to-your-feed', component: SocialAddToYourFeedComponent},
+      {path: 'Falcon-dashboard-Social-You-may-interested', component: YouMayInterestedComponent}
     ]
   }
 ];
