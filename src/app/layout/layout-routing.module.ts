@@ -76,6 +76,7 @@ import { FalconDashboardDefaultWeklySalesComponent } from '../feature/falcon/das
 import { ShoppingCartComponent } from '../feature/falcon/e-commerce/shopping-cart/shopping-cart.component';
 import { RecentActivityComponent } from '../feature/falcon/management/recent-activity/recent-activity.component';
 import { TopProductsComponent } from '../feature/falcon/e-commerce/top-products/top-products.component';
+import { FalconAPPEemailInboxComponent } from '../feature/falcon/eemail/falcon-app-eemail-inbox/falcon-app-eemail-inbox.component';
 
 const routes: Routes = [
   {path: '', component: MainComponent,
@@ -161,7 +162,8 @@ const routes: Routes = [
       {path: 'falcon-dashboard-default-weklySales', component: FalconDashboardDefaultWeklySalesComponent},
       {path: 'falcon-dashboard-e-commerce-Shopping-Cart', component: ShoppingCartComponent},
       {path: 'falcon-dashboard-management-Recent-Activity', component: RecentActivityComponent},
-      {path: 'falcon-dashboard-e-commerce-Top-Products', component: TopProductsComponent}
+      {path: 'falcon-dashboard-e-commerce-Top-Products', component: TopProductsComponent},
+      {path: 'falcon-APP-eemail-inbox', component: FalconAPPEemailInboxComponent},
     ]
   }
 ];
