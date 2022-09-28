@@ -81,6 +81,8 @@ import { FalconDashboardSaasBANDWIDTHSAVEDComponent } from './falcon/dashboard/s
 import { RecentActivityComponent } from './falcon/management/recent-activity/recent-activity.component';
 import { TopProductsComponent } from './falcon/e-commerce/top-products/top-products.component';
 import { SaasActiveUsersComponent } from './falcon/dasboard/saas-active-users/saas-active-users.component';
+import{ FullCalendarModule } from 'primeng/fullcalendar';
+
 
 
 @NgModule({
@@ -175,7 +177,8 @@ import { SaasActiveUsersComponent } from './falcon/dasboard/saas-active-users/sa
     FeatureRoutingModule,
     FormsModule,
     NgChartsModule,
-    NgChartsModule
+    NgChartsModule,
+    FullCalendarModule,
   ]
 })
 export class FeatureModule { }
