@@ -79,6 +79,7 @@ import { FalconDashboardSaasBANDWIDTHSAVEDComponent } from '../feature/falcon/da
 import { RecentActivityComponent } from '../feature/falcon/management/recent-activity/recent-activity.component';
 import { TopProductsComponent } from '../feature/falcon/e-commerce/top-products/top-products.component';
 import { SaasActiveUsersComponent } from '../feature/falcon/dasboard/saas-active-users/saas-active-users.component';
+import { CustomersComponent } from '../feature/falcon/management/customers/customers.component';
 
 const routes: Routes = [
   {path: '', component: MainComponent,
@@ -168,6 +169,7 @@ const routes: Routes = [
       {path: 'falcon-dashboard-management-Recent-Activity', component: RecentActivityComponent},
       {path: 'falcon-dashboard-e-commerce-Top-Products', component: TopProductsComponent},
       {path: 'falcon-saas-active-users', component:SaasActiveUsersComponent},
+      {path: 'falcon-management-customers',component: CustomersComponent},
     ]
   }
 ];
