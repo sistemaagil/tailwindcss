@@ -71,6 +71,7 @@ import { FalconDashboardManagementWELCOMETOFALCONComponent } from '../feature/fa
 import { FalconDashboardDefaultTOPPRODUCTSComponent } from '../feature/falcon/dashboard/falcon-dashboard-default-top-products/falcon-dashboard-default-top-products.component';
 import { ECommerceSalesByPosLocationComponent } from '../feature/falcon/dasboard/e-commerce-sales-by-pos-location/e-commerce-sales-by-pos-location.component';
 import { DateAndTimeComponent } from '../feature/falcon/events/events-details/date-and-time/date-and-time.component';
+import { EventListComponent } from '../feature/falcon/events/events-list/event-list/event-list.component';
 
 const routes: Routes = [
   {path: '', component: MainComponent,
@@ -153,6 +154,7 @@ const routes: Routes = [
       {path: 'falcon-dashboard-default-TOP_PRODUCTS', component:FalconDashboardDefaultTOPPRODUCTSComponent},
       {path: 'falcon-e-commerce-pos-location', component:ECommerceSalesByPosLocationComponent},
       {path: 'falcon-events-events-details-date-and-time', component: DateAndTimeComponent},
+      {path: 'falcon-events-events-list', component: EventListComponent},
     ]
   }
 ];

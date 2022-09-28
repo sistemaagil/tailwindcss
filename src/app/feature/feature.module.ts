@@ -73,6 +73,7 @@ import { FalconDashboardManagementWELCOMETOFALCONComponent } from './falcon/dash
 import { FalconDashboardDefaultTOPPRODUCTSComponent } from './falcon/dashboard/falcon-dashboard-default-top-products/falcon-dashboard-default-top-products.component';
 import { ECommerceSalesByPosLocationComponent } from './falcon/dasboard/e-commerce-sales-by-pos-location/e-commerce-sales-by-pos-location.component';
 import { DateAndTimeComponent } from './falcon/events/events-details/date-and-time/date-and-time.component';
+import { EventListComponent } from './falcon/events/events-list/event-list/event-list.component';
 
 
 @NgModule({
@@ -153,6 +154,7 @@ import { DateAndTimeComponent } from './falcon/events/events-details/date-and-ti
     FalconDashboardDefaultTOPPRODUCTSComponent,
     ECommerceSalesByPosLocationComponent,
     DateAndTimeComponent,
+    EventListComponent,
   ],
   imports: [
     CommonModule,
