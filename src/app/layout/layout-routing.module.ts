@@ -154,7 +154,6 @@ const routes: Routes = [
       {path: 'falcon-dashboard-management-WELCOME_TOFALCON', component:FalconDashboardManagementWELCOMETOFALCONComponent},
       {path: 'falcon-dashboard-default-TOP_PRODUCTS', component:FalconDashboardDefaultTOPPRODUCTSComponent},
       {path: 'falcon-e-commerce-pos-location', component:ECommerceSalesByPosLocationComponent},
-      {path: 'falcon-e-commerce-Product_Gird_Product_Details', component: FalconECommerceProductGirdProductDetailsComponent},
       {path: 'falcon-e-commerce-wekly-Sales', component: FalconECommerceWeklySalesComponent},
       {path: 'falcon-dashboard-default-weklySales', component: FalconDashboardDefaultWeklySalesComponent},
     ]
