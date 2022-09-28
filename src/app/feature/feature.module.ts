@@ -75,6 +75,7 @@ import { ECommerceSalesByPosLocationComponent } from './falcon/dasboard/e-commer
 import { FalconAppEventCreateEventComponent } from './falcon/event/falcon-app-event-create-event/falcon-app-event-create-event.component';
 import { FalconECommerceProductGirdProductDetailsComponent } from './falcon/dashboard/falcon-e-commerce-product-gird-product-details/falcon-e-commerce-product-gird-product-details.component';
 import { FalconECommerceWeklySalesComponent } from './falcon/dashboard/falcon-e-commerce-wekly-sales/falcon-e-commerce-wekly-sales.component';
+import { FalconAppEventEventDetailsComponent } from './falcon/event/falcon-app-event-event-details/falcon-app-event-event-details.component';
 
 
 @NgModule({
@@ -157,6 +158,7 @@ import { FalconECommerceWeklySalesComponent } from './falcon/dashboard/falcon-e-
     FalconAppEventCreateEventComponent,
     FalconECommerceProductGirdProductDetailsComponent,
     FalconECommerceWeklySalesComponent,
+    FalconAppEventEventDetailsComponent,
   ],
   imports: [
     CommonModule,

@@ -70,12 +70,10 @@ import { FalconDashboardManagementTODOLISTComponent } from '../feature/falcon/da
 import { FalconDashboardManagementWELCOMETOFALCONComponent } from '../feature/falcon/dashboard/falcon-dashboard-management-welcome-tofalcon/falcon-dashboard-management-welcome-tofalcon.component';
 import { FalconDashboardDefaultTOPPRODUCTSComponent } from '../feature/falcon/dashboard/falcon-dashboard-default-top-products/falcon-dashboard-default-top-products.component';
 import { ECommerceSalesByPosLocationComponent } from '../feature/falcon/dasboard/e-commerce-sales-by-pos-location/e-commerce-sales-by-pos-location.component';
-<<<<<<< HEAD
 import { FalconAppEventCreateEventComponent } from '../feature/falcon/event/falcon-app-event-create-event/falcon-app-event-create-event.component';
-=======
 import { FalconECommerceProductGirdProductDetailsComponent } from '../feature/falcon/dashboard/falcon-e-commerce-product-gird-product-details/falcon-e-commerce-product-gird-product-details.component';
 import { FalconECommerceWeklySalesComponent } from '../feature/falcon/dashboard/falcon-e-commerce-wekly-sales/falcon-e-commerce-wekly-sales.component';
->>>>>>> 5dbeb61501cc6e2df00ae4663c83f67dffa3e46e
+import { FalconAppEventEventDetailsComponent } from '../feature/falcon/event/falcon-app-event-event-details/falcon-app-event-event-details.component';
 
 const routes: Routes = [
   {path: '', component: MainComponent,
@@ -157,13 +155,12 @@ const routes: Routes = [
       {path: 'falcon-dashboard-management-WELCOME_TOFALCON', component:FalconDashboardManagementWELCOMETOFALCONComponent},
       {path: 'falcon-dashboard-default-TOP_PRODUCTS', component:FalconDashboardDefaultTOPPRODUCTSComponent},
       {path: 'falcon-e-commerce-pos-location', component:ECommerceSalesByPosLocationComponent},
-<<<<<<< HEAD
       {path: 'falcon-app-event-CreateEvent', component:FalconAppEventCreateEventComponent},
 
-=======
       {path: 'falcon-e-commerce-Product_Gird_Product_Details', component: FalconECommerceProductGirdProductDetailsComponent},
       {path: 'falcon-e-commerce-wekly-Sales', component: FalconECommerceWeklySalesComponent},
->>>>>>> 5dbeb61501cc6e2df00ae4663c83f67dffa3e46e
+      {path: 'falcon-app-event-eventDetails', component: FalconAppEventEventDetailsComponent},
+
     ]
   }
 ];
