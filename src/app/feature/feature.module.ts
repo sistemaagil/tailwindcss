@@ -78,6 +78,7 @@ import { FalconDashboardDefaultWeklySalesComponent } from './falcon/dashboard/fa
 import { ShoppingCartComponent } from './falcon/e-commerce/shopping-cart/shopping-cart.component';
 import { RecentActivityComponent } from './falcon/management/recent-activity/recent-activity.component';
 import { TopProductsComponent } from './falcon/e-commerce/top-products/top-products.component';
+import { InboxEmailComponent } from './falcon/email/inbox-email/inbox-email.component';
 
 
 @NgModule({
@@ -163,6 +164,7 @@ import { TopProductsComponent } from './falcon/e-commerce/top-products/top-produ
     ShoppingCartComponent,
     RecentActivityComponent,
     TopProductsComponent,
+    InboxEmailComponent,
   ],
   imports: [
     CommonModule,
