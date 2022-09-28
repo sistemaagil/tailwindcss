@@ -74,6 +74,7 @@ import { FalconDashboardDefaultTOPPRODUCTSComponent } from './falcon/dashboard/f
 import { ECommerceSalesByPosLocationComponent } from './falcon/dasboard/e-commerce-sales-by-pos-location/e-commerce-sales-by-pos-location.component';
 
 
+
 @NgModule({
   declarations: [
     Me01Component,
@@ -93,7 +94,7 @@ import { ECommerceSalesByPosLocationComponent } from './falcon/dasboard/e-commer
 
     ManagementTeamProgressComponent,
     ECommerceGoodAfternonComponent,
-
+    CrmWelcomeToComponent,
     DistributivoCalendarioComponent,
     DistributivoCursosComponent,
     ChatActivoComponent,
