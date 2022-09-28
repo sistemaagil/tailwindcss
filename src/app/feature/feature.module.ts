@@ -80,6 +80,7 @@ import { FalconDashboardSaasBANDWIDTHSAVEDComponent } from './falcon/dashboard/s
 import { RecentActivityComponent } from './falcon/management/recent-activity/recent-activity.component';
 import { TopProductsComponent } from './falcon/e-commerce/top-products/top-products.component';
 import { SaasActiveUsersComponent } from './falcon/dasboard/saas-active-users/saas-active-users.component';
+import { FalconDashboardSaasMOREWITHFALCONComponent } from './falcon/dashboard/saas/falcon-dashboard-saas-morewith-falcon/falcon-dashboard-saas-morewith-falcon.component';
 
 
 @NgModule({
@@ -167,6 +168,7 @@ import { SaasActiveUsersComponent } from './falcon/dasboard/saas-active-users/sa
     RecentActivityComponent,
     TopProductsComponent,
     SaasActiveUsersComponent,
+    FalconDashboardSaasMOREWITHFALCONComponent,
   ],
   imports: [
     CommonModule,
