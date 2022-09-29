@@ -72,6 +72,8 @@ import { FalconDashboardManagementTODOLISTComponent } from './falcon/dashboard/f
 import { FalconDashboardManagementWELCOMETOFALCONComponent } from './falcon/dashboard/falcon-dashboard-management-welcome-tofalcon/falcon-dashboard-management-welcome-tofalcon.component';
 import { FalconDashboardDefaultTOPPRODUCTSComponent } from './falcon/dashboard/falcon-dashboard-default-top-products/falcon-dashboard-default-top-products.component';
 import { ECommerceSalesByPosLocationComponent } from './falcon/dasboard/e-commerce-sales-by-pos-location/e-commerce-sales-by-pos-location.component';
+import { FalconAppEventCreateEventComponent } from './falcon/event/falcon-app-event-create-event/falcon-app-event-create-event.component';
+import { CalendarComponent } from './falcon/calendar/calendar.component';
 import { FalconECommerceProductGirdProductDetailsComponent } from './falcon/dashboard/falcon-e-commerce-product-gird-product-details/falcon-e-commerce-product-gird-product-details.component';
 import { FalconECommerceWeklySalesComponent } from './falcon/dashboard/falcon-e-commerce-wekly-sales/falcon-e-commerce-wekly-sales.component';
 import { FalconDashboardDefaultWeklySalesComponent } from './falcon/dashboard/falcon-dashboard-default-wekly-sales/falcon-dashboard-default-wekly-sales.component';
@@ -79,8 +81,13 @@ import { ShoppingCartComponent } from './falcon/e-commerce/shopping-cart/shoppin
 import { FalconDashboardSaasBANDWIDTHSAVEDComponent } from './falcon/dashboard/saas/falcon-dashboard-saas-bandwidth-saved/falcon-dashboard-saas-bandwidth-saved.component';
 import { RecentActivityComponent } from './falcon/management/recent-activity/recent-activity.component';
 import { TopProductsComponent } from './falcon/e-commerce/top-products/top-products.component';
+import { FalconAPPEemailInboxComponent } from './falcon/eemail/falcon-app-eemail-inbox/falcon-app-eemail-inbox.component';
 import { SaasActiveUsersComponent } from './falcon/dasboard/saas-active-users/saas-active-users.component';
 import { FalconDashboardSaasMOREWITHFALCONComponent } from './falcon/dashboard/saas/falcon-dashboard-saas-morewith-falcon/falcon-dashboard-saas-morewith-falcon.component';
+import { CustomersComponent } from './falcon/management/customers/customers.component';
+import { SaasRevenueComponent } from './falcon/dasboard/saas-revenue/saas-revenue.component';
+import { SaasConversionComponent } from './falcon/dasboard/saas-conversion/saas-conversion.component';
+import { FalconAPPEemailEemailDetailComponent } from './falcon/eemail/falcon-app-eemail-eemail-detail/falcon-app-eemail-eemail-detail.component';
 
 
 @NgModule({
@@ -160,6 +167,8 @@ import { FalconDashboardSaasMOREWITHFALCONComponent } from './falcon/dashboard/s
     FalconDashboardManagementWELCOMETOFALCONComponent,
     FalconDashboardDefaultTOPPRODUCTSComponent,
     ECommerceSalesByPosLocationComponent,
+    FalconAppEventCreateEventComponent,
+    CalendarComponent,
     FalconECommerceProductGirdProductDetailsComponent,
     FalconECommerceWeklySalesComponent,
     FalconDashboardDefaultWeklySalesComponent,
@@ -167,12 +176,11 @@ import { FalconDashboardSaasMOREWITHFALCONComponent } from './falcon/dashboard/s
     FalconDashboardSaasBANDWIDTHSAVEDComponent,
     RecentActivityComponent,
     TopProductsComponent,
+    FalconAPPEemailInboxComponent,
     SaasActiveUsersComponent,
     FalconDashboardSaasMOREWITHFALCONComponent,
+    FalconAPPEemailEemailDetailComponent,
   ],
-  imports: [
-    CommonModule,
-    FeatureRoutingModule,
     FormsModule,
     NgChartsModule,
     NgChartsModule
