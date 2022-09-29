@@ -70,6 +70,7 @@ import { FalconDashboardManagementTODOLISTComponent } from '../feature/falcon/da
 import { FalconDashboardManagementWELCOMETOFALCONComponent } from '../feature/falcon/dashboard/falcon-dashboard-management-welcome-tofalcon/falcon-dashboard-management-welcome-tofalcon.component';
 import { FalconDashboardDefaultTOPPRODUCTSComponent } from '../feature/falcon/dashboard/falcon-dashboard-default-top-products/falcon-dashboard-default-top-products.component';
 import { ECommerceSalesByPosLocationComponent } from '../feature/falcon/dasboard/e-commerce-sales-by-pos-location/e-commerce-sales-by-pos-location.component';
+import { FalconAppEventCreateEventComponent } from '../feature/falcon/event/falcon-app-event-create-event/falcon-app-event-create-event.component';
 import { CalendarComponent } from '../feature/falcon/calendar/calendar.component';
 import { FalconECommerceProductGirdProductDetailsComponent } from '../feature/falcon/dashboard/falcon-e-commerce-product-gird-product-details/falcon-e-commerce-product-gird-product-details.component';
 import { FalconECommerceWeklySalesComponent } from '../feature/falcon/dashboard/falcon-e-commerce-wekly-sales/falcon-e-commerce-wekly-sales.component';
@@ -78,8 +79,12 @@ import { ShoppingCartComponent } from '../feature/falcon/e-commerce/shopping-car
 import { FalconDashboardSaasBANDWIDTHSAVEDComponent } from '../feature/falcon/dashboard/saas/falcon-dashboard-saas-bandwidth-saved/falcon-dashboard-saas-bandwidth-saved.component';
 import { RecentActivityComponent } from '../feature/falcon/management/recent-activity/recent-activity.component';
 import { TopProductsComponent } from '../feature/falcon/e-commerce/top-products/top-products.component';
+import { FalconAPPEemailInboxComponent } from '../feature/falcon/eemail/falcon-app-eemail-inbox/falcon-app-eemail-inbox.component';
 import { SaasActiveUsersComponent } from '../feature/falcon/dasboard/saas-active-users/saas-active-users.component';
 import { CustomersComponent } from '../feature/falcon/management/customers/customers.component';
+import { SaasRevenueComponent } from '../feature/falcon/dasboard/saas-revenue/saas-revenue.component';
+import { SaasConversionComponent } from '../feature/falcon/dasboard/saas-conversion/saas-conversion.component';
+import { FalconAPPEemailEemailDetailComponent } from '../feature/falcon/eemail/falcon-app-eemail-eemail-detail/falcon-app-eemail-eemail-detail.component';
 
 const routes: Routes = [
   {path: '', component: MainComponent,
@@ -161,6 +166,8 @@ const routes: Routes = [
       {path: 'falcon-dashboard-management-WELCOME_TOFALCON', component:FalconDashboardManagementWELCOMETOFALCONComponent},
       {path: 'falcon-dashboard-default-TOP_PRODUCTS', component:FalconDashboardDefaultTOPPRODUCTSComponent},
       {path: 'falcon-e-commerce-pos-location', component:ECommerceSalesByPosLocationComponent},
+      {path: 'falcon-app-event-CreateEvent', component:FalconAppEventCreateEventComponent},
+
       {path: 'falcon-Calendar', component: CalendarComponent},
       {path: 'falcon-e-commerce-wekly-Sales', component: FalconECommerceWeklySalesComponent},
       {path: 'falcon-dashboard-default-weklySales', component: FalconDashboardDefaultWeklySalesComponent},
@@ -168,8 +175,12 @@ const routes: Routes = [
       {path: 'falcon-dashboard-saas-BANDWIDTH_SAVED', component: FalconDashboardSaasBANDWIDTHSAVEDComponent},
       {path: 'falcon-dashboard-management-Recent-Activity', component: RecentActivityComponent},
       {path: 'falcon-dashboard-e-commerce-Top-Products', component: TopProductsComponent},
+      {path: 'falcon-APP-eemail-inbox', component: FalconAPPEemailInboxComponent},
       {path: 'falcon-saas-active-users', component:SaasActiveUsersComponent},
       {path: 'falcon-management-customers',component: CustomersComponent},
+      {path: 'falcon-saas-revenue', component:SaasRevenueComponent},
+      {path: 'falcon-saas-conversion', component:SaasConversionComponent},
+      {path: 'falcon-APP-eemail-eemail-detail', component: FalconAPPEemailEemailDetailComponent}
     ]
   }
 ];
