@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CustomersComponent implements OnInit {
 
+  activeClickActive : number = 0;
+
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+  setClickClass(id :number):void{
+    this.activeClickActive= id;
   }
 
 }

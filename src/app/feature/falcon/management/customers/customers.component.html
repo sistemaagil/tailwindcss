@@ -8,48 +8,437 @@
   <div class="pt-3">
     <span class="text-5xl text-orange-500 ">58.39k</span>
   </div>
-  <label for="searchCustomers">
     <div class="pt-4">
-      <a class="text-blue-600">See all ></a>
+      <button class="btn bg-white border-white text-blue-600" (click)="setClickClass(1)">See All ></button>
     </div>
-  </label>
+
 </div>
-<input type="checkbox" id="searchCustomers"  checked class="peer hidden">
-<div class="peer-checked:hidden pt-5">
-  <div>
-    <span>Customers</span>
+
+
+<div class=" pt-5" [class]="activeClickActive  === 1 ? ' block':'hidden' ">
+  <div class="flex">
+    <span class="pt-5 text-2xl text-black">Customers</span>
+    <span class="grow"></span>
+    <div class="btn-group p-2">
+      <button class="btn bg-white text-black">+ New</button>
+      <button class="btn bg-white text-black">Filter</button>
+      <button class="btn bg-white text-black">Export</button>
+    </div>
   </div>
   <table class="table w-full">
     <thead>
       <tr>
-        <th></th>
+        <th><input type="checkbox" class="checkbox" /> </th>
         <th>Name</th>
-        <th>Job</th>
-        <th>Favorite Color</th>
+        <th>Email</th>
+        <th>Phone</th>
+        <th>Billing Adress</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <th>1</th>
-        <td>Cy Ganderton</td>
-        <td>Quality Control Specialist</td>
-        <td>Blue</td>
+        <th><input type="checkbox" class="checkbox" /></th>
+        <td>
+          <div class="flex">
+            <div class=" rounded-full bg-gray-600 w-8 h-8 pt-1">
+              <span class="text-white pl-1">RA</span>
+            </div>
+            <span class="pl-5 pt-1">Ricky Antony</span>
+          </div>
+        </td>
+        <td class="text-blue-700">ricky@example.com</td>
+        <td class="text-blue-700">(201)200-1851</td>
+        <td>2392 Main Avenue, Penasauka,New Jarsey 02139</td>
       </tr>
       <tr>
-        <th>2</th>
-        <td>Hart Hagerty</td>
-        <td>Desktop Support Technician</td>
-        <td>Purple</td>
+        <th><input type="checkbox" class="checkbox" /></th>
+        <td>
+          <div class="flex">
+            <img  class = "rounded-full w-8 h-8 "src="https://placeimg.com/192/192/people" />
+            <span class="pl-5 pt-1">Emma Watson</span>
+          </div>
+        </td>
+        <td class="text-blue-700">emma@example.com</td>
+        <td class="text-blue-700">(212)228-8403</td>
+        <td>2289 5th Avenue, New York, New York, 10037 </td>
       </tr>
       <tr>
-        <th>3</th>
-        <td>Brice Swyre</td>
-        <td>Tax Accountant</td>
-        <td>Red</td>
+        <th><input type="checkbox" class="checkbox" /></th>
+        <td>
+          <div class="flex">
+            <div class=" rounded-full bg-gray-600 w-8 h-8 pt-1">
+              <span class="text-white pl-1">RA</span>
+            </div>
+            <span class="pl-5 pt-1">Rowen Atkinson</span>
+          </div>
+        </td>
+        <td class="text-blue-700">rown@example.com</td>
+        <td class="text-blue-700">(201)200-1851</td>
+        <td>112 Bostwick Avenue, Jersey Cyty, New Jersey, 0730</td>
+      </tr>
+      <tr>
+        <th><input type="checkbox" class="checkbox" /></th>
+        <td>
+          <div class="flex">
+            <img  class = "rounded-full w-8 h-8 "src="https://placeimg.com/192/190/people" />
+            <span class="pl-5 pt-1">Antony Hopkings</span>
+          </div>
+        </td>
+        <td class="text-blue-700">antony@example.com</td>
+        <td class="text-blue-700">(901)324-3127</td>
+        <td>3438 Ilee De France St #242, Fort Wainhwrithgt, Alaska</td>
+      </tr>
+      <tr>
+        <th><input type="checkbox" class="checkbox" /></th>
+        <td>
+          <div class="flex">
+            <img  class = "rounded-full w-8 h-8 "src="https://placeimg.com/192/194/people" />
+            <span class="pl-5 pt-1">Jennifer Scharamm</span>
+          </div>
+        </td>
+        <td class="text-blue-700">jennifer@example.com</td>
+        <td class="text-blue-700">(401)230-13251</td>
+        <td>2354 Hannah Strett</td>
+      </tr>
+      <tr>
+        <th><input type="checkbox" class="checkbox" /></th>
+        <td>
+          <div class="flex">
+            <div class=" rounded-full bg-gray-600 w-8 h-8 pt-1">
+              <span class="text-white pl-1">RM</span>
+            </div>
+            <span class="pl-5 pt-1">Raymod Mims</span>
+          </div>
+        </td>
+        <td class="text-blue-700">raymond@example.com</td>
+        <td class="text-blue-700">(201)200-1854</td>
+        <td>2298 San Louis, Misurra</td>
+      </tr>
+      <tr>
+        <th><input type="checkbox" class="checkbox" /></th>
+        <td>
+          <div class="flex">
+            <img  class = "rounded-full w-8 h-8 "src="https://placeimg.com/192/198/people" />
+            <span class="pl-5 pt-1">Michael Jenkins</span>
+          </div>
+        </td>
+        <td class="text-blue-700">michael@example.com</td>
+        <td class="text-blue-700">(201)220-1881</td>
+        <td>2571 Boston , Masachuset</td>
+      </tr>
+      <tr>
+        <th><input type="checkbox" class="checkbox" /></th>
+        <td>
+          <div class="flex">
+            <img  class = "rounded-full w-8 h-8 "src="https://placeimg.com/192/195/people" />
+            <span class="pl-5 pt-1">Kristine Cadena</span>
+          </div>
+        </td>
+        <td class="text-blue-700">cadene@example.com</td>
+        <td class="text-blue-700">(201)169-5112</td>
+        <td> 02139 Missisipi, Canada 2451</td>
+      </tr>
+      <tr>
+        <th><input type="checkbox" class="checkbox" /></th>
+        <td>
+          <div class="flex">
+            <div class=" rounded-full bg-gray-600 w-8 h-8 pt-1">
+              <span class="text-white pl-1">SM</span>
+            </div>
+            <span class="pl-5 pt-1">Suzanne Martines</span>
+          </div>
+        </td>
+        <td class="text-blue-700">suzanne@example.com</td>
+        <td class="text-blue-700">(101)500-1851</td>
+        <td>8642 Acapulco, Mexico</td>
+      </tr>
+      <tr>
+        <th><input type="checkbox" class="checkbox" /></th>
+        <td>
+          <div class="flex">
+            <div class=" rounded-full bg-gray-600 w-8 h-8 pt-1">
+              <span class="text-white pl-1">MC</span>
+            </div>
+            <span class="pl-5 pt-1">Marie Cohen</span>
+          </div>
+        </td>
+        <td class="text-blue-700">cohen@example.com</td>
+        <td class="text-blue-700">(201)123-453</td>
+        <td>2399 Cueracuado, Michuacan</td>
       </tr>
     </tbody>
   </table>
+  <div class="flex justify-center pt-5">
+    <div class="btn-group">
+      <button class="btn bg-white text-black"><</button>
+      <button class="btn bg-white text-black" (click)="setClickClass(1)" >1</button>
+      <button class="btn bg-white text-black" (click)="setClickClass(2)">2</button>
+      <button class="btn bg-white text-black" (click)="setClickClass(3)">3</button>
+      <button class="btn bg-white text-black">></button>
+    </div>
+
+  </div>
+
 
 
 
 </div>
+<div class=" pt-5" [class]="activeClickActive  === 2 ? ' block':'hidden' ">
+  <div class="flex">
+    <span class="pt-5 text-2xl text-black">Customers</span>
+    <span class="grow"></span>
+    <div class="btn-group p-2">
+      <button class="btn bg-white text-black">+ New</button>
+      <button class="btn bg-white text-black">Filter</button>
+      <button class="btn bg-white text-black">Export</button>
+    </div>
+  </div>
+  <table class="table w-full">
+    <thead>
+      <tr>
+        <th><input type="checkbox" class="checkbox" /> </th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Phone</th>
+        <th>Billing Adress</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th><input type="checkbox" class="checkbox" /></th>
+        <td>
+          <div class="flex">
+            <div class=" rounded-full bg-gray-600 w-8 h-8 pt-1">
+              <span class="text-white pl-1">RA</span>
+            </div>
+            <span class="pl-5 pt-1">Ricky Antony</span>
+          </div>
+        </td>
+        <td class="text-blue-700">ricky@example.com</td>
+        <td class="text-blue-700">(201)200-1851</td>
+        <td>2392 Main Avenue, Penasauka,New Jarsey 02139</td>
+      </tr>
+      <tr>
+        <th><input type="checkbox" class="checkbox" /></th>
+        <td>
+          <div class="flex">
+            <img  class = "rounded-full w-8 h-8 "src="https://placeimg.com/192/192/people" />
+            <span class="pl-5 pt-1">Emma Watson</span>
+          </div>
+        </td>
+        <td class="text-blue-700">emma@example.com</td>
+        <td class="text-blue-700">(212)228-8403</td>
+        <td>2289 5th Avenue, New York, New York, 10037 </td>
+      </tr>
+      <tr>
+        <th><input type="checkbox" class="checkbox" /></th>
+        <td>
+          <div class="flex">
+            <div class=" rounded-full bg-gray-600 w-8 h-8 pt-1">
+              <span class="text-white pl-1">RA</span>
+            </div>
+            <span class="pl-5 pt-1">Rowen Atkinson</span>
+          </div>
+        </td>
+        <td class="text-blue-700">rown@example.com</td>
+        <td class="text-blue-700">(201)200-1851</td>
+        <td>112 Bostwick Avenue, Jersey Cyty, New Jersey, 0730</td>
+      </tr>
+      <tr>
+        <th><input type="checkbox" class="checkbox" /></th>
+        <td>
+          <div class="flex">
+            <img  class = "rounded-full w-8 h-8 "src="https://placeimg.com/192/190/people" />
+            <span class="pl-5 pt-1">Antony Hopkings</span>
+          </div>
+        </td>
+        <td class="text-blue-700">antony@example.com</td>
+        <td class="text-blue-700">(901)324-3127</td>
+        <td>3438 Ilee De France St #242, Fort Wainhwrithgt, Alaska</td>
+      </tr>
+      <tr>
+        <th><input type="checkbox" class="checkbox" /></th>
+        <td>
+          <div class="flex">
+            <img  class = "rounded-full w-8 h-8 "src="https://placeimg.com/192/194/people" />
+            <span class="pl-5 pt-1">Jennifer Scharamm</span>
+          </div>
+        </td>
+        <td class="text-blue-700">jennifer@example.com</td>
+        <td class="text-blue-700">(401)230-13251</td>
+        <td>2354 Hannah Strett</td>
+      </tr>
+      <tr>
+        <th><input type="checkbox" class="checkbox" /></th>
+        <td>
+          <div class="flex">
+            <div class=" rounded-full bg-gray-600 w-8 h-8 pt-1">
+              <span class="text-white pl-1">RM</span>
+            </div>
+            <span class="pl-5 pt-1">Raymod Mims</span>
+          </div>
+        </td>
+        <td class="text-blue-700">raymond@example.com</td>
+        <td class="text-blue-700">(201)200-1854</td>
+        <td>2298 San Louis, Misurra</td>
+      </tr>
+      <tr>
+        <th><input type="checkbox" class="checkbox" /></th>
+        <td>
+          <div class="flex">
+            <img  class = "rounded-full w-8 h-8 "src="https://placeimg.com/192/198/people" />
+            <span class="pl-5 pt-1">Michael Jenkins</span>
+          </div>
+        </td>
+        <td class="text-blue-700">michael@example.com</td>
+        <td class="text-blue-700">(201)220-1881</td>
+        <td>2571 Boston , Masachuset</td>
+      </tr>
+      <tr>
+        <th><input type="checkbox" class="checkbox" /></th>
+        <td>
+          <div class="flex">
+            <img  class = "rounded-full w-8 h-8 "src="https://placeimg.com/192/195/people" />
+            <span class="pl-5 pt-1">Kristine Cadena</span>
+          </div>
+        </td>
+        <td class="text-blue-700">cadene@example.com</td>
+        <td class="text-blue-700">(201)169-5112</td>
+        <td> 02139 Missisipi, Canada 2451</td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="flex justify-center pt-5">
+    <div class="btn-group">
+      <button class="btn bg-white text-black"><</button>
+      <button class="btn bg-white text-black" (click)="setClickClass(1)">1</button>
+      <button class="btn bg-white text-black"(click)="setClickClass(2)">2</button>
+      <button class="btn bg-white text-black"(click)="setClickClass(3)">3</button>
+      <button class="btn bg-white text-black">></button>
+    </div>
+
+  </div>
+
+
+
+
+</div>
+<div class=" pt-5" [class]="activeClickActive  === 3  ? ' block':'hidden' ">
+  <div class="flex">
+    <span class="pt-5 text-2xl text-black">Customers</span>
+    <span class="grow"></span>
+    <div class="btn-group p-2">
+      <button class="btn bg-white text-black">+ New</button>
+      <button class="btn bg-white text-black">Filter</button>
+      <button class="btn bg-white text-black">Export</button>
+    </div>
+  </div>
+  <table class="table w-full">
+    <thead>
+      <tr>
+        <th><input type="checkbox" class="checkbox" /> </th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Phone</th>
+        <th>Billing Adress</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th><input type="checkbox" class="checkbox" /></th>
+        <td>
+          <div class="flex">
+            <div class=" rounded-full bg-gray-600 w-8 h-8 pt-1">
+              <span class="text-white pl-1">RA</span>
+            </div>
+            <span class="pl-5 pt-1">Ricky Antony</span>
+          </div>
+        </td>
+        <td class="text-blue-700">ricky@example.com</td>
+        <td class="text-blue-700">(201)200-1851</td>
+        <td>2392 Main Avenue, Penasauka,New Jarsey 02139</td>
+      </tr>
+      <tr>
+        <th><input type="checkbox" class="checkbox" /></th>
+        <td>
+          <div class="flex">
+            <img  class = "rounded-full w-8 h-8 "src="https://placeimg.com/192/192/people" />
+            <span class="pl-5 pt-1">Emma Watson</span>
+          </div>
+        </td>
+        <td class="text-blue-700">emma@example.com</td>
+        <td class="text-blue-700">(212)228-8403</td>
+        <td>2289 5th Avenue, New York, New York, 10037 </td>
+      </tr>
+      <tr>
+        <th><input type="checkbox" class="checkbox" /></th>
+        <td>
+          <div class="flex">
+            <div class=" rounded-full bg-gray-600 w-8 h-8 pt-1">
+              <span class="text-white pl-1">RA</span>
+            </div>
+            <span class="pl-5 pt-1">Rowen Atkinson</span>
+          </div>
+        </td>
+        <td class="text-blue-700">rown@example.com</td>
+        <td class="text-blue-700">(201)200-1851</td>
+        <td>112 Bostwick Avenue, Jersey Cyty, New Jersey, 0730</td>
+      </tr>
+      <tr>
+        <th><input type="checkbox" class="checkbox" /></th>
+        <td>
+          <div class="flex">
+            <img  class = "rounded-full w-8 h-8 "src="https://placeimg.com/192/190/people" />
+            <span class="pl-5 pt-1">Antony Hopkings</span>
+          </div>
+        </td>
+        <td class="text-blue-700">antony@example.com</td>
+        <td class="text-blue-700">(901)324-3127</td>
+        <td>3438 Ilee De France St #242, Fort Wainhwrithgt, Alaska</td>
+      </tr>
+      <tr>
+        <th><input type="checkbox" class="checkbox" /></th>
+        <td>
+          <div class="flex">
+            <img  class = "rounded-full w-8 h-8 "src="https://placeimg.com/192/194/people" />
+            <span class="pl-5 pt-1">Jennifer Scharamm</span>
+          </div>
+        </td>
+        <td class="text-blue-700">jennifer@example.com</td>
+        <td class="text-blue-700">(401)230-13251</td>
+        <td>2354 Hannah Strett</td>
+      </tr>
+      <tr>
+        <th><input type="checkbox" class="checkbox" /></th>
+        <td>
+          <div class="flex">
+            <div class=" rounded-full bg-gray-600 w-8 h-8 pt-1">
+              <span class="text-white pl-1">RM</span>
+            </div>
+            <span class="pl-5 pt-1">Raymod Mims</span>
+          </div>
+        </td>
+        <td class="text-blue-700">raymond@example.com</td>
+        <td class="text-blue-700">(201)200-1854</td>
+        <td>2298 San Louis, Misurra</td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="flex justify-center pt-5">
+    <div class="btn-group">
+      <button class="btn bg-white text-black"><</button>
+      <button class="btn bg-white text-black" (click)="setClickClass(1)">1</button>
+      <button class="btn bg-white text-black"(click)="setClickClass(2)">2</button>
+      <button class="btn bg-white text-black"(click)="setClickClass(3)">3</button>
+      <button class="btn bg-white text-black">></button>
+    </div>
+
+  </div>
+
+
+
+
+</div>
+
+
+
