@@ -183,6 +183,9 @@ import { FalconAppEventTicketPriceComponent } from './falcon/app/falcon-app-even
     FalconAPPEemailEemailDetailComponent,
     FalconAppEventTicketPriceComponent,
   ],
+  imports: [
+    CommonModule,
+    FeatureRoutingModule,
     FormsModule,
     NgChartsModule,
     NgChartsModule
