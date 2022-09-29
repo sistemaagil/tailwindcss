@@ -1,17 +1,30 @@
 <div class=" border-gray-800 h-auto w-fit rounded-lg">
   <h5 class="mb-0">Other Info</h5>
 </div>
-<div class=" border-gray-800 h-auto w-90 rounded-lg">
-  <div class="d-flex flex-between-center"><label class="form-label" for="organizer">Organizer</label><button class="btn btn-link btn-sm pe-0" type="button">Add New</button></div>
+<div>
+  <div class="flex flex-row p-2">
+    <label class=" flex flex-row p-2 bg-gray-100" for="organizer">Organizer</label>
+    <button class="btn btn-link btn-96 pr-10" type="button">Add New</button>
+  </div>
 </div>
 <div>
-  <div class="choices__inner"><select class="form-select js-choice choices__input" id="organizer" multiple="multiple" size="1" name="organizer" data-options="{&quot;removeItemButton&quot;:true,&quot;placeholder&quot;:true}" hidden="" tabindex="-1" data-choice="active"></select><div class="choices__list choices__list--multiple"></div><input type="text" class="choices__input choices__input--cloned" autocomplete="off" autocapitalize="off" spellcheck="false" role="textbox" aria-autocomplete="list" aria-label="Select organizer..." placeholder="Select organizer..." style="min-width: 20ch; width: 1ch;"></div>
+  <div class="choices__inner">
+    <select class="form-select js-choice choices__input" id="organizer" multiple="multiple" size="1" name="organizer" data-options="{&quot;removeItemButton&quot;:true,&quot;placeholder&quot;:true}" hidden="" tabindex="-1" data-choice="active"></select>
+    <div class="choices__list choices__list--multiple"></div>
+    <input type="text" class="choices__input choices__input--cloned" autocomplete="off" autocapitalize="off" spellcheck="false" role="textbox" aria-autocomplete="list" aria-label="Select organizer..." placeholder="Select organizer..." style="min-width: 20ch; width: 1ch;">
+  </div>
 </div>
 <div>
-  <div class="d-flex flex-between-center"><label class="form-label" for="sponsors">Sponsors</label><button class="btn btn-link btn-sm pe-0" type="button">Add New</button></div>
+  <div class="d-flex flex-between-center">
+    <label class="form-label" for="sponsors">Sponsors</label>
+    <button class="btn btn-link btn-sm pe-0" type="button">Add New</button>
+  </div>
 </div>
 <div>
-  <div class="choices__inner"><select class="form-select js-choice choices__input" id="sponsors" multiple="multiple" size="1" name="sponsors" data-options="{&quot;removeItemButton&quot;:true,&quot;placeholder&quot;:true}" hidden="" tabindex="-1" data-choice="active"></select><div class="choices__list choices__list--multiple"></div><input type="text" class="choices__input choices__input--cloned" autocomplete="off" autocapitalize="off" spellcheck="false" role="textbox" aria-autocomplete="list" aria-label="Select sponsors..." placeholder="Select sponsors..." style="min-width: 19ch; width: 1ch;"></div>
+  <div class="choices__inner">
+    <select class="form-select js-choice choices__input" id="sponsors" multiple="multiple" size="1" name="sponsors" data-options="{&quot;removeItemButton&quot;:true,&quot;placeholder&quot;:true}" hidden="" tabindex="-1" data-choice="active"></select>
+    <div class="choices__list choices__list--multiple"></div><input type="text" class="choices__input choices__input--cloned" autocomplete="off" autocapitalize="off" spellcheck="false" role="textbox" aria-autocomplete="list" aria-label="Select sponsors..." placeholder="Select sponsors..." style="min-width: 19ch; width: 1ch;">
+  </div>
 </div>
 <div>
   <label class="form-label" for="event-type">Event Type</label>
@@ -45,24 +58,40 @@
   </select>
 </div>
 <div>
-  <div class="d-flex justify-content-between align-items-center"><label class="mb-0" for="event-tags">Tags</label><button class="btn btn-link btn-sm pe-0" type="button">Add New</button></div>
+  <div class="d-flex justify-content-between align-items-center">
+    <label class="mb-0" for="event-tags">Tags</label>
+    <button class="btn btn-link btn-sm pe-0" type="button">Add New</button>
+  </div>
 </div>
 <div>
-  <div class="choices__inner"><select class="form-select js-choice choices__input" id="event-tags" multiple="multiple" size="1" name="tags" data-options="{&quot;removeItemButton&quot;:true,&quot;placeholder&quot;:true}" hidden="" tabindex="-1" data-choice="active"></select><div class="choices__list choices__list--multiple"></div><input type="text" class="choices__input choices__input--cloned" autocomplete="off" autocapitalize="off" spellcheck="false" role="textbox" aria-autocomplete="list" aria-label="Select tags..." placeholder="Select tags..." style="min-width: 15ch; width: 1ch;"></div>
+  <div class="choices__inner">
+    <select class="form-select js-choice choices__input" id="event-tags" multiple="multiple" size="1" name="tags" data-options="{&quot;removeItemButton&quot;:true,&quot;placeholder&quot;:true}" hidden="" tabindex="-1" data-choice="active"></select>
+    <div class="choices__list choices__list--multiple"></div>
+    <input type="text" class="choices__input choices__input--cloned" autocomplete="off" autocapitalize="off" spellcheck="false" role="textbox" aria-autocomplete="list" aria-label="Select tags..." placeholder="Select tags..." style="min-width: 15ch; width: 1ch;">
+  </div>
 </div>
 <div>
-  <div class="choices__list choices__list--dropdown" aria-expanded="false"><div class="choices__list" aria-multiselectable="true" role="listbox"><div id="choices--event-tags-item-choice-1" class="choices__item choices__item--choice choices__item--selectable is-highlighted" role="option" data-choice="" data-id="1" data-value="Concert" data-select-text="" data-choice-selectable="" aria-selected="true">Concert</div><div id="choices--event-tags-item-choice-2" class="choices__item choices__item--choice choices__item--selectable" role="option" data-choice="" data-id="2" data-value="New Year" data-select-text="" data-choice-selectable="" aria-selected="false">New Year</div><div id="choices--event-tags-item-choice-3" class="choices__item choices__item--choice choices__item--selectable" role="option" data-choice="" data-id="3" data-value="Party" data-select-text="" data-choice-selectable="" aria-selected="false">Party</div></div></div>
+  <div class="choices__list choices__list--dropdown" aria-expanded="false">
+    <div class="choices__list" aria-multiselectable="true" role="listbox"></div>
+    <div id="choices--event-tags-item-choice-1" class="choices__item choices__item--choice choices__item--selectable is-highlighted" role="option" data-choice="" data-id="1" data-value="Concert" data-select-text="" data-choice-selectable="" aria-selected="true">Concert</div>
+    <div id="choices--event-tags-item-choice-2" class="choices__item choices__item--choice choices__item--selectable" role="option" data-choice="" data-id="2" data-value="New Year" data-select-text="" data-choice-selectable="" aria-selected="false">New Year</div>
+    <div id="choices--event-tags-item-choice-3" class="choices__item choices__item--choice choices__item--selectable" role="option" data-choice="" data-id="3" data-value="Party" data-select-text="" data-choice-selectable="" aria-selected="false">Party</div>
+  </div>
 </div>
 <div>
   <h6>Listing Privacy</h6>
 </div>
 <div>
-  <div class="mb-3 form-check"><input class="form-check-input" id="customRadio4" type="radio" name="listingPrivacy" checked="checked"><label class="form-label mb-0" for="customRadio4"> <strong>Public page:</strong></label>
+  <div class="mb-3 form-check">
+    <input class="form-check-input" id="customRadio4" type="radio" name="listingPrivacy" checked="checked">
+    <label class="form-label mb-0" for="customRadio4"> <strong>Public page:</strong></label>
     <div class="form-text mt-0">Discoverable by anyone on Falcon, our distribution partners, and search engines.</div>
   </div>
 </div>
 <div>
-  <div class="mb-3 form-check"><input class="form-check-input" id="customRadio5" type="radio" name="listingPrivacy"><label class="form-label mb-0" for="customRadio5"> <strong>Private page:</strong></label>
+  <div class="mb-3 form-check">
+    <input class="form-check-input" id="customRadio5" type="radio" name="listingPrivacy">
+    <label class="form-label mb-0" for="customRadio5"> <strong>Private page:</strong></label>
     <div class="form-text mt-0">Accessible only by people you specify. </div>
   </div>
 </div>
@@ -73,5 +102,8 @@
   <h6>Remaining Tickets</h6>
 </div>
 <div>
-  <div class="form-check custom-checkbox mb-0"><input class="form-check-input" id="customRadio6" type="checkbox"><label class="form-label mb-0" for="customRadio6">Show the number of remaining tickets. </label></div>
+  <div class="form-check custom-checkbox mb-0">
+    <input class="form-check-input" id="customRadio6" type="checkbox">
+    <label class="form-label mb-0" for="customRadio6">Show the number of remaining tickets. </label>
+  </div>
 </div>
