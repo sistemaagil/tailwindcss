@@ -181,6 +181,9 @@ import { FalconAPPEemailEemailDetailComponent } from './falcon/eemail/falcon-app
     FalconDashboardSaasMOREWITHFALCONComponent,
     FalconAPPEemailEemailDetailComponent,
   ],
+  imports: [
+    CommonModule,
+    FeatureRoutingModule,
     FormsModule,
     NgChartsModule,
     NgChartsModule
