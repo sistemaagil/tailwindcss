@@ -86,6 +86,7 @@ import { CustomersComponent } from '../feature/falcon/management/customers/custo
 import { SaasRevenueComponent } from '../feature/falcon/dasboard/saas-revenue/saas-revenue.component';
 import { SaasConversionComponent } from '../feature/falcon/dasboard/saas-conversion/saas-conversion.component';
 import { FalconAPPEemailEemailDetailComponent } from '../feature/falcon/eemail/falcon-app-eemail-eemail-detail/falcon-app-eemail-eemail-detail.component';
+import { FalconAppEventTicketPriceComponent } from '../feature/falcon/app/falcon-app-event-ticket-price/falcon-app-event-ticket-price.component';
 
 const routes: Routes = [
   {path: '', component: MainComponent,
@@ -182,7 +183,10 @@ const routes: Routes = [
       {path: 'falcon-management-customers',component: CustomersComponent},
       {path: 'falcon-saas-revenue', component:SaasRevenueComponent},
       {path: 'falcon-saas-conversion', component:SaasConversionComponent},
-      {path: 'falcon-APP-eemail-eemail-detail', component: FalconAPPEemailEemailDetailComponent}
+      {path: 'falcon-APP-eemail-eemail-detail', component: FalconAPPEemailEemailDetailComponent},
+      {path: 'falcon-app-event-TicketPrice', component: FalconAppEventTicketPriceComponent}
+
+
     ]
   }
 ];
