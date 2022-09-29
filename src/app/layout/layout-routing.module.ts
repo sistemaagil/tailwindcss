@@ -86,6 +86,7 @@ import { CustomersComponent } from '../feature/falcon/management/customers/custo
 import { SaasRevenueComponent } from '../feature/falcon/dasboard/saas-revenue/saas-revenue.component';
 import { SaasConversionComponent } from '../feature/falcon/dasboard/saas-conversion/saas-conversion.component';
 import { FalconAPPEemailEemailDetailComponent } from '../feature/falcon/eemail/falcon-app-eemail-eemail-detail/falcon-app-eemail-eemail-detail.component';
+import { FalconDashboardSaasSHAREDFILESComponent } from '../feature/falcon/dashboard/saas/falcon-dashboard-saas-shared-files/falcon-dashboard-saas-shared-files.component';
 
 const routes: Routes = [
   {path: '', component: MainComponent,
@@ -182,7 +183,8 @@ const routes: Routes = [
       {path: 'falcon-management-customers',component: CustomersComponent},
       {path: 'falcon-saas-revenue', component:SaasRevenueComponent},
       {path: 'falcon-saas-conversion', component:SaasConversionComponent},
-      {path: 'falcon-APP-eemail-eemail-detail', component: FalconAPPEemailEemailDetailComponent}
+      {path: 'falcon-APP-eemail-eemail-detail', component: FalconAPPEemailEemailDetailComponent},
+      {path: 'falcon-dashboard-saas-SHARED_FILES', component:FalconDashboardSaasSHAREDFILESComponent },
     ]
   }
 ];
