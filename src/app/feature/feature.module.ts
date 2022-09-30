@@ -88,6 +88,7 @@ import { CustomersComponent } from './falcon/management/customers/customers.comp
 import { SaasRevenueComponent } from './falcon/dasboard/saas-revenue/saas-revenue.component';
 import { SaasConversionComponent } from './falcon/dasboard/saas-conversion/saas-conversion.component';
 import { FalconAPPEemailEemailDetailComponent } from './falcon/eemail/falcon-app-eemail-eemail-detail/falcon-app-eemail-eemail-detail.component';
+import { FalconDashboardSaasTRANSACTIONSUMMARYComponent } from './falcon/dashboard/saas/falcon-dashboard-saas-transaction-summary/falcon-dashboard-saas-transaction-summary.component';
 
 
 @NgModule({
@@ -180,6 +181,7 @@ import { FalconAPPEemailEemailDetailComponent } from './falcon/eemail/falcon-app
     SaasActiveUsersComponent,
     FalconDashboardSaasMOREWITHFALCONComponent,
     FalconAPPEemailEemailDetailComponent,
+    FalconDashboardSaasTRANSACTIONSUMMARYComponent,
   ],
   imports: [
     CommonModule,
