@@ -3,6 +3,7 @@ import { CodeService } from '../../code.service';
 import dayGridPlugin from '@fullcalendar/daygrid';
 import timeGridPlugin from '@fullcalendar/timegrid';
 import interactionPlugin from '@fullcalendar/interaction';
+import { getLocaleTimeFormat } from '@angular/common';
 
 
 
@@ -47,12 +48,23 @@ export class CalendarComponent implements OnInit {
         description: "Evento 2"
       },
       {
-        title:"Evento 3",
+        title:"Cena",
         start:new Date(new Date().getTime()+(86400000 * 2)),
         end:new Date(new Date().getTime()+(86400000 * 3)),
-        description: "Evento 3"
+        description: "Evento 3",
+        display: 'background',
+        color: 'yellow',
+        textColor: 'black'
       },
-    ]
+      {
+        title:"Ir a comer",
+        start: '2022-06-05T08:00:00',
+        end:'2022-06-05T09:00:00',
+        description: "Evento 2"
+
+      },
+    ],
+
 
     this.codeService.sendCode("");
   }
