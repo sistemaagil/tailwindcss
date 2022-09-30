@@ -183,6 +183,9 @@ import { FalconAppScheduleComponent } from './falcon/app/falcon-app-schedule/fal
     FalconAPPEemailEemailDetailComponent,
     FalconAppScheduleComponent,
   ],
+  imports: [
+    CommonModule,
+    FeatureRoutingModule,
     FormsModule,
     NgChartsModule,
     NgChartsModule
