@@ -88,6 +88,7 @@ import { CustomersComponent } from './falcon/management/customers/customers.comp
 import { SaasRevenueComponent } from './falcon/dasboard/saas-revenue/saas-revenue.component';
 import { SaasConversionComponent } from './falcon/dasboard/saas-conversion/saas-conversion.component';
 import { FalconAPPEemailEemailDetailComponent } from './falcon/eemail/falcon-app-eemail-eemail-detail/falcon-app-eemail-eemail-detail.component';
+import { FalconAppScheduleComponent } from './falcon/app/falcon-app-schedule/falcon-app-schedule.component';
 
 
 @NgModule({
@@ -180,6 +181,7 @@ import { FalconAPPEemailEemailDetailComponent } from './falcon/eemail/falcon-app
     SaasActiveUsersComponent,
     FalconDashboardSaasMOREWITHFALCONComponent,
     FalconAPPEemailEemailDetailComponent,
+    FalconAppScheduleComponent,
   ],
     FormsModule,
     NgChartsModule,
