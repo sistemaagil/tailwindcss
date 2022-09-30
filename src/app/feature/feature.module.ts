@@ -75,6 +75,7 @@ import { ECommerceSalesByPosLocationComponent } from './falcon/dasboard/e-commer
 import { DateAndTimeComponent } from './falcon/events/events-details/date-and-time/date-and-time.component';
 import { EventListComponent } from './falcon/events/events-list/event-list/event-list.component';
 import { EventsMayYouLikeComponent } from './falcon/events/events-details/events-like/events-may-you-like/events-may-you-like.component';
+import { FREENewYearsComponent } from './falcon/events/events-details/Free/free-new-years/free-new-years.component';
 
 
 @NgModule({
@@ -157,6 +158,7 @@ import { EventsMayYouLikeComponent } from './falcon/events/events-details/events
     DateAndTimeComponent,
     EventListComponent,
     EventsMayYouLikeComponent,
+    FREENewYearsComponent,
   ],
   imports: [
     CommonModule,
