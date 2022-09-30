@@ -78,6 +78,7 @@ import { FalconDashboardDefaultWeklySalesComponent } from './falcon/dashboard/fa
 import { ShoppingCartComponent } from './falcon/e-commerce/shopping-cart/shopping-cart.component';
 import { AllordenComponent } from './falcon/allorden/allorden.component';
 import { RevenuesComponent } from './falcon/revenues/revenues.component';
+import { FormsComponent } from './falcon/forms/forms.component';
 
 
 @NgModule({
@@ -163,6 +164,7 @@ import { RevenuesComponent } from './falcon/revenues/revenues.component';
     ShoppingCartComponent,
     AllordenComponent,
     RevenuesComponent,
+    FormsComponent,
   ],
   imports: [
     CommonModule,

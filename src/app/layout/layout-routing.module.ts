@@ -76,6 +76,7 @@ import { FalconDashboardDefaultWeklySalesComponent } from '../feature/falcon/das
 import { ShoppingCartComponent } from '../feature/falcon/e-commerce/shopping-cart/shopping-cart.component';
 import { AllordenComponent } from '../feature/falcon/allorden/allorden.component';
 import { RevenuesComponent } from '../feature/falcon/revenues/revenues.component';
+import { FormsComponent } from '../feature/falcon/forms/forms.component';
 
 const routes: Routes = [
   {path: '', component: MainComponent,
@@ -161,7 +162,8 @@ const routes: Routes = [
       {path: 'falcon-dashboard-default-weklySales', component: FalconDashboardDefaultWeklySalesComponent},
       {path: 'falcon-dashboard-e-commerce-Shopping-Cart', component: ShoppingCartComponent},
       {path:'allorden', component: AllordenComponent},
-      {path:'revenues', component: RevenuesComponent}
+      {path:'revenues', component: RevenuesComponent},
+      {path:'forms', component: FormsComponent}
     ]
   }
 ];
