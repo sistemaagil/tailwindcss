@@ -189,6 +189,9 @@ import { SocialRowanAtkinsonComponent } from './falcon/dasboard/social-rowan-atk
     SocialAddToYourFeedComponent,
     SocialRowanAtkinsonComponent,
   ],
+  imports: [
+    CommonModule,
+    FeatureRoutingModule,
     FormsModule,
     NgChartsModule,
     NgChartsModule
