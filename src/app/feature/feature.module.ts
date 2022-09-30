@@ -72,6 +72,7 @@ import { FalconDashboardManagementTODOLISTComponent } from './falcon/dashboard/f
 import { FalconDashboardManagementWELCOMETOFALCONComponent } from './falcon/dashboard/falcon-dashboard-management-welcome-tofalcon/falcon-dashboard-management-welcome-tofalcon.component';
 import { FalconDashboardDefaultTOPPRODUCTSComponent } from './falcon/dashboard/falcon-dashboard-default-top-products/falcon-dashboard-default-top-products.component';
 import { ECommerceSalesByPosLocationComponent } from './falcon/dasboard/e-commerce-sales-by-pos-location/e-commerce-sales-by-pos-location.component';
+<<<<<<< HEAD
 import { FalconAppEventCreateEventComponent } from './falcon/event/falcon-app-event-create-event/falcon-app-event-create-event.component';
 import { CalendarComponent } from './falcon/calendar/calendar.component';
 import { FalconECommerceProductGirdProductDetailsComponent } from './falcon/dashboard/falcon-e-commerce-product-gird-product-details/falcon-e-commerce-product-gird-product-details.component';
@@ -88,6 +89,12 @@ import { CustomersComponent } from './falcon/management/customers/customers.comp
 import { SaasRevenueComponent } from './falcon/dasboard/saas-revenue/saas-revenue.component';
 import { SaasConversionComponent } from './falcon/dasboard/saas-conversion/saas-conversion.component';
 import { FalconAPPEemailEemailDetailComponent } from './falcon/eemail/falcon-app-eemail-eemail-detail/falcon-app-eemail-eemail-detail.component';
+=======
+import { ECommerceTotalSalesComponent } from './falcon/dasboard/e-commerce-total-sales/e-commerce-total-sales.component';
+import { SocialCreatePostComponent } from './falcon/dasboard/social-create-post/social-create-post.component';
+import { SocialAddToYourFeedComponent } from './falcon/dasboard/social-add-to-your-feed/social-add-to-your-feed.component';
+import { SocialRowanAtkinsonComponent } from './falcon/dasboard/social-rowan-atkinson/social-rowan-atkinson.component';
+>>>>>>> f529c817266310c4450e5f1b44af5fc73c166b0f
 
 
 @NgModule({
@@ -167,6 +174,7 @@ import { FalconAPPEemailEemailDetailComponent } from './falcon/eemail/falcon-app
     FalconDashboardManagementWELCOMETOFALCONComponent,
     FalconDashboardDefaultTOPPRODUCTSComponent,
     ECommerceSalesByPosLocationComponent,
+<<<<<<< HEAD
     FalconAppEventCreateEventComponent,
     CalendarComponent,
     FalconECommerceProductGirdProductDetailsComponent,
@@ -180,6 +188,12 @@ import { FalconAPPEemailEemailDetailComponent } from './falcon/eemail/falcon-app
     SaasActiveUsersComponent,
     FalconDashboardSaasMOREWITHFALCONComponent,
     FalconAPPEemailEemailDetailComponent,
+=======
+    ECommerceTotalSalesComponent,
+    SocialCreatePostComponent,
+    SocialAddToYourFeedComponent,
+    SocialRowanAtkinsonComponent,
+>>>>>>> f529c817266310c4450e5f1b44af5fc73c166b0f
   ],
     FormsModule,
     NgChartsModule,
