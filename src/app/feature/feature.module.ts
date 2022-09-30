@@ -93,6 +93,7 @@ import { SocialCreatePostComponent } from './falcon/dasboard/social-create-post/
 import { SocialAddToYourFeedComponent } from './falcon/dasboard/social-add-to-your-feed/social-add-to-your-feed.component';
 import { SocialRowanAtkinsonComponent } from './falcon/dasboard/social-rowan-atkinson/social-rowan-atkinson.component';
 import { SaasCustomersComponent } from './falcon/dasboard/saas-customers/saas-customers.component';
+import { SaasTodayComponent } from './falcon/dasboard/saas-today/saas-today.component';
 
 
 @NgModule({
@@ -190,6 +191,7 @@ import { SaasCustomersComponent } from './falcon/dasboard/saas-customers/saas-cu
     SocialAddToYourFeedComponent,
     SocialRowanAtkinsonComponent,
     SaasCustomersComponent,
+    SaasTodayComponent,
   ],
   imports: [
     CommonModule,
