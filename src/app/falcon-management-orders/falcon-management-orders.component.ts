@@ -10,7 +10,7 @@ export class FalconManagementOrdersComponent implements OnInit {
 
   constructor(private codeService: CodeService) { }
 
-  ngOnInit(): void {    this.codeService.sendCode("url del html de su componente pero en original");
+  ngOnInit(): void {    this.codeService.sendCode("https://gitea.sistemaagil.net/Tailwindcss/tailwindcss-frontend/raw/branch/feature/falcon/Management-Orders/src/app/layout/sidebar/sidebar.component.html");
   }
 
 }

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ChartConfiguration } from 'chart.js';
+import { CodeService } from 'src/app/feature/code.service';
 
 @Component({
   selector: 'app-falcon-dashboard-market-share',
@@ -21,9 +22,9 @@ export class FalconDashboardMarketShareComponent implements OnInit {
     responsive: false
   };
 
-  constructor() { }
+  constructor(private codeService: CodeService) { }
 
-  ngOnInit(): void {
+  ngOnInit(): void {  this.codeService.sendCode("https://gitea.sistemaagil.net/Tailwindcss/tailwindcss-frontend/raw/branch/feature/falcon/Management-Orders/src/app/layout/sidebar/sidebar.component.html");
   }
 
 }
