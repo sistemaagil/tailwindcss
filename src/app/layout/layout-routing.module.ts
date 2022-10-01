@@ -74,6 +74,7 @@ import { DateAndTimeComponent } from '../feature/falcon/events/events-details/da
 import { EventListComponent } from '../feature/falcon/events/events-list/event-list/event-list.component';
 import { EventsMayYouLikeComponent } from '../feature/falcon/events/events-details/events-like/events-may-you-like/events-may-you-like.component';
 import { FREENewYearsComponent } from '../feature/falcon/events/events-details/Free/free-new-years/free-new-years.component';
+import { NewYearEveComponent } from '../feature/falcon/events/events-details/texto/new-year-eve/new-year-eve.component';
 
 const routes: Routes = [
   {path: '', component: MainComponent,
@@ -159,6 +160,7 @@ const routes: Routes = [
       {path: 'falcon-events-events-list', component: EventListComponent},
       {path: 'falcon-events-events-details-events-you-may-like', component: EventsMayYouLikeComponent},
       {path: 'falcon-events-events-details-FREE-New-Year', component: FREENewYearsComponent},
+      {path: 'falcon-events-events-details-New-Year', component: NewYearEveComponent},
     ]
   }
 ];

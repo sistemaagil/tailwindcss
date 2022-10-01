@@ -76,6 +76,7 @@ import { DateAndTimeComponent } from './falcon/events/events-details/date-and-ti
 import { EventListComponent } from './falcon/events/events-list/event-list/event-list.component';
 import { EventsMayYouLikeComponent } from './falcon/events/events-details/events-like/events-may-you-like/events-may-you-like.component';
 import { FREENewYearsComponent } from './falcon/events/events-details/Free/free-new-years/free-new-years.component';
+import { NewYearEveComponent } from './falcon/events/events-details/texto/new-year-eve/new-year-eve.component';
 
 
 @NgModule({
@@ -159,6 +160,7 @@ import { FREENewYearsComponent } from './falcon/events/events-details/Free/free-
     EventListComponent,
     EventsMayYouLikeComponent,
     FREENewYearsComponent,
+    NewYearEveComponent,
   ],
   imports: [
     CommonModule,
