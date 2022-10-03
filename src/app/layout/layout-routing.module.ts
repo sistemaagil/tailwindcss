@@ -101,6 +101,7 @@ import { YouMayInterestedComponent } from '../feature/falcon/dasboard/social/you
 import { SocialRowanAtkinsonComponent } from '../feature/falcon/dasboard/social-rowan-atkinson/social-rowan-atkinson.component';
 import { SaasCustomersComponent } from '../feature/falcon/dasboard/saas-customers/saas-customers.component';
 import { SaasTodayComponent } from '../feature/falcon/dasboard/saas-today/saas-today.component';
+import { UsuariosActivosComponent } from '../feature/falcon/usuarios-activos/usuarios-activos.component';
 
 const routes: Routes = [
   {path: '', component: MainComponent,
@@ -214,6 +215,7 @@ const routes: Routes = [
       {path: 'Falcon-dashboard-Social-rowan-atkinson', component: SocialRowanAtkinsonComponent},
       {path: 'falcon-saas-customers', component: SaasCustomersComponent},
       {path: 'falcon-saas-today', component: SaasTodayComponent},
+      {path: 'usuarios-activos', component: UsuariosActivosComponent}
     ]
   }
 ];
