@@ -63,6 +63,13 @@ export class CalendarComponent implements OnInit {
         description: "Evento 2"
 
       },
+      {
+        title:"tutorias",
+        start:'2022-10-06T16:00:00',
+        end:'2022-10-07T17:00:00'
+
+
+      },
     ],
 
 
