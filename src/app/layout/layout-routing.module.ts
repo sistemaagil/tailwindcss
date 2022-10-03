@@ -218,7 +218,7 @@ const routes: Routes = [
       {path: 'Falcon-dashboard-Social-rowan-atkinson', component: SocialRowanAtkinsonComponent},
       {path: 'falcon-saas-customers', component: SaasCustomersComponent},
       {path: 'falcon-saas-today', component: SaasTodayComponent},
-      {path: 'usuarios-activos', component: UsuariosActivosComponent}
+      {path: 'usuarios-activos', component: UsuariosActivosComponent},
       {path:'allorden', component: AllordenComponent},
       {path:'revenues', component: RevenuesComponent},
       {path:'forms', component: FormsComponent}
