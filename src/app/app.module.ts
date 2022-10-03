@@ -7,6 +7,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { NgChartsModule } from 'ng2-charts';
 import { NewContactComponent } from './Falcon/dashboard/CRM/new-contact/new-contact.component';
 import { FalconManagementOrdersComponent } from './falcon-management-orders/falcon-management-orders.component';
+import{ FullCalendarModule } from 'primeng/fullcalendar';
 
 
 
@@ -15,8 +16,7 @@ import { FalconManagementOrdersComponent } from './falcon-management-orders/falc
   declarations: [
     AppComponent,
     NewContactComponent,
-
-    FalconManagementOrdersComponent
+    FalconManagementOrdersComponent,
   ],
   imports: [
     BrowserModule,
@@ -24,6 +24,7 @@ import { FalconManagementOrdersComponent } from './falcon-management-orders/falc
     FormsModule,
     HttpClientModule,
     NgChartsModule,
+    FullCalendarModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
