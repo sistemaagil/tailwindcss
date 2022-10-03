@@ -74,7 +74,6 @@ import { FalconECommerceProductGirdProductDetailsComponent } from '../feature/fa
 import { FalconECommerceWeklySalesComponent } from '../feature/falcon/dashboard/falcon-e-commerce-wekly-sales/falcon-e-commerce-wekly-sales.component';
 import { FalconDashboardDefaultWeklySalesComponent } from '../feature/falcon/dashboard/falcon-dashboard-default-wekly-sales/falcon-dashboard-default-wekly-sales.component';
 import { FalconECommerceProductGridDetaisComponent } from '../feature/falcon/e-commerce/falcon-e-commerce-product-grid-detais/falcon-e-commerce-product-grid-detais.component';
-
 const routes: Routes = [
   {path: '', component: MainComponent,
     children: [
