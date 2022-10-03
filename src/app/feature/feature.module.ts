@@ -73,6 +73,7 @@ import { FalconDashboardManagementWELCOMETOFALCONComponent } from './falcon/dash
 import { FalconDashboardDefaultTOPPRODUCTSComponent } from './falcon/dashboard/falcon-dashboard-default-top-products/falcon-dashboard-default-top-products.component';
 import { ECommerceSalesByPosLocationComponent } from './falcon/dasboard/e-commerce-sales-by-pos-location/e-commerce-sales-by-pos-location.component';
 import { StarterComponent } from './falcon/starter/starter.component';
+import { StarterDocumentacionComponent } from './falcon/starter-documentacion/starter-documentacion.component';
 
 
 @NgModule({
@@ -153,6 +154,7 @@ import { StarterComponent } from './falcon/starter/starter.component';
     FalconDashboardDefaultTOPPRODUCTSComponent,
     ECommerceSalesByPosLocationComponent,
     StarterComponent,
+    StarterDocumentacionComponent,
   ],
   imports: [
     CommonModule,
