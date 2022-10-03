@@ -1,0 +1,29 @@
+<div class="border-2 rounded-lg shadow-lg m-2 ">
+
+    <div class="flex flex-row h-5">
+      <div class="w-11/12 pt-4 pb-12 pl-4 text-lg font-medium">Total Sales</div>
+
+      
+      <div class="dropdown pl-64">
+        <label tabindex="0" class="btn bg-white border-none text-gray-700 hover:bg-gray-100">•••</label>
+        <ul class="dropdown-content menu shadow bg-base-100">
+          <li class="h-10"><a>View</a></li>
+          <li class="h-10" ><a>Export</a></li>
+          <li class="h-12 text-red-600 border-top-2"><a>Remove</a></li>
+        </ul>
+      </div>
+    </div>
+        <div class="w-full h-full pt-0 pl-2">
+          
+          <canvas baseChart width="1000" height="400"
+          [data]="lineChartData "
+          [options]="lineChartOptions"
+          [plugins]="lineChartPlugins"
+          [legend]="lineChartLegend"
+          [type]="'line'">
+  </canvas>
+  
+  
+        </div>
+  </div>
+  
