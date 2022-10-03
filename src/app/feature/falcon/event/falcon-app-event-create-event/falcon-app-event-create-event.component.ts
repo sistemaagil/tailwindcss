@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { CodeService } from 'src/app/feature/code.service';
 
 @Component({
   selector: 'app-falcon-app-event-create-event',
@@ -7,9 +8,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FalconAppEventCreateEventComponent implements OnInit {
 
-  constructor() { }
+  constructor(private codeService: CodeService) { }
 
-  ngOnInit(): void {
+  ngOnInit(): void {this.codeService.sendCode("url del html de su componente pero en original");
   }
 
 }

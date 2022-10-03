@@ -78,6 +78,8 @@ import { EventsMayYouLikeComponent } from './falcon/events/events-details/events
 import { FREENewYearsComponent } from './falcon/events/events-details/Free/free-new-years/free-new-years.component';
 import { NewYearEveComponent } from './falcon/events/events-details/texto/new-year-eve/new-year-eve.component';
 import { FalconAppEventCreateEventComponent } from './falcon/event/falcon-app-event-create-event/falcon-app-event-create-event.component';
+
+import { FalconAppEventEventDetailsComponent } from './falcon/event/falcon-app-event-event-details/falcon-app-event-event-details.component';
 import { CalendarComponent } from './falcon/calendar/calendar.component';
 import { FalconECommerceProductGirdProductDetailsComponent } from './falcon/dashboard/falcon-e-commerce-product-gird-product-details/falcon-e-commerce-product-gird-product-details.component';
 import { FalconECommerceWeklySalesComponent } from './falcon/dashboard/falcon-e-commerce-wekly-sales/falcon-e-commerce-wekly-sales.component';
@@ -92,13 +94,23 @@ import { FalconDashboardSaasMOREWITHFALCONComponent } from './falcon/dashboard/s
 import { CustomersComponent } from './falcon/management/customers/customers.component';
 import { SaasRevenueComponent } from './falcon/dasboard/saas-revenue/saas-revenue.component';
 import { SaasConversionComponent } from './falcon/dasboard/saas-conversion/saas-conversion.component';
+import { FalconAppEventOtherInfoComponent } from './falcon/app/falcon-app-event-other-info/falcon-app-event-other-info.component';
 import { FalconAPPEemailEemailDetailComponent } from './falcon/eemail/falcon-app-eemail-eemail-detail/falcon-app-eemail-eemail-detail.component';
+import { FalconAppEventTicketPriceComponent } from './falcon/app/falcon-app-event-ticket-price/falcon-app-event-ticket-price.component';
+import { FalconAppScheduleComponent } from './falcon/app/falcon-app-schedule/falcon-app-schedule.component';
+import { FalconDashboardSaasTRANSACTIONSUMMARYComponent } from './falcon/dashboard/saas/falcon-dashboard-saas-transaction-summary/falcon-dashboard-saas-transaction-summary.component';
+import { FalconDashboardSaasSHAREDFILESComponent } from './falcon/dashboard/saas/falcon-dashboard-saas-shared-files/falcon-dashboard-saas-shared-files.component';
+import { FalconDashboardSaasGrossRevenueComponent } from './falcon/dashboard/saas/falcon-dashboard-saas-gross-revenue/falcon-dashboard-saas-gross-revenue.component';
 import { ECommerceTotalSalesComponent } from './falcon/dasboard/e-commerce-total-sales/e-commerce-total-sales.component';
 import { SocialCreatePostComponent } from './falcon/dasboard/social-create-post/social-create-post.component';
 import { SocialAddToYourFeedComponent } from './falcon/dasboard/social-add-to-your-feed/social-add-to-your-feed.component';
 import { SocialRowanAtkinsonComponent } from './falcon/dasboard/social-rowan-atkinson/social-rowan-atkinson.component';
 import { SaasCustomersComponent } from './falcon/dasboard/saas-customers/saas-customers.component';
 import { SaasTodayComponent } from './falcon/dasboard/saas-today/saas-today.component';
+import { UsuariosActivosComponent } from './falcon/usuarios-activos/usuarios-activos.component';
+import { AllordenComponent } from './falcon/allorden/allorden.component';
+import { RevenuesComponent } from './falcon/revenues/revenues.component';
+import { FormsComponent } from './falcon/forms/forms.component';
 
 
 @NgModule({
@@ -184,6 +196,9 @@ import { SaasTodayComponent } from './falcon/dasboard/saas-today/saas-today.comp
     FREENewYearsComponent,
     NewYearEveComponent,
     FalconAppEventCreateEventComponent,
+    FalconECommerceProductGirdProductDetailsComponent,
+    FalconECommerceWeklySalesComponent,
+    FalconAppEventEventDetailsComponent,
     CalendarComponent,
     FalconECommerceProductGirdProductDetailsComponent,
     FalconECommerceWeklySalesComponent,
@@ -194,14 +209,27 @@ import { SaasTodayComponent } from './falcon/dasboard/saas-today/saas-today.comp
     TopProductsComponent,
     FalconAPPEemailInboxComponent,
     SaasActiveUsersComponent,
+    SaasRevenueComponent,
+    SaasConversionComponent,
+    FalconAppEventOtherInfoComponent,
+
     FalconDashboardSaasMOREWITHFALCONComponent,
     FalconAPPEemailEemailDetailComponent,
+    FalconAppEventTicketPriceComponent,
+    FalconAppScheduleComponent,
+    FalconDashboardSaasTRANSACTIONSUMMARYComponent,
+    FalconDashboardSaasSHAREDFILESComponent,
+    FalconDashboardSaasGrossRevenueComponent,
     ECommerceTotalSalesComponent,
     SocialCreatePostComponent,
     SocialAddToYourFeedComponent,
     SocialRowanAtkinsonComponent,
     SaasCustomersComponent,
     SaasTodayComponent,
+    UsuariosActivosComponent,
+    AllordenComponent,
+    RevenuesComponent,
+    FormsComponent,
   ],
   imports: [
     CommonModule,

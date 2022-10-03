@@ -76,6 +76,8 @@ import { EventsMayYouLikeComponent } from '../feature/falcon/events/events-detai
 import { FREENewYearsComponent } from '../feature/falcon/events/events-details/Free/free-new-years/free-new-years.component';
 import { NewYearEveComponent } from '../feature/falcon/events/events-details/texto/new-year-eve/new-year-eve.component';
 import { FalconAppEventCreateEventComponent } from '../feature/falcon/event/falcon-app-event-create-event/falcon-app-event-create-event.component';
+
+import { FalconAppEventEventDetailsComponent } from '../feature/falcon/event/falcon-app-event-event-details/falcon-app-event-event-details.component';
 import { CalendarComponent } from '../feature/falcon/calendar/calendar.component';
 import { FalconECommerceProductGirdProductDetailsComponent } from '../feature/falcon/dashboard/falcon-e-commerce-product-gird-product-details/falcon-e-commerce-product-gird-product-details.component';
 import { FalconECommerceWeklySalesComponent } from '../feature/falcon/dashboard/falcon-e-commerce-wekly-sales/falcon-e-commerce-wekly-sales.component';
@@ -90,7 +92,13 @@ import { FalconDashboardSaasMOREWITHFALCONComponent } from '../feature/falcon/da
 import { CustomersComponent } from '../feature/falcon/management/customers/customers.component';
 import { SaasRevenueComponent } from '../feature/falcon/dasboard/saas-revenue/saas-revenue.component';
 import { SaasConversionComponent } from '../feature/falcon/dasboard/saas-conversion/saas-conversion.component';
+import { FalconAppEventOtherInfoComponent } from '../feature/falcon/app/falcon-app-event-other-info/falcon-app-event-other-info.component';
 import { FalconAPPEemailEemailDetailComponent } from '../feature/falcon/eemail/falcon-app-eemail-eemail-detail/falcon-app-eemail-eemail-detail.component';
+import { FalconAppEventTicketPriceComponent } from '../feature/falcon/app/falcon-app-event-ticket-price/falcon-app-event-ticket-price.component';
+import { FalconAppScheduleComponent } from '../feature/falcon/app/falcon-app-schedule/falcon-app-schedule.component';
+import { FalconDashboardSaasTRANSACTIONSUMMARYComponent } from '../feature/falcon/dashboard/saas/falcon-dashboard-saas-transaction-summary/falcon-dashboard-saas-transaction-summary.component';
+import { FalconDashboardSaasSHAREDFILESComponent } from '../feature/falcon/dashboard/saas/falcon-dashboard-saas-shared-files/falcon-dashboard-saas-shared-files.component';
+import { FalconDashboardSaasGrossRevenueComponent } from '../feature/falcon/dashboard/saas/falcon-dashboard-saas-gross-revenue/falcon-dashboard-saas-gross-revenue.component';
 import { ECommerceTotalSalesComponent } from '../feature/falcon/dasboard/e-commerce-total-sales/e-commerce-total-sales.component';
 import { SocialCreatePostComponent } from '../feature/falcon/dasboard/social-create-post/social-create-post.component';
 import { SocialAddToYourFeedComponent } from '../feature/falcon/dasboard/social-add-to-your-feed/social-add-to-your-feed.component';
@@ -98,6 +106,10 @@ import { YouMayInterestedComponent } from '../feature/falcon/dasboard/social/you
 import { SocialRowanAtkinsonComponent } from '../feature/falcon/dasboard/social-rowan-atkinson/social-rowan-atkinson.component';
 import { SaasCustomersComponent } from '../feature/falcon/dasboard/saas-customers/saas-customers.component';
 import { SaasTodayComponent } from '../feature/falcon/dasboard/saas-today/saas-today.component';
+import { UsuariosActivosComponent } from '../feature/falcon/usuarios-activos/usuarios-activos.component';
+import { AllordenComponent } from '../feature/falcon/allorden/allorden.component';
+import { RevenuesComponent } from '../feature/falcon/revenues/revenues.component';
+import { FormsComponent } from '../feature/falcon/forms/forms.component';
 
 const routes: Routes = [
   {path: '', component: MainComponent,
@@ -186,6 +198,10 @@ const routes: Routes = [
       {path: 'falcon-events-events-details-New-Year', component: NewYearEveComponent},
       {path: 'falcon-app-event-CreateEvent', component:FalconAppEventCreateEventComponent},
 
+      {path: 'falcon-e-commerce-Product_Gird_Product_Details', component: FalconECommerceProductGirdProductDetailsComponent},
+      {path: 'falcon-e-commerce-wekly-Sales', component: FalconECommerceWeklySalesComponent},
+      {path: 'falcon-app-event-eventDetails', component: FalconAppEventEventDetailsComponent},
+
       {path: 'falcon-Calendar', component: CalendarComponent},
       {path: 'falcon-e-commerce-wekly-Sales', component: FalconECommerceWeklySalesComponent},
       {path: 'falcon-dashboard-default-weklySales', component: FalconDashboardDefaultWeklySalesComponent},
@@ -199,6 +215,18 @@ const routes: Routes = [
       {path: 'falcon-management-customers',component: CustomersComponent},
       {path: 'falcon-saas-revenue', component:SaasRevenueComponent},
       {path: 'falcon-saas-conversion', component:SaasConversionComponent},
+      {path: 'falcon-app-event-OtherInfo', component:FalconAppEventOtherInfoComponent},
+
+      {path: 'falcon-APP-eemail-eemail-detail', component: FalconAPPEemailEemailDetailComponent},
+      {path: 'falcon-app-event-TicketPrice', component: FalconAppEventTicketPriceComponent},
+
+
+      {path: 'falcon-app-Schedule', component: FalconAppScheduleComponent},
+
+
+      {path: 'falcon-dashboard-saas-TRANSACTION_SUMMARY', component:FalconDashboardSaasTRANSACTIONSUMMARYComponent},
+      {path: 'falcon-dashboard-saas-SHARED_FILES', component:FalconDashboardSaasSHAREDFILESComponent },
+      {path: 'falcon-dashboard-saas-grossRevenue', component:FalconDashboardSaasGrossRevenueComponent},
       {path: 'falcon-APP-eemail-eemail-detail', component: FalconAPPEemailEemailDetailComponent},
       {path: 'falcon-e-commerce-Total-Sales', component:ECommerceTotalSalesComponent},
       {path: 'Falcon-dashboard-Social-create-post', component: SocialCreatePostComponent},
@@ -207,6 +235,10 @@ const routes: Routes = [
       {path: 'Falcon-dashboard-Social-rowan-atkinson', component: SocialRowanAtkinsonComponent},
       {path: 'falcon-saas-customers', component: SaasCustomersComponent},
       {path: 'falcon-saas-today', component: SaasTodayComponent},
+      {path: 'usuarios-activos', component: UsuariosActivosComponent},
+      {path:'allorden', component: AllordenComponent},
+      {path:'revenues', component: RevenuesComponent},
+      {path:'forms', component: FormsComponent}
     ]
   }
 ];
