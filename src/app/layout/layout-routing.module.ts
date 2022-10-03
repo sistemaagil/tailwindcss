@@ -70,6 +70,7 @@ import { FalconDashboardManagementTODOLISTComponent } from '../feature/falcon/da
 import { FalconDashboardManagementWELCOMETOFALCONComponent } from '../feature/falcon/dashboard/falcon-dashboard-management-welcome-tofalcon/falcon-dashboard-management-welcome-tofalcon.component';
 import { FalconDashboardDefaultTOPPRODUCTSComponent } from '../feature/falcon/dashboard/falcon-dashboard-default-top-products/falcon-dashboard-default-top-products.component';
 import { ECommerceSalesByPosLocationComponent } from '../feature/falcon/dasboard/e-commerce-sales-by-pos-location/e-commerce-sales-by-pos-location.component';
+<<<<<<< HEAD
 import { DateAndTimeComponent } from '../feature/falcon/events/events-details/date-and-time/date-and-time.component';
 import { EventListComponent } from '../feature/falcon/events/events-list/event-list/event-list.component';
 import { EventsMayYouLikeComponent } from '../feature/falcon/events/events-details/events-like/events-may-you-like/events-may-you-like.component';
@@ -110,6 +111,8 @@ import { UsuariosActivosComponent } from '../feature/falcon/usuarios-activos/usu
 import { AllordenComponent } from '../feature/falcon/allorden/allorden.component';
 import { RevenuesComponent } from '../feature/falcon/revenues/revenues.component';
 import { FormsComponent } from '../feature/falcon/forms/forms.component';
+import{StarterComponent} from '../feature/falcon/starter/starter.component'
+import {StarterDocumentacionComponent} from '../feature/falcon/starter-documentacion/starter-documentacion.component'
 
 const routes: Routes = [
   {path: '', component: MainComponent,
@@ -197,7 +200,6 @@ const routes: Routes = [
       {path: 'falcon-events-events-details-FREE-New-Year', component: FREENewYearsComponent},
       {path: 'falcon-events-events-details-New-Year', component: NewYearEveComponent},
       {path: 'falcon-app-event-CreateEvent', component:FalconAppEventCreateEventComponent},
-
       {path: 'falcon-e-commerce-Product_Gird_Product_Details', component: FalconECommerceProductGirdProductDetailsComponent},
       {path: 'falcon-e-commerce-wekly-Sales', component: FalconECommerceWeklySalesComponent},
       {path: 'falcon-app-event-eventDetails', component: FalconAppEventEventDetailsComponent},
@@ -238,7 +240,9 @@ const routes: Routes = [
       {path: 'usuarios-activos', component: UsuariosActivosComponent},
       {path:'allorden', component: AllordenComponent},
       {path:'revenues', component: RevenuesComponent},
-      {path:'forms', component: FormsComponent}
+      {path:'forms', component: FormsComponent},
+      {path: 'falcon-starter', component:StarterComponent},
+      {path: 'falcon-starter-documentacion', component:StarterDocumentacionComponent},
     ]
   }
 ];
