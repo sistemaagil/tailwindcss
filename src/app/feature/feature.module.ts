@@ -94,6 +94,7 @@ import { SaasRevenueComponent } from './falcon/dasboard/saas-revenue/saas-revenu
 import { SaasConversionComponent } from './falcon/dasboard/saas-conversion/saas-conversion.component';
 import { FalconAPPEemailEemailDetailComponent } from './falcon/eemail/falcon-app-eemail-eemail-detail/falcon-app-eemail-eemail-detail.component';
 import { FalconDashboardSaasTRANSACTIONSUMMARYComponent } from './falcon/dashboard/saas/falcon-dashboard-saas-transaction-summary/falcon-dashboard-saas-transaction-summary.component';
+import { FalconDashboardSaasSHAREDFILESComponent } from './falcon/dashboard/saas/falcon-dashboard-saas-shared-files/falcon-dashboard-saas-shared-files.component';
 import { FalconDashboardSaasGrossRevenueComponent } from './falcon/dashboard/saas/falcon-dashboard-saas-gross-revenue/falcon-dashboard-saas-gross-revenue.component';
 import { ECommerceTotalSalesComponent } from './falcon/dasboard/e-commerce-total-sales/e-commerce-total-sales.component';
 import { SocialCreatePostComponent } from './falcon/dasboard/social-create-post/social-create-post.component';
@@ -199,6 +200,7 @@ import { SaasTodayComponent } from './falcon/dasboard/saas-today/saas-today.comp
     FalconDashboardSaasMOREWITHFALCONComponent,
     FalconAPPEemailEemailDetailComponent,
     FalconDashboardSaasTRANSACTIONSUMMARYComponent,
+    FalconDashboardSaasSHAREDFILESComponent,
     FalconDashboardSaasGrossRevenueComponent,
     ECommerceTotalSalesComponent,
     SocialCreatePostComponent,

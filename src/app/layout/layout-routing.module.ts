@@ -92,6 +92,7 @@ import { SaasRevenueComponent } from '../feature/falcon/dasboard/saas-revenue/sa
 import { SaasConversionComponent } from '../feature/falcon/dasboard/saas-conversion/saas-conversion.component';
 import { FalconAPPEemailEemailDetailComponent } from '../feature/falcon/eemail/falcon-app-eemail-eemail-detail/falcon-app-eemail-eemail-detail.component';
 import { FalconDashboardSaasTRANSACTIONSUMMARYComponent } from '../feature/falcon/dashboard/saas/falcon-dashboard-saas-transaction-summary/falcon-dashboard-saas-transaction-summary.component';
+import { FalconDashboardSaasSHAREDFILESComponent } from '../feature/falcon/dashboard/saas/falcon-dashboard-saas-shared-files/falcon-dashboard-saas-shared-files.component';
 import { FalconDashboardSaasGrossRevenueComponent } from '../feature/falcon/dashboard/saas/falcon-dashboard-saas-gross-revenue/falcon-dashboard-saas-gross-revenue.component';
 import { ECommerceTotalSalesComponent } from '../feature/falcon/dasboard/e-commerce-total-sales/e-commerce-total-sales.component';
 import { SocialCreatePostComponent } from '../feature/falcon/dasboard/social-create-post/social-create-post.component';
@@ -203,6 +204,7 @@ const routes: Routes = [
       {path: 'falcon-saas-conversion', component:SaasConversionComponent},
       {path: 'falcon-APP-eemail-eemail-detail', component: FalconAPPEemailEemailDetailComponent},
       {path: 'falcon-dashboard-saas-TRANSACTION_SUMMARY', component:FalconDashboardSaasTRANSACTIONSUMMARYComponent},
+      {path: 'falcon-dashboard-saas-SHARED_FILES', component:FalconDashboardSaasSHAREDFILESComponent },
       {path: 'falcon-dashboard-saas-grossRevenue', component:FalconDashboardSaasGrossRevenueComponent},
       {path: 'falcon-APP-eemail-eemail-detail', component: FalconAPPEemailEemailDetailComponent},
       {path: 'falcon-e-commerce-Total-Sales', component:ECommerceTotalSalesComponent},
