@@ -103,6 +103,9 @@ import { SocialRowanAtkinsonComponent } from './falcon/dasboard/social-rowan-atk
 import { SaasCustomersComponent } from './falcon/dasboard/saas-customers/saas-customers.component';
 import { SaasTodayComponent } from './falcon/dasboard/saas-today/saas-today.component';
 import { UsuariosActivosComponent } from './falcon/usuarios-activos/usuarios-activos.component';
+import { AllordenComponent } from './falcon/allorden/allorden.component';
+import { RevenuesComponent } from './falcon/revenues/revenues.component';
+import { FormsComponent } from './falcon/forms/forms.component';
 
 
 @NgModule({
@@ -210,6 +213,9 @@ import { UsuariosActivosComponent } from './falcon/usuarios-activos/usuarios-act
     SaasCustomersComponent,
     SaasTodayComponent,
     UsuariosActivosComponent,
+    AllordenComponent,
+    RevenuesComponent,
+    FormsComponent,
   ],
   imports: [
     CommonModule,
