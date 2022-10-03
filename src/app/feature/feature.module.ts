@@ -72,7 +72,6 @@ import { FalconDashboardManagementTODOLISTComponent } from './falcon/dashboard/f
 import { FalconDashboardManagementWELCOMETOFALCONComponent } from './falcon/dashboard/falcon-dashboard-management-welcome-tofalcon/falcon-dashboard-management-welcome-tofalcon.component';
 import { FalconDashboardDefaultTOPPRODUCTSComponent } from './falcon/dashboard/falcon-dashboard-default-top-products/falcon-dashboard-default-top-products.component';
 import { ECommerceSalesByPosLocationComponent } from './falcon/dasboard/e-commerce-sales-by-pos-location/e-commerce-sales-by-pos-location.component';
-<<<<<<< HEAD
 import { DateAndTimeComponent } from './falcon/events/events-details/date-and-time/date-and-time.component';
 import { EventListComponent } from './falcon/events/events-list/event-list/event-list.component';
 import { EventsMayYouLikeComponent } from './falcon/events/events-details/events-like/events-may-you-like/events-may-you-like.component';
@@ -112,10 +111,8 @@ import { UsuariosActivosComponent } from './falcon/usuarios-activos/usuarios-act
 import { AllordenComponent } from './falcon/allorden/allorden.component';
 import { RevenuesComponent } from './falcon/revenues/revenues.component';
 import { FormsComponent } from './falcon/forms/forms.component';
-=======
 import { StarterComponent } from './falcon/starter/starter.component';
 import { StarterDocumentacionComponent } from './falcon/starter-documentacion/starter-documentacion.component';
->>>>>>> origin/falcon/starter
 
 
 @NgModule({
@@ -195,7 +192,6 @@ import { StarterDocumentacionComponent } from './falcon/starter-documentacion/st
     FalconDashboardManagementWELCOMETOFALCONComponent,
     FalconDashboardDefaultTOPPRODUCTSComponent,
     ECommerceSalesByPosLocationComponent,
-<<<<<<< HEAD
     DateAndTimeComponent,
     EventListComponent,
     EventsMayYouLikeComponent,
@@ -236,10 +232,8 @@ import { StarterDocumentacionComponent } from './falcon/starter-documentacion/st
     AllordenComponent,
     RevenuesComponent,
     FormsComponent,
-=======
     StarterComponent,
     StarterDocumentacionComponent,
->>>>>>> origin/falcon/starter
   ],
   imports: [
     CommonModule,

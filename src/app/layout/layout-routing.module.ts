@@ -70,7 +70,6 @@ import { FalconDashboardManagementTODOLISTComponent } from '../feature/falcon/da
 import { FalconDashboardManagementWELCOMETOFALCONComponent } from '../feature/falcon/dashboard/falcon-dashboard-management-welcome-tofalcon/falcon-dashboard-management-welcome-tofalcon.component';
 import { FalconDashboardDefaultTOPPRODUCTSComponent } from '../feature/falcon/dashboard/falcon-dashboard-default-top-products/falcon-dashboard-default-top-products.component';
 import { ECommerceSalesByPosLocationComponent } from '../feature/falcon/dasboard/e-commerce-sales-by-pos-location/e-commerce-sales-by-pos-location.component';
-<<<<<<< HEAD
 import { DateAndTimeComponent } from '../feature/falcon/events/events-details/date-and-time/date-and-time.component';
 import { EventListComponent } from '../feature/falcon/events/events-list/event-list/event-list.component';
 import { EventsMayYouLikeComponent } from '../feature/falcon/events/events-details/events-like/events-may-you-like/events-may-you-like.component';
@@ -111,7 +110,7 @@ import { UsuariosActivosComponent } from '../feature/falcon/usuarios-activos/usu
 import { AllordenComponent } from '../feature/falcon/allorden/allorden.component';
 import { RevenuesComponent } from '../feature/falcon/revenues/revenues.component';
 import { FormsComponent } from '../feature/falcon/forms/forms.component';
-import{StarterComponent} from '../feature/falcon/starter/starter.component'
+import{StarterComponent} from '../feature/falcon/starter/starter.component';
 import {StarterDocumentacionComponent} from '../feature/falcon/starter-documentacion/starter-documentacion.component'
 
 const routes: Routes = [
