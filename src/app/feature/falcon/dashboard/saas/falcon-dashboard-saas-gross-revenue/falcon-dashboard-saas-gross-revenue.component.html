@@ -1,8 +1,8 @@
-<div class="border border-gray-400 h-auto w-fit rounded-lg">
+<div class="border border-gray-400 h-auto w-3/5 rounded-lg">
   <div class="flex items-center p-3">
 
       <div class="flex-colum pl-3 ">
-        <span >Gross revenue</span>
+        <span class="text-lg font-bold text-gray-700" >Gross revenue</span>
         <div class="pr-2 flex-row">
            <span class="text-blue-600 pb-4 text-2xl font-extrabold pr-2">$165.50</span>
            <div class="badge   badge-xs bg-blue-100  border-blue-200 text-gray-800 "><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="caret-up" class="h-2 w-3 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M288.662 352H31.338c-17.818 0-26.741-21.543-14.142-34.142l128.662-128.662c7.81-7.81 20.474-7.81 28.284 0l128.662 128.662c12.6 12.599 3.676 34.142-14.142 34.142z"></path></svg>  5%</div>
@@ -30,52 +30,79 @@
     </div>
   </div>
   <div>
-      <table class="table">
+      <table class="table ">
 
           <tbody>
               <tr>
 
                   <td class="text-center text-gray-500 ">Point of sale</td>
                   <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
                   <td class="text-center text-gray-500">$791.64</td>
                   <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
                   <td class="text-center text-gray-500 flex dlex-row"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="long-arrow-alt-down" class="w-4 h-4" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path fill="red" d="M168 345.941V44c0-6.627-5.373-12-12-12h-56c-6.627 0-12 5.373-12 12v301.941H41.941c-21.382 0-32.09 25.851-16.971 40.971l86.059 86.059c9.373 9.373 24.569 9.373 33.941 0l86.059-86.059c15.119-15.119 4.411-40.971-16.971-40.971H168z"></path></svg> 13%</td>
-
               </tr>
               <tr>
 
                   <td class="text-center text-gray-500">Online Store</td>
                   <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
                   <td class="text-center text-gray-500">$113.86</td>
-                    <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
                   <td class="text-center text-gray-500 flex flex-row"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="long-arrow-alt-up" class="w-4 h-4 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path fill="green" d="M88 166.059V468c0 6.627 5.373 12 12 12h56c6.627 0 12-5.373 12-12V166.059h46.059c21.382 0 32.09-25.851 16.971-40.971l-86.059-86.059c-9.373-9.373-24.569-9.373-33.941 0l-86.059 86.059c-15.119 15.119-4.411 40.971 16.971 40.971H88z"></path></svg>178 %</td>
 
               </tr>
               <tr>
                   <td class="text-center text-gray-500">Online Store</td>
                   <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
                   <td class="text-center text-gray-500">$0.00</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
                   <td></td>
                   <td class="text-center text-gray-900" style="max-width: 20%;">-</td>
               </tr>
-              <tr>
-                  <td>Sales Overtime</td>
-              </tr>
-              <tr>
-                <td>grafica</td>
-              </tr>
-              <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>
-                  <a type=button href="" class=" p-1 font-semibold text-blue-500 flex items-center text-sm"> View Report >  </a>
-                </td>
-              </tr>
           </tbody>
-
+          <span class="pl-5">
+            Sales Overtime
+          </span>
       </table>
+      <div class="w-16 h-auto pt-0 pl-2 flex-col flex">
+
+        <canvas baseChart width="535" height="250"
+        [data]="lineChartData "
+        [options]="lineChartOptions"
+        [plugins]="lineChartPlugins"
+        [legend]="lineChartLegend"
+        [type]="'line'">
+      </canvas>
+      </div>
+      <div class="divider"></div>
+      <div class="flex flex-row px-2 pb-4">
+        <button type="button" class=" p-0  btn btn-sm btn-ghost  bg-white border-none"><svg  aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" class="w-4" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="#146de0" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"></path></svg><span class="text-black px-2">Feb</span></button>
+        <button type="button" class=" p-0 btn btn-sm btn-ghost bg-white border-none"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" class="w-4" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="#9c9ea1" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"></path></svg><span class="text-black px-2">Jan</span></button>
+        <span class="grow"></span>
+        <a role="button" tabindex="0" href="" class="px-0 btn btn-link btn-sm">View report<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right" class="w-2 m-1" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path></svg></a>
+      </div>
   </div>
 </div>
 
