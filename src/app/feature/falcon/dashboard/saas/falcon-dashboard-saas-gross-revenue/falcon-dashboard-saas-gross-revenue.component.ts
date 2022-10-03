@@ -67,7 +67,7 @@ export class FalconDashboardSaasGrossRevenueComponent implements OnInit {
   constructor(private codeService: CodeService) { }
 
   ngOnInit(): void {
-    this.codeService.sendCode("url del html de su componente pero en original");
+    this.codeService.sendCode("https://raw.githubusercontent.com/sistemaagil/tailwindcss/develop/src/app/feature/falcon/dashboard/saas/falcon-dashboard-saas-gross-revenue/falcon-dashboard-saas-gross-revenue.component.html?token=GHSAT0AAAAAABZHUGZ7MORDDGOUD4Z3INWWYZ2V2NQ");
   }
 
 }
