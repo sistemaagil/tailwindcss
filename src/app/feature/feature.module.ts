@@ -72,6 +72,14 @@ import { FalconDashboardManagementTODOLISTComponent } from './falcon/dashboard/f
 import { FalconDashboardManagementWELCOMETOFALCONComponent } from './falcon/dashboard/falcon-dashboard-management-welcome-tofalcon/falcon-dashboard-management-welcome-tofalcon.component';
 import { FalconDashboardDefaultTOPPRODUCTSComponent } from './falcon/dashboard/falcon-dashboard-default-top-products/falcon-dashboard-default-top-products.component';
 import { ECommerceSalesByPosLocationComponent } from './falcon/dasboard/e-commerce-sales-by-pos-location/e-commerce-sales-by-pos-location.component';
+import { FalconECommerceProductGirdProductDetailsComponent } from './falcon/dashboard/falcon-e-commerce-product-gird-product-details/falcon-e-commerce-product-gird-product-details.component';
+import { FalconECommerceWeklySalesComponent } from './falcon/dashboard/falcon-e-commerce-wekly-sales/falcon-e-commerce-wekly-sales.component';
+import { FalconDashboardDefaultWeklySalesComponent } from './falcon/dashboard/falcon-dashboard-default-wekly-sales/falcon-dashboard-default-wekly-sales.component';
+import { ShoppingCartComponent } from './falcon/e-commerce/shopping-cart/shopping-cart.component';
+import { AllordenComponent } from './falcon/allorden/allorden.component';
+import { RevenuesComponent } from './falcon/revenues/revenues.component';
+import { FormsComponent } from './falcon/forms/forms.component';
+import { ProfileSettingsComponent } from './falcon/profile-settings/profile-settings.component';
 
 
 @NgModule({
@@ -151,6 +159,14 @@ import { ECommerceSalesByPosLocationComponent } from './falcon/dasboard/e-commer
     FalconDashboardManagementWELCOMETOFALCONComponent,
     FalconDashboardDefaultTOPPRODUCTSComponent,
     ECommerceSalesByPosLocationComponent,
+    FalconECommerceProductGirdProductDetailsComponent,
+    FalconECommerceWeklySalesComponent,
+    FalconDashboardDefaultWeklySalesComponent,
+    ShoppingCartComponent,
+    AllordenComponent,
+    RevenuesComponent,
+    FormsComponent,
+    ProfileSettingsComponent,
   ],
   imports: [
     CommonModule,
