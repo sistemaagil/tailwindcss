@@ -124,6 +124,7 @@ import { FalconECommerceProductDetailsDosComponent } from './falcon/e-commerce/f
 import { FalconProductDetailsTresComponent } from './falcon/e-commerce/falcon-product-details-tres/falcon-product-details-tres.component';
 import { FalconProductDetailsCuatroComponent } from './falcon/e-commerce/falcon-product-details-cuatro/falcon-product-details-cuatro.component';
 
+import { ProfileSettingsComponent } from './falcon/profile-settings/profile-settings.component';
 
 
 @NgModule({
@@ -254,6 +255,7 @@ import { FalconProductDetailsCuatroComponent } from './falcon/e-commerce/falcon-
     FalconECommerceProductDetailsDosComponent,
     FalconProductDetailsTresComponent,
     FalconProductDetailsCuatroComponent,
+    ProfileSettingsComponent,
   ],
   imports: [
     CommonModule,
