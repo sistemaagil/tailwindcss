@@ -77,6 +77,7 @@ import { ShoppingCartComponent } from '../feature/falcon/e-commerce/shopping-car
 import { AllordenComponent } from '../feature/falcon/allorden/allorden.component';
 import { RevenuesComponent } from '../feature/falcon/revenues/revenues.component';
 import { FormsComponent } from '../feature/falcon/forms/forms.component';
+import { ProfileSettingsComponent } from '../feature/falcon/profile-settings/profile-settings.component';
 
 const routes: Routes = [
   {path: '', component: MainComponent,
@@ -163,7 +164,8 @@ const routes: Routes = [
       {path: 'falcon-dashboard-e-commerce-Shopping-Cart', component: ShoppingCartComponent},
       {path:'allorden', component: AllordenComponent},
       {path:'revenues', component: RevenuesComponent},
-      {path:'forms', component: FormsComponent}
+      {path:'forms', component: FormsComponent},
+      {path:'profile-settings', component: ProfileSettingsComponent}
     ]
   }
 ];
