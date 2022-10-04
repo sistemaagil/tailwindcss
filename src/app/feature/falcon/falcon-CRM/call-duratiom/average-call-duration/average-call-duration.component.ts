@@ -67,7 +67,7 @@ export class AverageCallDurationComponent implements OnInit {
 
   ngOnInit(): void {
     
-    this.codeService.sendCode("https://gitea.sistemaagil.net/Tailwindcss/tailwindcss-frontend/raw/branch/falcon/CRM/call-duration/src/app/feature/falcon/falcon-CRM/call-duratiom/average-call-duration/average-call-duration.component.html");
+    this.codeService.sendCode("https://raw.githubusercontent.com/sistemaagil/tailwindcss/falcon/event-detail/events-you-make-like/src/app/feature/falcon/falcon-CRM/call-duratiom/average-call-duration/average-call-duration.component.html");
   }
 
 }

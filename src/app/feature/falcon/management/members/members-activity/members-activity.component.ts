@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { CodeService } from 'src/app/feature/code.service';
 
 @Component({
   selector: 'app-members-activity',
@@ -7,9 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MembersActivityComponent implements OnInit {
 
-  constructor() { }
+  constructor(private codeService: CodeService) { }
 
   ngOnInit(): void {
+    
+    this.codeService.sendCode("https://raw.githubusercontent.com/sistemaagil/tailwindcss/falcon/events/texto-new-year/src/app/feature/falcon/management/members/members-activity/members-activity.component.html");
   }
 
 }
