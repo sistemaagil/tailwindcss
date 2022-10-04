@@ -1,0 +1,16 @@
+<div class="flex border shadow-xl rounded-md mt-10 w-96">
+  <div class="grid">
+    <span class="p-3 font-semibold">Active Users</span>
+    <span class="p-3 -mt-14 text-4xl text-slate-500">765K</span>
+  </div>
+  <div>
+    <div class="flex p-5">
+      <canvas baseChart class="w-56 h-100 pl-10 pt-5"
+        [type]="'line'"
+        [data]="lineChartData"
+        [options]="lineChartOptions"
+        [legend]="lineChartLegend">
+      </canvas>
+   </div>
+  </div>
+</div>
