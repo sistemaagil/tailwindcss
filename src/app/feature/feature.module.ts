@@ -90,6 +90,7 @@ import { RecentActivityComponent } from './falcon/management/recent-activity/rec
 import { TopProductsComponent } from './falcon/e-commerce/top-products/top-products.component';
 import { FalconAPPEemailInboxComponent } from './falcon/eemail/falcon-app-eemail-inbox/falcon-app-eemail-inbox.component';
 import { SaasActiveUsersComponent } from './falcon/dasboard/saas-active-users/saas-active-users.component';
+import{ FullCalendarModule } from 'primeng/fullcalendar';
 import { FalconDashboardSaasMOREWITHFALCONComponent } from './falcon/dashboard/saas/falcon-dashboard-saas-morewith-falcon/falcon-dashboard-saas-morewith-falcon.component';
 import { CustomersComponent } from './falcon/management/customers/customers.component';
 import { SaasRevenueComponent } from './falcon/dasboard/saas-revenue/saas-revenue.component';
@@ -111,6 +112,8 @@ import { UsuariosActivosComponent } from './falcon/usuarios-activos/usuarios-act
 import { AllordenComponent } from './falcon/allorden/allorden.component';
 import { RevenuesComponent } from './falcon/revenues/revenues.component';
 import { FormsComponent } from './falcon/forms/forms.component';
+import { StarterComponent } from './falcon/starter/starter.component';
+import { StarterDocumentacionComponent } from './falcon/starter-documentacion/starter-documentacion.component';
 
 
 @NgModule({
@@ -230,13 +233,16 @@ import { FormsComponent } from './falcon/forms/forms.component';
     AllordenComponent,
     RevenuesComponent,
     FormsComponent,
+    StarterComponent,
+    StarterDocumentacionComponent,
   ],
   imports: [
     CommonModule,
     FeatureRoutingModule,
     FormsModule,
     NgChartsModule,
-    NgChartsModule
+    NgChartsModule,
+    FullCalendarModule,
   ]
 })
 export class FeatureModule { }
