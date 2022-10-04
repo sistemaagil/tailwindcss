@@ -1,0 +1,57 @@
+<div class="border border-gray-400 h-auto w-fit rounded-lg">
+  <div class="card-header h-24 border-slate-50 border bg-slate-50  ">
+    <div class="pb-6"> <span class="px-2 text-lg font-bolt text-gray-700">Ticket Price</span></div>
+      <div>
+        <button class="btn btn-info btn-sm bg-white text-black " type="button">Free<span class="d-none d-sm-inline"> Ticket</span></button>
+        <button class="btn btn-info btn-sm bg-white text-blue-600 " type="button">Paid<span class="d-none d-sm-inline"> Ticket</span></button>
+        <button class="btn btn-info btn-sm bg-white text-black" type="button">Donation</button>
+      </div>
+
+
+    </div>
+
+    <div class=" bg-slate-50 pl-2">
+      <div><span class="fs-0">Pricing Options:</span></div>
+
+      <div class="form-check"><input class="form-check-input" id="customCheck1" type="checkbox" checked="checked"><label class="form-check-label align-top px-2" for="customCheck1">Enable varible pricing</label></div>
+      <div class="form-check mt-2"><input class="form-check-input" id="customCheck2" type="checkbox"><label class="form-check-label align-top px-2" for="customCheck2">Enable multi-option purchase mode.</label></div>
+    </div>
+
+  <div>
+  <table class="table  mt-3 ">
+  <thead class="">
+    <tr class="">
+      <th>Option Name</th>
+      <th>Price</th>
+      <th>Default</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><input class="form-control input-info  border border-gray-300" type="text" placeholder="Option Name" value="Front desks"></td>
+      <td><div class="input-group input-group-sm"><span class="d-none d-sm-block input-group-text">$</span><input placeholder="Price" aria-label="Dollar amount (with dot and two decimal places)" step="0.01" type="number" class="form-control border border-gray-300" value="0"></div></td>
+      <td class="text-center align-middle"> <div class="form-check mb-0"><input class="form-check-input float-none" id="customRadio1" type="radio" name="customRadio" checked="checked"><label class="form-check-label" for="customRadio1"></label></div> </td>
+      <td class="text-center  align-middle"><button class="btn btn-link btn-sm "><svg class="h-3" data-fa-transform="shrink-2" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="" style="transform-origin: 0.5em 0.5em;"><g transform="translate(256 256)"><g transform="translate(0, 0)  scale(0.875, 0.875)  rotate(0 0 0)"><path fill="red" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z" transform="translate(-256 -256)"></path></g></g></svg></button></td>
+    </tr>
+
+    <tr>
+      <td><input class="form-control input-info  border border-gray-300" type="text" placeholder="Option Name" value="Green gallery"></td>
+      <td><div class="input-group input-group-sm"><span class="d-none d-sm-block input-group-text">$</span><input placeholder="Price" aria-label="Dollar amount (with dot and two decimal places)" step="0.01" type="number" class="form-control border border-gray-300" value="5"></div></td>
+      <td class="text-center align-middle"><div class="form-check mb-0"><input class="form-check-input float-none" id="customRadio2" type="radio" name="customRadio"><label class="form-check-label" for="customRadio2"></label></div></td>
+      <td class="text-center align-middle"><button class="btn btn-link btn-sm"><svg class="h-3" data-fa-transform="shrink-2" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="" style="transform-origin: 0.5em 0.5em;"><g transform="translate(256 256)"><g transform="translate(0, 0)  scale(0.875, 0.875)  rotate(0 0 0)"><path fill="red" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z" transform="translate(-256 -256)"></path></g></g></svg></button></td>
+    </tr>
+    <tr>
+      <td><input class="form-control input-info  border border-gray-300" type="text" placeholder="VIP" value="VIP"></td>
+      <td><div class="input-group input-group-sm"><span class="d-none d-sm-block input-group-text">$</span><input placeholder="Price" aria-label="Dollar amount (with dot and two decimal places)" step="0.01" type="number" class="form-control border border-gray-300" value="5"></div></td>
+      <td class="text-center align-middle"><div class="form-check mb-0"><input class="form-check-input float-none" id="customRadio3" type="radio" name="customRadio"><label class="form-check-label" for="customRadio3"></label></div></td>
+      <td class="text-center align-middle"><button class="btn btn-link btn-sm"><svg class="h-3" data-fa-transform="shrink-2" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="" style="transform-origin: 0.5em 0.5em;"><g transform="translate(256 256)"><g transform="translate(0, 0)  scale(0.875, 0.875)  rotate(0 0 0)"><path fill="red" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z" transform="translate(-256 -256)"></path></g></g></svg></button></td>
+    </tr>
+  </tbody>
+  </table>
+  <div class="px-2 py-2">
+    <button class="btn btn-outline btn-info btn-sm">+Add Item</button>
+  </div>
+  </div>
+
+</div>
