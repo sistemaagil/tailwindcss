@@ -72,6 +72,9 @@ import { FalconDashboardManagementTODOLISTComponent } from './falcon/dashboard/f
 import { FalconDashboardManagementWELCOMETOFALCONComponent } from './falcon/dashboard/falcon-dashboard-management-welcome-tofalcon/falcon-dashboard-management-welcome-tofalcon.component';
 import { FalconDashboardDefaultTOPPRODUCTSComponent } from './falcon/dashboard/falcon-dashboard-default-top-products/falcon-dashboard-default-top-products.component';
 import { ECommerceSalesByPosLocationComponent } from './falcon/dasboard/e-commerce-sales-by-pos-location/e-commerce-sales-by-pos-location.component';
+import { FalconSocialFollowersComponent } from './falcon/social/followers/falcon-social-followers/falcon-social-followers.component';
+import { FalconSocialFollowersPerfilComponent } from './falcon/social/followers/falcon-social-followers-perfil/falcon-social-followers-perfil.component';
+import { FalconSocialNotificationsComponent } from './falcon/social/notifications/falcon-social-notifications/falcon-social-notifications.component';
 import { DateAndTimeComponent } from './falcon/events/events-details/date-and-time/date-and-time.component';
 import { EventListComponent } from './falcon/events/events-list/event-list/event-list.component';
 import { EventsMayYouLikeComponent } from './falcon/events/events-details/events-like/events-may-you-like/events-may-you-like.component';
@@ -121,6 +124,7 @@ import { FalconECommerceProductDetailsDosComponent } from './falcon/e-commerce/f
 import { FalconProductDetailsTresComponent } from './falcon/e-commerce/falcon-product-details-tres/falcon-product-details-tres.component';
 
 
+
 @NgModule({
   declarations: [
     Me01Component,
@@ -140,7 +144,7 @@ import { FalconProductDetailsTresComponent } from './falcon/e-commerce/falcon-pr
 
     ManagementTeamProgressComponent,
     ECommerceGoodAfternonComponent,
-
+    CrmWelcomeToComponent,
     DistributivoCalendarioComponent,
     DistributivoCursosComponent,
     ChatActivoComponent,
@@ -198,6 +202,9 @@ import { FalconProductDetailsTresComponent } from './falcon/e-commerce/falcon-pr
     FalconDashboardManagementWELCOMETOFALCONComponent,
     FalconDashboardDefaultTOPPRODUCTSComponent,
     ECommerceSalesByPosLocationComponent,
+    FalconSocialFollowersComponent,
+    FalconSocialFollowersPerfilComponent,
+    FalconSocialNotificationsComponent,
     DateAndTimeComponent,
     EventListComponent,
     EventsMayYouLikeComponent,

@@ -70,6 +70,10 @@ import { FalconDashboardManagementTODOLISTComponent } from '../feature/falcon/da
 import { FalconDashboardManagementWELCOMETOFALCONComponent } from '../feature/falcon/dashboard/falcon-dashboard-management-welcome-tofalcon/falcon-dashboard-management-welcome-tofalcon.component';
 import { FalconDashboardDefaultTOPPRODUCTSComponent } from '../feature/falcon/dashboard/falcon-dashboard-default-top-products/falcon-dashboard-default-top-products.component';
 import { ECommerceSalesByPosLocationComponent } from '../feature/falcon/dasboard/e-commerce-sales-by-pos-location/e-commerce-sales-by-pos-location.component';
+import { FalconSocialFollowersComponent } from '../feature/falcon/social/followers/falcon-social-followers/falcon-social-followers.component';
+import { FalconSocialFollowersPerfilComponent } from '../feature/falcon/social/followers/falcon-social-followers-perfil/falcon-social-followers-perfil.component';
+import { FalconSocialNotificationsComponent } from '../feature/falcon/social/notifications/falcon-social-notifications/falcon-social-notifications.component';
+import { FalconSocialActivityLogComponent } from '../feature/falcon/social/activity-log/falcon-social-activity-log/falcon-social-activity-log.component';
 import { DateAndTimeComponent } from '../feature/falcon/events/events-details/date-and-time/date-and-time.component';
 import { EventListComponent } from '../feature/falcon/events/events-list/event-list/event-list.component';
 import { EventsMayYouLikeComponent } from '../feature/falcon/events/events-details/events-like/events-may-you-like/events-may-you-like.component';
@@ -198,6 +202,10 @@ const routes: Routes = [
       {path: 'falcon-dashboard-management-WELCOME_TOFALCON', component:FalconDashboardManagementWELCOMETOFALCONComponent},
       {path: 'falcon-dashboard-default-TOP_PRODUCTS', component:FalconDashboardDefaultTOPPRODUCTSComponent},
       {path: 'falcon-e-commerce-pos-location', component:ECommerceSalesByPosLocationComponent},
+      {path: 'falcon-social-followers', component: FalconSocialFollowersComponent},
+      {path: 'falcon-social-followers-perfil', component: FalconSocialFollowersPerfilComponent},
+      {path: 'falcon-social-notifications', component: FalconSocialNotificationsComponent},
+      {path: 'falcon-social-activity-log', component: FalconSocialActivityLogComponent},
       {path: 'falcon-events-events-details-date-and-time', component: DateAndTimeComponent},
       {path: 'falcon-events-events-list', component: EventListComponent},
       {path: 'falcon-events-events-details-events-you-may-like', component: EventsMayYouLikeComponent},
