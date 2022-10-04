@@ -121,6 +121,7 @@ import { StarterComponent } from './falcon/starter/starter.component';
 import { StarterDocumentacionComponent } from './falcon/starter-documentacion/starter-documentacion.component';
 import { FalconECommerceProductDetailsComponent } from './falcon/e-commerce/falcon-e-commerce-product-details/falcon-e-commerce-product-details.component';
 import { FalconECommerceProductDetailsDosComponent } from './falcon/e-commerce/falcon-e-commerce-product-details-dos/falcon-e-commerce-product-details-dos.component';
+import { FalconAnalyticsTrendComponent } from './falcon/dasboard/analytics/falcon-analytics-trend/falcon-analytics-trend.component';
 
 
 
@@ -250,6 +251,7 @@ import { FalconECommerceProductDetailsDosComponent } from './falcon/e-commerce/f
     StarterDocumentacionComponent,
     FalconECommerceProductDetailsComponent,
     FalconECommerceProductDetailsDosComponent,
+    FalconAnalyticsTrendComponent,
   ],
   imports: [
     CommonModule,
