@@ -116,6 +116,7 @@ import { FormsComponent } from './falcon/forms/forms.component';
 import { StarterComponent } from './falcon/starter/starter.component';
 import { StarterDocumentacionComponent } from './falcon/starter-documentacion/starter-documentacion.component';
 import { FalconECommerceProductDetailsComponent } from './falcon/e-commerce/falcon-e-commerce-product-details/falcon-e-commerce-product-details.component';
+import { FalconECommerceProductDetailsDosComponent } from './falcon/e-commerce/falcon-e-commerce-product-details-dos/falcon-e-commerce-product-details-dos.component';
 
 
 @NgModule({
@@ -239,6 +240,7 @@ import { FalconECommerceProductDetailsComponent } from './falcon/e-commerce/falc
     StarterComponent,
     StarterDocumentacionComponent,
     FalconECommerceProductDetailsComponent,
+    FalconECommerceProductDetailsDosComponent,
   ],
   imports: [
     CommonModule,
