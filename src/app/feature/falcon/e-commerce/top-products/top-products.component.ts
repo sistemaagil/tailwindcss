@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ChartConfiguration } from 'chart.js';
+import { CodeService } from 'src/app/feature/code.service';
 
 @Component({
   selector: 'app-top-products',
@@ -22,9 +23,13 @@ export class TopProductsComponent implements OnInit {
     ]
   };
 
-  constructor() { }
+  constructor(private codeService: CodeService) { }
+  
 
   ngOnInit(): void {
+    this.codeService.sendCode("https://raw.githubusercontent.com/sistemaagil/tailwindcss/feature/falcon/app/eemail/Composee/src/app/feature/falcon/e-commerce/top-products/top-products.component.html");
+
+    
   }
 
 }
