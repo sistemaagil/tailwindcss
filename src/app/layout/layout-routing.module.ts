@@ -113,6 +113,7 @@ import { RevenuesComponent } from '../feature/falcon/revenues/revenues.component
 import { FormsComponent } from '../feature/falcon/forms/forms.component';
 import{StarterComponent} from '../feature/falcon/starter/starter.component';
 import {StarterDocumentacionComponent} from '../feature/falcon/starter-documentacion/starter-documentacion.component'
+import { FalconECommerceProductDetailsComponent } from '../feature/falcon/e-commerce/falcon-e-commerce-product-details/falcon-e-commerce-product-details.component';
 
 const routes: Routes = [
   {path: '', component: MainComponent,
@@ -230,6 +231,7 @@ const routes: Routes = [
       {path:'forms', component: FormsComponent},
       {path: 'falcon-starter', component:StarterComponent},
       {path: 'falcon-starter-documentacion', component:StarterDocumentacionComponent},
+      {path: 'falcon-e-commerce-productDetails', component: FalconECommerceProductDetailsComponent},
     ]
   }
 ]
