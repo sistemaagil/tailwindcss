@@ -129,6 +129,7 @@ import { FalconProductDetailsCincoComponent } from './falcon/e-commerce/falcon-p
 import { FalconProductDetailsSeisComponent } from './falcon/e-commerce/falcon-product-details-seis/falcon-product-details-seis.component';
 import { FalconProductDetailsSieteComponent } from './falcon/e-commerce/falcon-product-details-siete/falcon-product-details-siete.component';
 import { FalconProductDetailsOchoComponent } from './falcon/e-commerce/falcon-product-details-ocho/falcon-product-details-ocho.component';
+import { FalconProductDetailsNueveComponent } from './falcon/e-commerce/falcon-product-details-nueve/falcon-product-details-nueve.component';
 
 
 @NgModule({
@@ -264,6 +265,7 @@ import { FalconProductDetailsOchoComponent } from './falcon/e-commerce/falcon-pr
     FalconProductDetailsSeisComponent,
     FalconProductDetailsSieteComponent,
     FalconProductDetailsOchoComponent,
+    FalconProductDetailsNueveComponent,
   ],
   imports: [
     CommonModule,
