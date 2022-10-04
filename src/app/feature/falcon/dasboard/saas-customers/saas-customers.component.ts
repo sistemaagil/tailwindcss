@@ -6,10 +6,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./saas-customers.component.css']
 })
 export class SaasCustomersComponent implements OnInit {
+  activeClickActive : number = 0;
+
 
   constructor() { }
 
   ngOnInit(): void {
   }
+  setClickClass(id :number):void{
+    this.activeClickActive= id;
+  }
 
 }
+
