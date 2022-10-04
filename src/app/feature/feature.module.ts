@@ -123,6 +123,7 @@ import { FalconECommerceProductDetailsComponent } from './falcon/e-commerce/falc
 import { FalconECommerceProductDetailsDosComponent } from './falcon/e-commerce/falcon-e-commerce-product-details-dos/falcon-e-commerce-product-details-dos.component';
 import { FalconProductDetailsTresComponent } from './falcon/e-commerce/falcon-product-details-tres/falcon-product-details-tres.component';
 
+import { ProfileSettingsComponent } from './falcon/profile-settings/profile-settings.component';
 
 
 @NgModule({
@@ -252,6 +253,7 @@ import { FalconProductDetailsTresComponent } from './falcon/e-commerce/falcon-pr
     FalconECommerceProductDetailsComponent,
     FalconECommerceProductDetailsDosComponent,
     FalconProductDetailsTresComponent,
+    ProfileSettingsComponent,
   ],
   imports: [
     CommonModule,
