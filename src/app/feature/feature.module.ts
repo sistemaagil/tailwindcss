@@ -91,13 +91,14 @@ import { RecentActivityComponent } from './falcon/management/recent-activity/rec
 import { TopProductsComponent } from './falcon/e-commerce/top-products/top-products.component';
 import { FalconAPPEemailInboxComponent } from './falcon/eemail/falcon-app-eemail-inbox/falcon-app-eemail-inbox.component';
 import { SaasActiveUsersComponent } from './falcon/dasboard/saas-active-users/saas-active-users.component';
-import{ FullCalendarModule } from 'primeng/fullcalendar';
+import { FullCalendarModule } from 'primeng/fullcalendar';
 import { FalconDashboardSaasMOREWITHFALCONComponent } from './falcon/dashboard/saas/falcon-dashboard-saas-morewith-falcon/falcon-dashboard-saas-morewith-falcon.component';
 import { CustomersComponent } from './falcon/management/customers/customers.component';
 import { SaasRevenueComponent } from './falcon/dasboard/saas-revenue/saas-revenue.component';
 import { SaasConversionComponent } from './falcon/dasboard/saas-conversion/saas-conversion.component';
 import { FalconAppEventOtherInfoComponent } from './falcon/app/falcon-app-event-other-info/falcon-app-event-other-info.component';
 import { FalconAPPEemailEemailDetailComponent } from './falcon/eemail/falcon-app-eemail-eemail-detail/falcon-app-eemail-eemail-detail.component';
+import { FalconAPPEemailComposeeComponent } from './falcon/eemail/falcon-app-eemail-composee/falcon-app-eemail-composee.component';
 import { FalconAppEventTicketPriceComponent } from './falcon/app/falcon-app-event-ticket-price/falcon-app-event-ticket-price.component';
 import { FalconAppScheduleComponent } from './falcon/app/falcon-app-schedule/falcon-app-schedule.component';
 import { FalconDashboardSaasTRANSACTIONSUMMARYComponent } from './falcon/dashboard/saas/falcon-dashboard-saas-transaction-summary/falcon-dashboard-saas-transaction-summary.component';
@@ -222,6 +223,7 @@ import { FalconECommerceProductDetailsDosComponent } from './falcon/e-commerce/f
 
     FalconDashboardSaasMOREWITHFALCONComponent,
     FalconAPPEemailEemailDetailComponent,
+    FalconAPPEemailComposeeComponent,
     FalconAppEventTicketPriceComponent,
     FalconAppScheduleComponent,
     FalconDashboardSaasTRANSACTIONSUMMARYComponent,

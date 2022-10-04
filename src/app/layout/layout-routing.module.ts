@@ -95,6 +95,7 @@ import { SaasRevenueComponent } from '../feature/falcon/dasboard/saas-revenue/sa
 import { SaasConversionComponent } from '../feature/falcon/dasboard/saas-conversion/saas-conversion.component';
 import { FalconAppEventOtherInfoComponent } from '../feature/falcon/app/falcon-app-event-other-info/falcon-app-event-other-info.component';
 import { FalconAPPEemailEemailDetailComponent } from '../feature/falcon/eemail/falcon-app-eemail-eemail-detail/falcon-app-eemail-eemail-detail.component';
+import { FalconAPPEemailComposeeComponent } from '../feature/falcon/eemail/falcon-app-eemail-composee/falcon-app-eemail-composee.component';
 import { FalconAppEventTicketPriceComponent } from '../feature/falcon/app/falcon-app-event-ticket-price/falcon-app-event-ticket-price.component';
 import { FalconAppScheduleComponent } from '../feature/falcon/app/falcon-app-schedule/falcon-app-schedule.component';
 import { FalconDashboardSaasTRANSACTIONSUMMARYComponent } from '../feature/falcon/dashboard/saas/falcon-dashboard-saas-transaction-summary/falcon-dashboard-saas-transaction-summary.component';
@@ -209,6 +210,18 @@ const routes: Routes = [
       {path: 'falcon-Calendar', component: CalendarComponent},
       {path: 'falcon-e-commerce-wekly-Sales', component: FalconECommerceWeklySalesComponent},
       {path: 'falcon-dashboard-default-weklySales', component: FalconDashboardDefaultWeklySalesComponent},
+      {path: 'falcon-dashboard-e-commerce-Shopping-Cart', component: ShoppingCartComponent},
+      {path: 'falcon-dashboard-saas-BANDWIDTH_SAVED', component: FalconDashboardSaasBANDWIDTHSAVEDComponent},
+      {path: 'falcon-dashboard-management-Recent-Activity', component: RecentActivityComponent},
+      {path: 'falcon-dashboard-e-commerce-Top-Products', component: TopProductsComponent},
+      {path: 'falcon-APP-eemail-inbox', component: FalconAPPEemailInboxComponent},
+      {path: 'falcon-saas-active-users', component:SaasActiveUsersComponent},
+      {path: 'falcon-dashboard-saas-MOREWITH_FALCON', component:FalconDashboardSaasMOREWITHFALCONComponent},
+      {path: 'falcon-management-customers',component: CustomersComponent},
+      {path: 'falcon-saas-revenue', component:SaasRevenueComponent},
+      {path: 'falcon-saas-conversion', component:SaasConversionComponent},
+      {path: 'falcon-APP-eemail-eemail-detail', component: FalconAPPEemailEemailDetailComponent},
+      {path: 'falcon-APP-eemail-Composee', component: FalconAPPEemailComposeeComponent},
       {path: 'falcon-e-commerce-product-grid-detais', component: FalconECommerceProductGridDetaisComponent},
       {path: 'falcon-app-event-TicketPrice', component: FalconAppEventTicketPriceComponent},
 
