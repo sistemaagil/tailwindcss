@@ -116,6 +116,7 @@ import{StarterComponent} from '../feature/falcon/starter/starter.component';
 import {StarterDocumentacionComponent} from '../feature/falcon/starter-documentacion/starter-documentacion.component'
 import { FalconECommerceProductDetailsComponent } from '../feature/falcon/e-commerce/falcon-e-commerce-product-details/falcon-e-commerce-product-details.component';
 import { FalconECommerceProductDetailsDosComponent } from '../feature/falcon/e-commerce/falcon-e-commerce-product-details-dos/falcon-e-commerce-product-details-dos.component';
+import { FalconProductDetailsTresComponent } from '../feature/falcon/e-commerce/falcon-product-details-tres/falcon-product-details-tres.component';
 
 const routes: Routes = [
   {path: '', component: MainComponent,
@@ -247,6 +248,7 @@ const routes: Routes = [
       {path: 'falcon-starter-documentacion', component:StarterDocumentacionComponent},
       {path: 'falcon-e-commerce-productDetails', component: FalconECommerceProductDetailsComponent},
       {path: 'falcon-e-commerce-productDetails-dos', component: FalconECommerceProductDetailsDosComponent},
+      {path: 'falcon-e-commerce-productDetails-tres', component: FalconProductDetailsTresComponent},
     ]
   }
 ]
