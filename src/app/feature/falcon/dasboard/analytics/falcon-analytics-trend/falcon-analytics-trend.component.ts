@@ -80,7 +80,7 @@ export class FalconAnalyticsTrendComponent implements OnInit {
   constructor(private codeService: CodeService) { }
 
   ngOnInit(): void {
-    this.codeService.sendCode("");
+    this.codeService.sendCode("https://raw.githubusercontent.com/sistemaagil/tailwindcss/develop/src/app/feature/falcon/dasboard/analytics/falcon-analytics-trend/falcon-analytics-trend.component.html");
   }
 
 }
