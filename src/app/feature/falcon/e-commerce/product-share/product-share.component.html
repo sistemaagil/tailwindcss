@@ -1,5 +1,5 @@
 <div class="flex w-auto h-auto">
-  <div class="grid ">
+  <div class="grid pr-24 ">
     <div class="">
       <span class="text-xl">Product Share</span>
     </div>
@@ -10,18 +10,19 @@
       <span class="bg-orange-300 rounded-full text-orange-800">▲ 3.5%</span>
     </div>
   </div>
-  <div class="grid w-5 h-5">
+  <div class="grid">
     <div class="" >
-      <canvas baseChart
+      <canvas baseChart class="w-4/5 h-4/5"
         [labels]="doughnutChartLabels"
         [datasets]="doughnutChartDatasets"
         [options]="doughnutChartOptions"
         [legend]="false"
         [type]="'doughnut'">
       </canvas>
+
     </div>
-    <div class=" grid pl-10 pt-0">
-      <span class="pl-16">Target : 55%</span>
+    <div class="pl-5">
+      <span class="pl-2">Target: 55%</span>
     </div>
   </div>
 </div>
