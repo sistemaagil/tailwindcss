@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { CodeService } from 'src/app/feature/code.service';
 
 @Component({
   selector: 'app-falcon-social-notifications',
@@ -6,9 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FalconSocialNotificationsComponent implements OnInit {
 
-  constructor() { }
-
+  constructor(private codeService: CodeService) { }
   ngOnInit(): void {
+    this.codeService.sendCode("https://raw.githubusercontent.com/sistemaagil/tailwindcss/develop/src/app/feature/falcon/social/notifications/falcon-social-notifications/falcon-social-notifications.component.html");
   }
 
 }

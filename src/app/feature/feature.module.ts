@@ -121,6 +121,7 @@ import { StarterComponent } from './falcon/starter/starter.component';
 import { StarterDocumentacionComponent } from './falcon/starter-documentacion/starter-documentacion.component';
 import { FalconECommerceProductDetailsComponent } from './falcon/e-commerce/falcon-e-commerce-product-details/falcon-e-commerce-product-details.component';
 import { FalconECommerceProductDetailsDosComponent } from './falcon/e-commerce/falcon-e-commerce-product-details-dos/falcon-e-commerce-product-details-dos.component';
+import { FalconAnalyticsTrendComponent } from './falcon/dasboard/analytics/falcon-analytics-trend/falcon-analytics-trend.component';
 import { FalconProductDetailsTresComponent } from './falcon/e-commerce/falcon-product-details-tres/falcon-product-details-tres.component';
 import { FalconProductDetailsCuatroComponent } from './falcon/e-commerce/falcon-product-details-cuatro/falcon-product-details-cuatro.component';
 
@@ -131,6 +132,7 @@ import { FalconProductDetailsSieteComponent } from './falcon/e-commerce/falcon-p
 import { FalconProductDetailsOchoComponent } from './falcon/e-commerce/falcon-product-details-ocho/falcon-product-details-ocho.component';
 import { FalconProductDetailsNueveComponent } from './falcon/e-commerce/falcon-product-details-nueve/falcon-product-details-nueve.component';
 import { FalconCrmNewContactComponent } from './falcon/dashboard/falcon-crm-new-contact/falcon-crm-new-contact.component';
+import { FalconAppChatAppComponent } from './falcon/app/falcon-app-chat-app/falcon-app-chat-app.component';
 
 
 @NgModule({
@@ -259,6 +261,7 @@ import { FalconCrmNewContactComponent } from './falcon/dashboard/falcon-crm-new-
     StarterDocumentacionComponent,
     FalconECommerceProductDetailsComponent,
     FalconECommerceProductDetailsDosComponent,
+    FalconAnalyticsTrendComponent,
     FalconProductDetailsTresComponent,
     FalconProductDetailsCuatroComponent,
     ProfileSettingsComponent,
@@ -268,6 +271,7 @@ import { FalconCrmNewContactComponent } from './falcon/dashboard/falcon-crm-new-
     FalconProductDetailsOchoComponent,
     FalconProductDetailsNueveComponent,
     FalconCrmNewContactComponent,
+    FalconAppChatAppComponent,
   ],
   imports: [
     CommonModule,
