@@ -56,7 +56,8 @@ export class RevenueComponent implements OnInit {
         borderColor: 'rgb(37 99 235)',
         backgroundColor: 'transparent',
         borderRadius: 3,
-        type: 'bar'
+        type: 'bar',
+        hoverBackgroundColor:  'rgb(29 78 216)'
       }
     ]
   };
@@ -111,7 +112,8 @@ export class RevenueComponent implements OnInit {
         borderColor: 'rgb(37 99 235)',
         backgroundColor: 'transparent',
         borderRadius: 3,
-        type: 'bar'
+        type: 'bar',
+        hoverBackgroundColor:  'rgb(29 78 216)'
       }
     ]
   };
@@ -166,7 +168,8 @@ export class RevenueComponent implements OnInit {
         borderColor: 'rgb(37 99 235)',
         backgroundColor: 'transparent',
         borderRadius: 3,
-        type: 'bar'
+        type: 'bar',
+        hoverBackgroundColor:  'rgb(29 78 216)'
       }
     ]
   };
@@ -215,14 +218,15 @@ export class RevenueComponent implements OnInit {
         tension: 0,
         borderColor: 'rgb(249 115 22)',
         backgroundColor: 'transparent',
-        type: 'line'
+        type: 'line',
       },{
         data: [ 545, 400, 450, 627, 673, 605, 686, 501,843 ,518,504,715,955,622,627,716,736,952,619,558,937,785,872,550,400],
         label: '',
         borderColor: 'rgb(37 99 235)',
         backgroundColor: 'transparent',
         borderRadius: 3,
-        type: 'bar'
+        type: 'bar',
+        hoverBackgroundColor:  'rgb(29 78 216)'
       }
     ]
   };

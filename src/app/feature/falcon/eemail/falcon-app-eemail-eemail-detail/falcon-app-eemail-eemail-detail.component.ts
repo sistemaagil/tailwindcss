@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { CodeService } from 'src/app/feature/code.service';
 
 @Component({
   selector: 'app-falcon-app-eemail-eemail-detail',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FalconAPPEemailEemailDetailComponent implements OnInit {
 
-  constructor() { }
+  constructor(private codeService: CodeService) { }
+  
 
   ngOnInit(): void {
+    this.codeService.sendCode("https://raw.githubusercontent.com/sistemaagil/tailwindcss/develop/src/app/feature/falcon/eemail/falcon-app-eemail-eemail-detail/falcon-app-eemail-eemail-detail.component.html");
+
   }
 
 }

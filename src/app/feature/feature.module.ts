@@ -72,6 +72,9 @@ import { FalconDashboardManagementTODOLISTComponent } from './falcon/dashboard/f
 import { FalconDashboardManagementWELCOMETOFALCONComponent } from './falcon/dashboard/falcon-dashboard-management-welcome-tofalcon/falcon-dashboard-management-welcome-tofalcon.component';
 import { FalconDashboardDefaultTOPPRODUCTSComponent } from './falcon/dashboard/falcon-dashboard-default-top-products/falcon-dashboard-default-top-products.component';
 import { ECommerceSalesByPosLocationComponent } from './falcon/dasboard/e-commerce-sales-by-pos-location/e-commerce-sales-by-pos-location.component';
+import { FalconSocialFollowersComponent } from './falcon/social/followers/falcon-social-followers/falcon-social-followers.component';
+import { FalconSocialFollowersPerfilComponent } from './falcon/social/followers/falcon-social-followers-perfil/falcon-social-followers-perfil.component';
+import { FalconSocialNotificationsComponent } from './falcon/social/notifications/falcon-social-notifications/falcon-social-notifications.component';
 import { DateAndTimeComponent } from './falcon/events/events-details/date-and-time/date-and-time.component';
 import { EventListComponent } from './falcon/events/events-list/event-list/event-list.component';
 import { EventsMayYouLikeComponent } from './falcon/events/events-details/events-like/events-may-you-like/events-may-you-like.component';
@@ -84,19 +87,21 @@ import { CalendarComponent } from './falcon/calendar/calendar.component';
 import { FalconECommerceProductGirdProductDetailsComponent } from './falcon/dashboard/falcon-e-commerce-product-gird-product-details/falcon-e-commerce-product-gird-product-details.component';
 import { FalconECommerceWeklySalesComponent } from './falcon/dashboard/falcon-e-commerce-wekly-sales/falcon-e-commerce-wekly-sales.component';
 import { FalconDashboardDefaultWeklySalesComponent } from './falcon/dashboard/falcon-dashboard-default-wekly-sales/falcon-dashboard-default-wekly-sales.component';
+import { FalconECommerceProductGridDetaisComponent } from './falcon/e-commerce/falcon-e-commerce-product-grid-detais/falcon-e-commerce-product-grid-detais.component';
 import { ShoppingCartComponent } from './falcon/e-commerce/shopping-cart/shopping-cart.component';
 import { FalconDashboardSaasBANDWIDTHSAVEDComponent } from './falcon/dashboard/saas/falcon-dashboard-saas-bandwidth-saved/falcon-dashboard-saas-bandwidth-saved.component';
 import { RecentActivityComponent } from './falcon/management/recent-activity/recent-activity.component';
 import { TopProductsComponent } from './falcon/e-commerce/top-products/top-products.component';
 import { FalconAPPEemailInboxComponent } from './falcon/eemail/falcon-app-eemail-inbox/falcon-app-eemail-inbox.component';
 import { SaasActiveUsersComponent } from './falcon/dasboard/saas-active-users/saas-active-users.component';
-import{ FullCalendarModule } from 'primeng/fullcalendar';
+import { FullCalendarModule } from 'primeng/fullcalendar';
 import { FalconDashboardSaasMOREWITHFALCONComponent } from './falcon/dashboard/saas/falcon-dashboard-saas-morewith-falcon/falcon-dashboard-saas-morewith-falcon.component';
 import { CustomersComponent } from './falcon/management/customers/customers.component';
 import { SaasRevenueComponent } from './falcon/dasboard/saas-revenue/saas-revenue.component';
 import { SaasConversionComponent } from './falcon/dasboard/saas-conversion/saas-conversion.component';
 import { FalconAppEventOtherInfoComponent } from './falcon/app/falcon-app-event-other-info/falcon-app-event-other-info.component';
 import { FalconAPPEemailEemailDetailComponent } from './falcon/eemail/falcon-app-eemail-eemail-detail/falcon-app-eemail-eemail-detail.component';
+import { FalconAPPEemailComposeeComponent } from './falcon/eemail/falcon-app-eemail-composee/falcon-app-eemail-composee.component';
 import { FalconAppEventTicketPriceComponent } from './falcon/app/falcon-app-event-ticket-price/falcon-app-event-ticket-price.component';
 import { FalconAppScheduleComponent } from './falcon/app/falcon-app-schedule/falcon-app-schedule.component';
 import { FalconDashboardSaasTRANSACTIONSUMMARYComponent } from './falcon/dashboard/saas/falcon-dashboard-saas-transaction-summary/falcon-dashboard-saas-transaction-summary.component';
@@ -114,6 +119,20 @@ import { RevenuesComponent } from './falcon/revenues/revenues.component';
 import { FormsComponent } from './falcon/forms/forms.component';
 import { StarterComponent } from './falcon/starter/starter.component';
 import { StarterDocumentacionComponent } from './falcon/starter-documentacion/starter-documentacion.component';
+import { FalconECommerceProductDetailsComponent } from './falcon/e-commerce/falcon-e-commerce-product-details/falcon-e-commerce-product-details.component';
+import { FalconECommerceProductDetailsDosComponent } from './falcon/e-commerce/falcon-e-commerce-product-details-dos/falcon-e-commerce-product-details-dos.component';
+import { FalconAnalyticsTrendComponent } from './falcon/dasboard/analytics/falcon-analytics-trend/falcon-analytics-trend.component';
+import { FalconProductDetailsTresComponent } from './falcon/e-commerce/falcon-product-details-tres/falcon-product-details-tres.component';
+import { FalconProductDetailsCuatroComponent } from './falcon/e-commerce/falcon-product-details-cuatro/falcon-product-details-cuatro.component';
+
+import { ProfileSettingsComponent } from './falcon/profile-settings/profile-settings.component';
+import { FalconProductDetailsCincoComponent } from './falcon/e-commerce/falcon-product-details-cinco/falcon-product-details-cinco.component';
+import { FalconProductDetailsSeisComponent } from './falcon/e-commerce/falcon-product-details-seis/falcon-product-details-seis.component';
+import { FalconProductDetailsSieteComponent } from './falcon/e-commerce/falcon-product-details-siete/falcon-product-details-siete.component';
+import { FalconProductDetailsOchoComponent } from './falcon/e-commerce/falcon-product-details-ocho/falcon-product-details-ocho.component';
+import { FalconProductDetailsNueveComponent } from './falcon/e-commerce/falcon-product-details-nueve/falcon-product-details-nueve.component';
+import { FalconCrmNewContactComponent } from './falcon/dashboard/falcon-crm-new-contact/falcon-crm-new-contact.component';
+import { FalconAppChatAppComponent } from './falcon/app/falcon-app-chat-app/falcon-app-chat-app.component';
 
 
 @NgModule({
@@ -135,7 +154,7 @@ import { StarterDocumentacionComponent } from './falcon/starter-documentacion/st
 
     ManagementTeamProgressComponent,
     ECommerceGoodAfternonComponent,
-
+    CrmWelcomeToComponent,
     DistributivoCalendarioComponent,
     DistributivoCursosComponent,
     ChatActivoComponent,
@@ -193,6 +212,9 @@ import { StarterDocumentacionComponent } from './falcon/starter-documentacion/st
     FalconDashboardManagementWELCOMETOFALCONComponent,
     FalconDashboardDefaultTOPPRODUCTSComponent,
     ECommerceSalesByPosLocationComponent,
+    FalconSocialFollowersComponent,
+    FalconSocialFollowersPerfilComponent,
+    FalconSocialNotificationsComponent,
     DateAndTimeComponent,
     EventListComponent,
     EventsMayYouLikeComponent,
@@ -206,6 +228,7 @@ import { StarterDocumentacionComponent } from './falcon/starter-documentacion/st
     FalconECommerceProductGirdProductDetailsComponent,
     FalconECommerceWeklySalesComponent,
     FalconDashboardDefaultWeklySalesComponent,
+    FalconECommerceProductGridDetaisComponent,
     ShoppingCartComponent,
     FalconDashboardSaasBANDWIDTHSAVEDComponent,
     RecentActivityComponent,
@@ -218,6 +241,7 @@ import { StarterDocumentacionComponent } from './falcon/starter-documentacion/st
 
     FalconDashboardSaasMOREWITHFALCONComponent,
     FalconAPPEemailEemailDetailComponent,
+    FalconAPPEemailComposeeComponent,
     FalconAppEventTicketPriceComponent,
     FalconAppScheduleComponent,
     FalconDashboardSaasTRANSACTIONSUMMARYComponent,
@@ -235,6 +259,19 @@ import { StarterDocumentacionComponent } from './falcon/starter-documentacion/st
     FormsComponent,
     StarterComponent,
     StarterDocumentacionComponent,
+    FalconECommerceProductDetailsComponent,
+    FalconECommerceProductDetailsDosComponent,
+    FalconAnalyticsTrendComponent,
+    FalconProductDetailsTresComponent,
+    FalconProductDetailsCuatroComponent,
+    ProfileSettingsComponent,
+    FalconProductDetailsCincoComponent,
+    FalconProductDetailsSeisComponent,
+    FalconProductDetailsSieteComponent,
+    FalconProductDetailsOchoComponent,
+    FalconProductDetailsNueveComponent,
+    FalconCrmNewContactComponent,
+    FalconAppChatAppComponent,
   ],
   imports: [
     CommonModule,
