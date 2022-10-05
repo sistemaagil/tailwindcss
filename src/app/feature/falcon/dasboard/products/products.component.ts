@@ -14,7 +14,7 @@ export class ProductsComponent implements OnInit {
 
   ngOnInit(): void {
 
-    this.codeService.sendCode("https://gitea.sistemaagil.net/Tailwindcss/tailwindcss-frontend/raw/branch/feature/falcon/intelligence/src/app/feature/falcon/dasboard/products/products.component.html");
+    this.codeService.sendCode("https://raw.githubusercontent.com/sistemaagil/tailwindcss/develop/src/app/feature/falcon/dasboard/products/products.component.html");
   }
 
 }

@@ -11,7 +11,7 @@ export class StatisticsComponent implements OnInit {
   constructor(private codeService: CodeService) { }
 
   ngOnInit(): void {
-    this.codeService.sendCode("https://gitea.sistemaagil.net/Tailwindcss/tailwindcss-frontend/raw/branch/feature/falcon/intelligence/src/app/feature/falcon/dasboard/statistics/statistics.component.html");
+    this.codeService.sendCode("https://raw.githubusercontent.com/sistemaagil/tailwindcss/develop/src/app/feature/falcon/dasboard/statistics/statistics.component.html");
   }
 
 }
