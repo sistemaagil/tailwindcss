@@ -8,6 +8,7 @@ import { CodeService } from 'src/app/feature/code.service';
 })
 export class ActiveUsersComponent implements OnInit {
 
+  activeClickActive : number = 0;
   selectedMenu: number = 0;
   constructor(private codeService: CodeService) { }
 
@@ -20,5 +21,15 @@ export class ActiveUsersComponent implements OnInit {
     console.log(index);
     this.selectedMenu = index;
   }
+  setClickClass(id :number):void{
+    this.activeClickActive= id;
+  }
 
 }
+
+
+
+
+
+
+

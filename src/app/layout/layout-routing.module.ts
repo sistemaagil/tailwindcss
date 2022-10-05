@@ -132,6 +132,7 @@ import { FalconProductDetailsOchoComponent } from '../feature/falcon/e-commerce/
 import { FalconProductDetailsNueveComponent } from '../feature/falcon/e-commerce/falcon-product-details-nueve/falcon-product-details-nueve.component';
 import { FalconCrmNewContactComponent } from '../feature/falcon/dashboard/falcon-crm-new-contact/falcon-crm-new-contact.component';
 import { FalconAppChatAppComponent } from '../feature/falcon/app/falcon-app-chat-app/falcon-app-chat-app.component';
+import { FalconProductDetailsCINCOCINCOComponent } from '../feature/falcon/e-commerce/falcon-product-details-cinco-cinco/falcon-product-details-cinco-cinco.component';
 
 const routes: Routes = [
   {path: '', component: MainComponent,
@@ -278,7 +279,8 @@ const routes: Routes = [
       {path: 'falcon-crm-newContact', component: FalconCrmNewContactComponent},
       {path:'profile-settings', component: ProfileSettingsComponent},
       {path:'profile-settings', component: ProfileSettingsComponent},
-      {path: 'falcon-app-chat-app', component: FalconAppChatAppComponent}
+      {path: 'falcon-app-chat-app', component: FalconAppChatAppComponent},
+      {path: 'falcon-e-commerce-productDetails-CINCO_CINCO', component: FalconProductDetailsCINCOCINCOComponent},
     ]
   }
 ]

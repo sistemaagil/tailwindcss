@@ -88,7 +88,86 @@
   </div>
   <div class="grid grid-cols-1 sm:grid-cols-1 bg-slate-300 w-7/12 h-14">
     <div class="md:flex w-full ml-56 ">
-      <span class="self-center ml-3 text-cyan-600 hover:text-cyan-500">All active users</span>
+      <span class="self-center ml-3 text-cyan-600 hover:text-cyan-500" (click)="setClickClass(1)">All active users</span>
       <li class="md:flex self-center mt-1 text-cyan-600"><a><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 512 512"><title>Chevron Forward</title><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M184 112l144 144-144 144"/></svg></a></li>
+    </div>
+  </div>
+
+  <div class=" pt-5" [class]="activeClickActive  === 1 ? ' block':'hidden' ">
+    <div class="grid grid-cols-4 sm:grid-cols-4 p-5 shadow-sm">
+      <div>
+        <div class="avatar">
+          <div class="w-24 rounded-full">
+            <img src="https://placeimg.com/192/192/people" />
+          </div>
+        </div>
+        <span class="flex link link-hover text-blue-500 text-xl">Emilia Clarke</span>
+        <p class="text-sm justify-center ml-1 link link-hover text-slate-400">Technext limited</p>
+      </div>
+      <div>
+        <div class="avatar">
+          <div class="w-24 rounded-full">
+            <img src="https://placeimg.com/192/192/people" />
+          </div>
+        </div>
+        <span class="flex link link-hover text-blue-500 text-xl">Kit Harington</span>
+        <p class="text-sm flex justify-start ml-1 link link-hover text-slate-400">Harvard Korea Society</p>
+      </div>
+      <div>
+        <div class="avatar">
+          <div class="w-24 rounded-full">
+            <img src="https://placeimg.com/192/192/people" />
+          </div>
+        </div>
+        <span class="flex link link-hover text-blue-500 text-xl">Sophie Turner</span>
+        <p class="text-sm flex justify-start ml-1 link link-hover text-slate-400">Graduate Student Council</p>
+      </div>
+      <div>
+        <div class="avatar">
+          <div class="w-24 rounded-full">
+            <img src="https://placeimg.com/192/192/people" />
+          </div>
+        </div>
+        <span class="flex link link-hover text-blue-500 text-xl">Peter Dinklage</span>
+        <p class="text-sm flex justify-start link link-hover text-slate-400">Art Club, MIT</p>
+      </div>
+    </div>
+    <div class="grid grid-cols-4 sm:grid-cols-4 p-5 shadow-sm">
+      <div>
+        <div class="avatar">
+          <div class="w-24 rounded-full">
+            <img src="https://placeimg.com/192/192/people" />
+          </div>
+        </div>
+        <span class="flex link link-hover text-blue-500 text-xl">Nikolaj Coster</span>
+        <p class="text-sm justify-center ml-1 link link-hover text-slate-400">Archery Club, MIT</p>
+      </div>
+      <div>
+        <div class="avatar">
+          <div class="w-24 rounded-full">
+            <img src="https://placeimg.com/192/192/people" />
+          </div>
+        </div>
+        <span class="flex link link-hover text-blue-500 text-xl">Isaac Hempstead</span>
+        <p class="text-sm flex justify-start ml-1 link link-hover text-slate-400">Asymptones</p>
+      </div>
+      <div>
+        <div class="avatar">
+          <div class="w-24 rounded-full">
+            <img src="https://placeimg.com/192/192/people" />
+          </div>
+        </div>
+        <span class="flex link link-hover text-blue-500 text-xl">Alfie Allen</span>
+        <p class="text-sm flex justify-start ml-1 link link-hover text-slate-400">Brain Trust</p>
+      </div>
+      <div>
+        <div class="avatar">
+          <div class="w-24 rounded-full">
+            <img src="https://placeimg.com/192/192/people" />
+          </div>
+        </div>
+        <span class="flex link link-hover text-blue-500 text-xl">Iain Glen</span>
+        <p class="text-sm flex justify-start link link-hover text-slate-400">GSAS Action Coalition</p>
+      </div>
     </div>
   </div>
