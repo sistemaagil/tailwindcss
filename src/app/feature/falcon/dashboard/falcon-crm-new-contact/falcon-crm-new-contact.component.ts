@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ChartConfiguration, ChartOptions } from 'chart.js';
+import { CodeService } from 'src/app/feature/code.service';
 
 @Component({
   selector: 'app-falcon-crm-new-contact',
@@ -142,9 +143,10 @@ export class FalconCrmNewContactComponent implements OnInit {
     public lineChartLegend3  = false;
 
 
-  constructor() { }
+    constructor(private codeService: CodeService) { }
 
   ngOnInit(): void {
+    this.codeService.sendCode("https://raw.githubusercontent.com/sistemaagil/tailwindcss/falcon/crm/newContact/src/app/feature/falcon/dashboard/falcon-crm-new-contact/falcon-crm-new-contact.component.html");
   }
 
 }
