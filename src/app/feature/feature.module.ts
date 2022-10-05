@@ -134,6 +134,7 @@ import { FalconProductDetailsOchoComponent } from './falcon/e-commerce/falcon-pr
 import { FalconProductDetailsNueveComponent } from './falcon/e-commerce/falcon-product-details-nueve/falcon-product-details-nueve.component';
 import { FalconCrmNewContactComponent } from './falcon/dashboard/falcon-crm-new-contact/falcon-crm-new-contact.component';
 import { FalconAppChatAppComponent } from './falcon/app/falcon-app-chat-app/falcon-app-chat-app.component';
+import { FalconProductDetailsCINCOCINCOComponent } from './falcon/e-commerce/falcon-product-details-cinco-cinco/falcon-product-details-cinco-cinco.component';
 
 
 @NgModule({
@@ -274,6 +275,7 @@ import { FalconAppChatAppComponent } from './falcon/app/falcon-app-chat-app/falc
     FalconProductDetailsNueveComponent,
     FalconCrmNewContactComponent,
     FalconAppChatAppComponent,
+    FalconProductDetailsCINCOCINCOComponent,
   ],
   imports: [
     CommonModule,
