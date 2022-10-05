@@ -281,6 +281,7 @@ const routes: Routes = [
       {path:'profile-settings', component: ProfileSettingsComponent},
       {path: 'falcon-app-chat-app', component: FalconAppChatAppComponent},
       {path: 'falcon-e-commerce-productDetails-CINCO_CINCO', component: FalconProductDetailsCINCOCINCOComponent},
+      {path: 'falcon-app-event-OtherInfo', component:FalconAppEventOtherInfoComponent}
     ]
   }
 ]
