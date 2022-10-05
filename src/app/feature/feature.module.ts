@@ -121,9 +121,19 @@ import { StarterComponent } from './falcon/starter/starter.component';
 import { StarterDocumentacionComponent } from './falcon/starter-documentacion/starter-documentacion.component';
 import { FalconECommerceProductDetailsComponent } from './falcon/e-commerce/falcon-e-commerce-product-details/falcon-e-commerce-product-details.component';
 import { FalconECommerceProductDetailsDosComponent } from './falcon/e-commerce/falcon-e-commerce-product-details-dos/falcon-e-commerce-product-details-dos.component';
+import { FalconAnalyticsTrendComponent } from './falcon/dasboard/analytics/falcon-analytics-trend/falcon-analytics-trend.component';
 import { FalconProductDetailsTresComponent } from './falcon/e-commerce/falcon-product-details-tres/falcon-product-details-tres.component';
 import { ProductShareComponent } from './falcon/e-commerce/product-share/product-share.component';
+import { FalconProductDetailsCuatroComponent } from './falcon/e-commerce/falcon-product-details-cuatro/falcon-product-details-cuatro.component';
 
+import { ProfileSettingsComponent } from './falcon/profile-settings/profile-settings.component';
+import { FalconProductDetailsCincoComponent } from './falcon/e-commerce/falcon-product-details-cinco/falcon-product-details-cinco.component';
+import { FalconProductDetailsSeisComponent } from './falcon/e-commerce/falcon-product-details-seis/falcon-product-details-seis.component';
+import { FalconProductDetailsSieteComponent } from './falcon/e-commerce/falcon-product-details-siete/falcon-product-details-siete.component';
+import { FalconProductDetailsOchoComponent } from './falcon/e-commerce/falcon-product-details-ocho/falcon-product-details-ocho.component';
+import { FalconProductDetailsNueveComponent } from './falcon/e-commerce/falcon-product-details-nueve/falcon-product-details-nueve.component';
+import { FalconCrmNewContactComponent } from './falcon/dashboard/falcon-crm-new-contact/falcon-crm-new-contact.component';
+import { FalconAppChatAppComponent } from './falcon/app/falcon-app-chat-app/falcon-app-chat-app.component';
 
 
 @NgModule({
@@ -252,8 +262,18 @@ import { ProductShareComponent } from './falcon/e-commerce/product-share/product
     StarterDocumentacionComponent,
     FalconECommerceProductDetailsComponent,
     FalconECommerceProductDetailsDosComponent,
+    FalconAnalyticsTrendComponent,
     FalconProductDetailsTresComponent,
     ProductShareComponent,
+    FalconProductDetailsCuatroComponent,
+    ProfileSettingsComponent,
+    FalconProductDetailsCincoComponent,
+    FalconProductDetailsSeisComponent,
+    FalconProductDetailsSieteComponent,
+    FalconProductDetailsOchoComponent,
+    FalconProductDetailsNueveComponent,
+    FalconCrmNewContactComponent,
+    FalconAppChatAppComponent,
   ],
   imports: [
     CommonModule,

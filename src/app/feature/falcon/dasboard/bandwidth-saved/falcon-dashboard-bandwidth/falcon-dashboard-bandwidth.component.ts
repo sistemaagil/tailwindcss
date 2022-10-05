@@ -11,7 +11,7 @@ export class FalconDashboardBandwidthComponent implements OnInit {
   constructor(private codeService: CodeService) { }
 
   ngOnInit(): void {
-    this.codeService.sendCode("");
+    this.codeService.sendCode("https://raw.githubusercontent.com/sistemaagil/tailwindcss/develop/src/app/feature/falcon/dasboard/bandwidth-saved/falcon-dashboard-bandwidth/falcon-dashboard-bandwidth.component.html");
   }
 
 }

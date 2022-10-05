@@ -1,6 +1,7 @@
 import {  OnInit } from '@angular/core';
 import { Component } from '@angular/core';
 import { ChartConfiguration } from 'chart.js';
+import { CodeService } from 'src/app/feature/code.service';
 
 @Component({
   selector: 'app-e-commerce-sales-by-pos-location',
@@ -21,9 +22,18 @@ export class ECommerceSalesByPosLocationComponent implements OnInit {
     { data: [28, 48, 40, 19, 96, 27], label: 'Series B' }
   ];
 
-  constructor() { }
+  selectedMenu: number = 0;
+  constructor(private codeService: CodeService) { }
 
   ngOnInit(): void {
+
+    this.codeService.sendCode("https://raw.githubusercontent.com/sistemaagil/tailwindcss/develop/src/app/feature/falcon/dasboard/e-commerce-sales-by-pos-location/e-commerce-sales-by-pos-location.component.html");
+  }
+
+  setActive(index: number){
+    console.log(index);
+    this.selectedMenu = index;
   }
 
 }
+

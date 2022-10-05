@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { CodeService } from '../code.service';
+
 
 @Component({
   selector: 'app-volumen-chat-filtro-fecha',
@@ -7,9 +9,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class VolumenChatFiltroFechaComponent implements OnInit {
 
-  constructor() { }
+  selectedMenu: number = 0;
+  constructor(private codeService: CodeService) { }
 
   ngOnInit(): void {
+
+    this.codeService.sendCode("https://raw.githubusercontent.com/sistemaagil/tailwindcss/develop/src/app/feature/sidebar/sidebar-chat/sidebar-chat.component.html");
+  }
+
+  setActive(index: number){
+    console.log(index);
+    this.selectedMenu = index;
   }
 
 }

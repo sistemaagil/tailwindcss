@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { CodeService } from 'src/app/feature/code.service';
 
 @Component({
   selector: 'app-saas-conversion',
@@ -7,9 +8,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SaasConversionComponent implements OnInit {
 
-  constructor() { }
+  selectedMenu: number = 0;
+  constructor(private codeService: CodeService) { }
 
   ngOnInit(): void {
+
+    this.codeService.sendCode("https://raw.githubusercontent.com/sistemaagil/tailwindcss/develop/src/app/feature/falcon/dasboard/saas-conversion/saas-conversion.component.html");
+  }
+
+  setActive(index: number){
+    console.log(index);
+    this.selectedMenu = index;
   }
 
 }

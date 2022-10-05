@@ -50,7 +50,7 @@ export class ReturningCustomerRateComponent implements OnInit {
 
   ngOnInit(): void {
     
-    this.codeService.sendCode("https://gitea.sistemaagil.net/Tailwindcss/tailwindcss-frontend/raw/branch/feature/e-commerce/Returning-Customer-Rate/src/app/feature/falcon/e-commerce/customer/returning-customer-rate/returning-customer-rate.component.html");
+    this.codeService.sendCode("https://raw.githubusercontent.com/sistemaagil/tailwindcss/falcon/events/texto-new-year/src/app/feature/falcon/e-commerce/customer/returning-customer-rate/returning-customer-rate.component.html");
   }
 
 

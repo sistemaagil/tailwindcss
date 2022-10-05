@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { CodeService } from 'src/app/feature/code.service';
 
 @Component({
   selector: 'app-events-may-you-like',
@@ -7,9 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EventsMayYouLikeComponent implements OnInit {
 
-  constructor() { }
+  constructor(private codeService: CodeService) { }
 
   ngOnInit(): void {
+    
+    this.codeService.sendCode("https://raw.githubusercontent.com/sistemaagil/tailwindcss/falcon/event-detail/events-you-make-like/src/app/feature/falcon/events/events-details/events-like/events-may-you-like/events-may-you-like.component.html");
   }
-
 }

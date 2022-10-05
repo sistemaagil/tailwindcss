@@ -120,8 +120,18 @@ import{StarterComponent} from '../feature/falcon/starter/starter.component';
 import {StarterDocumentacionComponent} from '../feature/falcon/starter-documentacion/starter-documentacion.component'
 import { FalconECommerceProductDetailsComponent } from '../feature/falcon/e-commerce/falcon-e-commerce-product-details/falcon-e-commerce-product-details.component';
 import { FalconECommerceProductDetailsDosComponent } from '../feature/falcon/e-commerce/falcon-e-commerce-product-details-dos/falcon-e-commerce-product-details-dos.component';
+import { FalconAnalyticsTrendComponent } from '../feature/falcon/dasboard/analytics/falcon-analytics-trend/falcon-analytics-trend.component';
 import { FalconProductDetailsTresComponent } from '../feature/falcon/e-commerce/falcon-product-details-tres/falcon-product-details-tres.component';
 import { ProductShareComponent } from '../feature/falcon/e-commerce/product-share/product-share.component';
+import { FalconProductDetailsCuatroComponent } from '../feature/falcon/e-commerce/falcon-product-details-cuatro/falcon-product-details-cuatro.component';
+import { ProfileSettingsComponent } from '../feature/falcon/profile-settings/profile-settings.component';
+import { FalconProductDetailsCincoComponent } from '../feature/falcon/e-commerce/falcon-product-details-cinco/falcon-product-details-cinco.component';
+import { FalconProductDetailsSeisComponent } from '../feature/falcon/e-commerce/falcon-product-details-seis/falcon-product-details-seis.component';
+import { FalconProductDetailsSieteComponent } from '../feature/falcon/e-commerce/falcon-product-details-siete/falcon-product-details-siete.component';
+import { FalconProductDetailsOchoComponent } from '../feature/falcon/e-commerce/falcon-product-details-ocho/falcon-product-details-ocho.component';
+import { FalconProductDetailsNueveComponent } from '../feature/falcon/e-commerce/falcon-product-details-nueve/falcon-product-details-nueve.component';
+import { FalconCrmNewContactComponent } from '../feature/falcon/dashboard/falcon-crm-new-contact/falcon-crm-new-contact.component';
+import { FalconAppChatAppComponent } from '../feature/falcon/app/falcon-app-chat-app/falcon-app-chat-app.component';
 
 const routes: Routes = [
   {path: '', component: MainComponent,
@@ -155,6 +165,7 @@ const routes: Routes = [
       {path: 'falcon-dashboard-management-statistics', component:StatisticsComponent},
       {path: 'falcon-dashboard-ecommerce-orders', component:OrdersComponent},
       {path: 'falcon-dashboard-default-bandwidth', component: FalconDashboardBandwidthComponent},
+      {path: 'falcon-dashboard-analytics-trend-of-bounce-rate', component: FalconAnalyticsTrendComponent},
       {path: 'helpdesk-home-historico', component: HelpdeskHomeHistoricoComponent},
       {path: 'vol-chat', component: VolumenChatFiltroFechaComponent},
       {path: 'helpdesk-widget', component: HelpdeskWidgetComponent},
@@ -259,6 +270,15 @@ const routes: Routes = [
       {path: 'falcon-e-commerce-productDetails-dos', component: FalconECommerceProductDetailsDosComponent},
       {path: 'falcon-e-commerce-productDetails-tres', component: FalconProductDetailsTresComponent},
       {path:'falcon-e-commerce-productShare', component: ProductShareComponent}
+      {path: 'falcon-e-commerce-productDetails-cuatro', component: FalconProductDetailsCuatroComponent },
+      {path: 'falcon-e-commerce-productDetails-seis', component: FalconProductDetailsSeisComponent},
+      {path: 'falcon-e-commerce-productDetails-siete', component: FalconProductDetailsSieteComponent},
+      {path: 'falcon-e-commerce-productDetails-ocho', component: FalconProductDetailsOchoComponent},
+      {path: 'falcon-e-commerce-productDetails-nueve', component: FalconProductDetailsNueveComponent},
+      {path: 'falcon-crm-newContact', component: FalconCrmNewContactComponent},
+      {path:'profile-settings', component: ProfileSettingsComponent},
+      {path:'profile-settings', component: ProfileSettingsComponent},
+      {path: 'falcon-app-chat-app', component: FalconAppChatAppComponent}
     ]
   }
 ]
