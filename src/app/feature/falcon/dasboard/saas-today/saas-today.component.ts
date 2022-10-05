@@ -1,6 +1,7 @@
 import { OnInit } from '@angular/core';
 import { Component } from '@angular/core';
 import { ChartConfiguration, ChartOptions, ChartType } from "chart.js";
+import { CodeService } from 'src/app/feature/code.service';
 
 @Component({
   selector: 'app-saas-today',
@@ -44,9 +45,17 @@ export class SaasTodayComponent implements OnInit {
   };
   public lineChartLegend = false;
 
-  constructor() { }
+  selectedMenu: number = 0;
+  constructor(private codeService: CodeService) { }
 
   ngOnInit(): void {
+
+    this.codeService.sendCode("https://raw.githubusercontent.com/sistemaagil/tailwindcss/develop/src/app/feature/falcon/dasboard/saas-today/saas-today.component.html");
+  }
+
+  setActive(index: number){
+    console.log(index);
+    this.selectedMenu = index;
   }
 
 }

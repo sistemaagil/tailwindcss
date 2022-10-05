@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ChartConfiguration, ChartOptions } from "chart.js";
+import { CodeService } from 'src/app/feature/code.service';
 
 @Component({
   selector: 'app-saas-active-users',
@@ -51,9 +52,17 @@ export class SaasActiveUsersComponent implements OnInit {
   };
   public lineChartLegend = false;
 
-  constructor() { }
+  selectedMenu: number = 0;
+  constructor(private codeService: CodeService) { }
 
   ngOnInit(): void {
+
+    this.codeService.sendCode("https://raw.githubusercontent.com/sistemaagil/tailwindcss/develop/src/app/feature/falcon/dasboard/saas-active-users/saas-active-users.component.html");
+  }
+
+  setActive(index: number){
+    console.log(index);
+    this.selectedMenu = index;
   }
 
 }
