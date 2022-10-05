@@ -74,6 +74,8 @@ import { FalconECommerceProductGirdProductDetailsComponent } from '../feature/fa
 import { FalconECommerceWeklySalesComponent } from '../feature/falcon/dashboard/falcon-e-commerce-wekly-sales/falcon-e-commerce-wekly-sales.component';
 import { FalconDashboardDefaultWeklySalesComponent } from '../feature/falcon/dashboard/falcon-dashboard-default-wekly-sales/falcon-dashboard-default-wekly-sales.component';
 import { ShoppingCartComponent } from '../feature/falcon/e-commerce/shopping-cart/shopping-cart.component';
+import { FalconSocialFeedComponent } from '../feature/falcon/falcon-social-feed/falcon-social-feed.component';
+import { EditorExampleComponent } from '../feature/falcon/editor-example/editor-example.component';
 
 const routes: Routes = [
   {path: '', component: MainComponent,
@@ -157,7 +159,9 @@ const routes: Routes = [
       {path: 'falcon-e-commerce-pos-location', component:ECommerceSalesByPosLocationComponent},
       {path: 'falcon-e-commerce-wekly-Sales', component: FalconECommerceWeklySalesComponent},
       {path: 'falcon-dashboard-default-weklySales', component: FalconDashboardDefaultWeklySalesComponent},
-      {path: 'falcon-dashboard-e-commerce-Shopping-Cart', component: ShoppingCartComponent}
+      {path: 'falcon-dashboard-e-commerce-Shopping-Cart', component: ShoppingCartComponent},
+      {path: 'Falcon-Social-feed', component: FalconSocialFeedComponent},
+      {path: 'Editor-Example', component: EditorExampleComponent}
     ]
   }
 ];

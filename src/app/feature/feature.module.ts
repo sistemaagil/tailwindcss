@@ -76,6 +76,8 @@ import { FalconECommerceProductGirdProductDetailsComponent } from './falcon/dash
 import { FalconECommerceWeklySalesComponent } from './falcon/dashboard/falcon-e-commerce-wekly-sales/falcon-e-commerce-wekly-sales.component';
 import { FalconDashboardDefaultWeklySalesComponent } from './falcon/dashboard/falcon-dashboard-default-wekly-sales/falcon-dashboard-default-wekly-sales.component';
 import { ShoppingCartComponent } from './falcon/e-commerce/shopping-cart/shopping-cart.component';
+import { FalconSocialFeedComponent } from './falcon/falcon-social-feed/falcon-social-feed.component';
+import { EditorExampleComponent } from './falcon/editor-example/editor-example.component';
 
 
 @NgModule({
@@ -159,6 +161,8 @@ import { ShoppingCartComponent } from './falcon/e-commerce/shopping-cart/shoppin
     FalconECommerceWeklySalesComponent,
     FalconDashboardDefaultWeklySalesComponent,
     ShoppingCartComponent,
+    FalconSocialFeedComponent,
+    EditorExampleComponent,
   ],
   imports: [
     CommonModule,
