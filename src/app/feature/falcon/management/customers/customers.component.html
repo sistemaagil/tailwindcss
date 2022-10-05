@@ -1,17 +1,21 @@
-<div clas="flex relative stats shadow bg-gradient-to-r from-white  via-white to-orange-300 max-w-xs">
-  <div class="flex">
-    <span class="text-xl pt-2 pr-5 text-black">Customers</span>
-    <div class="flex justify-end pt-3">
-      <span class="bg-orange-300 text-sm rounded-lg w-12 h- text-orange-700 ">-0.23%</span>
-    </div>
-  </div>
-  <div class="pt-3">
-    <span class="text-5xl text-orange-500 ">58.39k</span>
-  </div>
-    <div class="pt-4">
-      <button class="btn bg-white border-white text-blue-600" (click)="setClickClass(1)">See All ></button>
-    </div>
+<div class="flex relative rounded-md shadow-xl bg-gradient-to-r from-white  via-white to-orange-200 max-w-xs">
 
+  <div class="stat">
+    <div class="stat-figure text-secondary">
+      <div>
+      </div>
+    </div>
+    <td><span class="bg-orange-200 text-slate-600 rounded-xl p-1 text-xs ml-24 "><strong>-0.23%</strong></span> </td>
+    <div class="flex flex-row">
+      <div class="stat-title text-black font-semibold -mt-6">Customers</div>
+    </div>
+    <div class="  h-15 w-50 p-2 ">
+      <div class=" stat-value font-medium pt-6 pb-4 text-orange-600 -mt-7">58.39k</div>
+    </div>
+  </div>
+  <div>
+    <h2 class="link link-hover mt-24 -ml-72 text-blue-600" (click)="setClickClass(1)">See all></h2>
+  </div>
 </div>
 
 
