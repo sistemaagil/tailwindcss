@@ -269,7 +269,7 @@ const routes: Routes = [
       {path: 'falcon-e-commerce-productDetails', component: FalconECommerceProductDetailsComponent},
       {path: 'falcon-e-commerce-productDetails-dos', component: FalconECommerceProductDetailsDosComponent},
       {path: 'falcon-e-commerce-productDetails-tres', component: FalconProductDetailsTresComponent},
-      {path:'falcon-e-commerce-productShare', component: ProductShareComponent}
+      {path:'falcon-e-commerce-productShare', component: ProductShareComponent},
       {path: 'falcon-e-commerce-productDetails-cuatro', component: FalconProductDetailsCuatroComponent },
       {path: 'falcon-e-commerce-productDetails-seis', component: FalconProductDetailsSeisComponent},
       {path: 'falcon-e-commerce-productDetails-siete', component: FalconProductDetailsSieteComponent},
