@@ -1,0 +1,67 @@
+<div>
+  <div class=" dark:bg-gray-800 bg-white rounded-t">
+    <div class="px-1 flex items-center justify-between">
+        <label for="my-modal-3" class="btn modal-button mt-6 ml-3 bg-white hover:bg-white hover:shadow-base hover:border-gray-200 shadow-md w-30 text-blue-500 capitalize btn-sm rounded border border-gray-200 bg-blue-700 text-white">
+        <svg aria-hidden="true" data-icon="plus" class="w-3 mr-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+          <path fill="currentColor" d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path>
+        </svg>
+        new schedule
+    </label>
+    <input type="checkbox" id="my-modal-3" class="modal-toggle" />
+        <div class="modal">
+        <div class="modal-box relative rounded">
+          <div class="">
+            <label for="my-modal-3" class="btn btn-sm btn-ghost hover:bg-white absolute right-2 top-5 text-lg">✕</label>
+            <h3 class="text-lg font-bold">Create Schedule</h3>
+          </div>
+            <div class="flex flex-col">
+                <label class="font-semibold text-gray-500 mt-3" for="">Title</label>
+                <input class="border border-slate-200 rounded mt-2" type="text">
+            </div>
+            <div class="flex flex-col">
+                <label class="font-semibold text-gray-500 mt-3" for="">Start Date</label>
+                <input class="border border-slate-200 rounded mt-2" type="date" placeholder="MM-DD-YYYY H:M">
+            </div>
+            <div class="flex flex-col">
+                <label class="font-semibold text-gray-500 mt-3" for="">End Date</label>
+                <input class="border border-slate-200 rounded mt-2" type="date" placeholder="MM-DD-YYYY H:M">
+            </div>
+            <div class="flex flex-row items-center">
+                <label class="label">
+                  <input type="checkbox" checked="checked" class="form-check-input mt-3 checkbox-xs rounded " />
+                  <span class="label-text mt-3">All Day</span>
+                </label>
+            </div>
+            <div class="flex flex-col">
+                <span class="font-semibold text-gray-500 mt-2">Schedule Meeting</span>
+                <button class="btn btn-sm w-1/2 capitalize bg-green-200 text-green-800 font-semibold border-none hover:bg-green-200 mt-2">
+                  <svg aria-hidden="true" data-icon="video" class="w-4 mr-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                    <path fill="currentColor" d="M336.2 64H47.8C21.4 64 0 85.4 0 111.8v288.4C0 426.6 21.4 448 47.8 448h288.4c26.4 0 47.8-21.4 47.8-47.8V111.8c0-26.4-21.4-47.8-47.8-47.8zm189.4 37.7L416 177.3v157.4l109.6 75.5c21.2 14.6 50.4-.3 50.4-25.8V127.5c0-25.4-29.1-40.4-50.4-25.8z">
+                    </path>
+                  </svg>
+                  add video conference link
+                </button>
+            </div>
+            <div class="flex flex-col">
+                <label class="font-semibold text-gray-500 mt-3" for="">Description</label>
+                <textarea class="textarea textarea-info border-slate-300 max-h-20 mt-2"  name="description" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div class="flex flex-col">
+                <label class="font-semibold text-gray-500 mt-3" for="">Label</label>
+                <select class="select select-info select-sm border-slate-300 rounded w-full max-w-xs mt-2">
+                    <option>None</option>
+                    <option>Business</option>
+                    <option>Important</option>
+                    <option>Personal</option>
+                    <option>Must Attend</option>
+                  </select>
+            </div>
+            <div class="flex flex-row justify-end items-center mt-4">
+                <a class=" link link-hover text-slate-500 mr-2">More options</a>
+                <button class="btn btn-sm mt-1 w-20 font-bold bg-sky-600 rounded border-none text-white capitalize hover:bg-sky-600">save</button>
+            </div>
+        </div>
+        </div>
+</div>
+<p-fullCalendar [events]="events" [options] ="options"></p-fullCalendar>
+

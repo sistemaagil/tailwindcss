@@ -12,7 +12,7 @@ export class SidebarChatComponent implements OnInit {
 
   ngOnInit(): void {
 
-    this.codeService.sendCode("https://gitea.sistemaagil.net/Tailwindcss/tailwindcss-frontend/raw/branch/develop/src/app/feature/helpdesk/sidebar-chart/sidebar-chart.component.html");
+    this.codeService.sendCode("https://raw.githubusercontent.com/sistemaagil/tailwindcss/develop/src/app/feature/sidebar/sidebar-chat/sidebar-chat.component.html");
   }
 
   setActive(index: number){

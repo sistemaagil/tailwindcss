@@ -9,14 +9,14 @@ import { ChartConfiguration, ChartOptions } from "chart.js";
 export class TotalOrderComponent implements OnInit {
   public lineChartData: ChartConfiguration<'line'>['data'] = {
     labels: [
-      'Junio',
-      'Julio',
-      'Agosto',
-      'Septiembre'
+      'Week 4',
+      'Week 5',
+      'Week 6',
+      'Week 7'
     ],
     datasets: [
       {
-        data: [ 20, 40, 100, 12 ],
+        data: [ 20, 40, 100, 120 ],
         label: 'Series A',
         fill: true,
         tension: 0.5,

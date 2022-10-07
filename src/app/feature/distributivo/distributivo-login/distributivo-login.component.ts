@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { CodeService } from 'src/app/feature/code.service';
+
 
 @Component({
   selector: 'app-distributivo-login',
@@ -7,9 +9,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DistributivoLoginComponent implements OnInit {
 
-  constructor() { }
+  constructor(private codeService: CodeService) { }
 
   ngOnInit(): void {
+    this.codeService.sendCode("https://raw.githubusercontent.com/sistemaagil/tailwindcss/develop/src/app/feature/distributivo/distributivo-login/distributivo-login.component.html");
   }
 
 }
